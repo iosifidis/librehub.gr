@@ -22,7 +22,8 @@
 
 ```bash
 # 1. Κλωνοποίηση / μετάβαση στον κατάλογο
-cd /home/iosifidis/Development/mathe.ellak.gr
+git clone https://gitlab.ellak.gr/mathe-ellak/mathe-ellak.gr.git
+cd mathe-ellak.gr
 
 # 2. Εγκατάσταση dependencies
 npm install
