@@ -1,0 +1,149 @@
+---
+---
+
+<header
+  class="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-gray-800 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md transition-colors duration-300"
+>
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex h-16 items-center justify-between">
+      <!-- Logo & Brand -->
+      <a href="/" class="flex items-center gap-3 group" id="header-logo-link">
+        <div
+          class="flex h-9 w-9 items-center justify-center rounded-lg bg-green-600 shadow-sm group-hover:bg-green-700 transition-colors duration-200"
+        >
+          <svg class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+        </div>
+        <div class="hidden sm:block">
+          <span class="text-lg font-bold text-gray-900 dark:text-white leading-tight">Μάθε για το</span>
+          <span class="ml-1 text-lg font-bold text-green-600 dark:text-green-400 leading-tight">ΕΛ/ΛΑΚ</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex items-center gap-1" aria-label="Κύρια πλοήγηση">
+        <a
+          href="/"
+          class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 hover:bg-green-50 dark:hover:bg-green-950 rounded-lg transition-all duration-200"
+        >
+          Αρχική
+        </a>
+        <a
+          href="/#categories"
+          class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 hover:bg-green-50 dark:hover:bg-green-950 rounded-lg transition-all duration-200"
+        >
+          Κατηγορίες
+        </a>
+        <a
+          href="/suggest"
+          class="px-4 py-2 text-sm font-medium text-white bg-green-600 hover:bg-green-700 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
+          id="suggest-nav-link"
+        >
+          Προτείνετε Λογισμικό
+        </a>
+      </nav>
+
+      <!-- Right side: Theme toggle + Mobile menu -->
+      <div class="flex items-center gap-2">
+        <!-- Theme Toggle -->
+        <button
+          id="theme-toggle"
+          type="button"
+          aria-label="Εναλλαγή θέματος"
+          class="flex h-9 w-9 items-center justify-center rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200"
+        >
+          <!-- Sun icon (visible in dark mode) -->
+          <svg id="icon-sun" class="hidden h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <!-- Moon icon (visible in light mode) -->
+          <svg id="icon-moon" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+
+        <!-- Mobile menu button -->
+        <button
+          id="mobile-menu-button"
+          type="button"
+          aria-label="Άνοιγμα μενού"
+          aria-expanded="false"
+          class="md:hidden flex h-9 w-9 items-center justify-center rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200"
+        >
+          <svg id="menu-open-icon" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+          <svg id="menu-close-icon" class="hidden h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 dark:border-gray-800 py-3 space-y-1">
+      <a href="/" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-green-50 dark:hover:bg-green-950 hover:text-green-600 dark:hover:text-green-400 rounded-lg transition-colors">
+        Αρχική
+      </a>
+      <a href="/#categories" class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-green-50 dark:hover:bg-green-950 hover:text-green-600 dark:hover:text-green-400 rounded-lg transition-colors">
+        Κατηγορίες
+      </a>
+      <a href="/suggest" class="block px-3 py-2 text-sm font-medium text-white bg-green-600 hover:bg-green-700 rounded-lg transition-colors text-center">
+        Προτείνετε Λογισμικό
+      </a>
+    </div>
+  </div>
+</header>
+
+<script>
+  // Theme toggle
+  const toggle = document.getElementById('theme-toggle');
+  const iconSun = document.getElementById('icon-sun');
+  const iconMoon = document.getElementById('icon-moon');
+
+  function updateIcons() {
+    const isDark = document.documentElement.classList.contains('dark');
+    iconSun?.classList.toggle('hidden', !isDark);
+    iconMoon?.classList.toggle('hidden', isDark);
+  }
+
+  updateIcons();
+
+  toggle?.addEventListener('click', () => {
+    const isDark = document.documentElement.classList.toggle('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    updateIcons();
+  });
+
+  // Mobile menu toggle
+  const menuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuOpenIcon = document.getElementById('menu-open-icon');
+  const menuCloseIcon = document.getElementById('menu-close-icon');
+
+  menuButton?.addEventListener('click', () => {
+    const isOpen = !mobileMenu?.classList.contains('hidden');
+    mobileMenu?.classList.toggle('hidden', isOpen);
+    menuOpenIcon?.classList.toggle('hidden', !isOpen);
+    menuCloseIcon?.classList.toggle('hidden', isOpen);
+    menuButton.setAttribute('aria-expanded', String(!isOpen));
+  });
+
+  // Close mobile menu on nav link click
+  mobileMenu?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+      menuOpenIcon?.classList.remove('hidden');
+      menuCloseIcon?.classList.add('hidden');
+    });
+  });
+</script>

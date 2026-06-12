@@ -1,0 +1,57 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22.12.0"
+
+# Redirect old WordPress URLs to new site
+[[redirects]]
+  from = "/pinakas-isodinamon-logismikon-anich"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/pinakas-isodinamon-logismikon-anich/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/elefthero-logismiko-gia-tin-ekpedefsi/*"
+  to = "/category/ekpaideysi"
+  status = 301
+
+[[redirects]]
+  from = "/elefthero-logismiko-gia-tin-epichirisi/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/anichto-logismiko-gia-tin-kathimerini-chrisi/*"
+  to = "/"
+  status = 301
+
+# SPA-style fallback (handled by Astro SSG, but keep for safety)
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
+
+# Headers for performance & security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

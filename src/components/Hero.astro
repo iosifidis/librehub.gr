@@ -1,0 +1,128 @@
+---
+interface Props {
+  totalCount: number;
+}
+const { totalCount } = Astro.props;
+---
+
+<section
+  class="relative overflow-hidden bg-gradient-to-br from-green-700 via-green-600 to-emerald-500 dark:from-green-900 dark:via-green-800 dark:to-emerald-700 py-20 sm:py-28"
+>
+  <!-- Background pattern -->
+  <div class="absolute inset-0 opacity-10">
+    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#hero-grid)"/>
+    </svg>
+  </div>
+
+  <!-- Decorative blobs -->
+  <div class="pointer-events-none absolute -top-24 right-0 h-96 w-96 rounded-full bg-white/10 blur-3xl"></div>
+  <div class="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full blur-3xl" style="background-color: rgba(245, 130, 32, 0.18);"></div>
+
+  <div class="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+    <!-- Badge -->
+    <div class="mb-6 inline-flex items-center gap-2 rounded-full bg-white/20 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm ring-1 ring-white/30">
+      <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/>
+      </svg>
+      <span>{totalCount}+ Εργαλεία Ανοιχτού Κώδικα</span>
+    </div>
+
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
+      Ελεύθερο Λογισμικό<br />
+      <span style="color: var(--accent);">για Όλους</span>
+    </h1>
+
+    <p class="mt-6 text-lg sm:text-xl text-green-100 max-w-2xl mx-auto leading-relaxed">
+      Ανακαλύψτε ανοιχτού κώδικα εναλλακτικές λύσεις για το ιδιόκτητο λογισμικό που χρησιμοποιείτε κάθε μέρα.
+      Δωρεάν, ασφαλές και ελεύθερο.
+    </p>
+
+    <!-- Search bar -->
+    <div class="mt-10 mx-auto max-w-2xl">
+      <div class="relative flex items-center">
+        <div class="pointer-events-none absolute left-4 flex items-center">
+          <svg class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
+          </svg>
+        </div>
+        <input
+          id="hero-search"
+          type="search"
+          placeholder="Αναζήτηση λογισμικού ή εναλλακτικού (π.χ. Photoshop)..."
+          class="w-full rounded-2xl border-0 bg-white/95 dark:bg-gray-900/95 py-4 pl-12 pr-4 text-base text-gray-900 dark:text-gray-100 shadow-xl ring-2 ring-transparent focus:ring-green-300 dark:focus:ring-green-600 focus:outline-none placeholder:text-gray-400 transition-all duration-200"
+          autocomplete="off"
+          aria-label="Αναζήτηση λογισμικού"
+        />
+        <button
+          id="hero-search-btn"
+          type="button"
+          class="absolute right-2 flex items-center gap-2 rounded-xl bg-green-600 hover:bg-green-700 px-4 py-2.5 text-sm font-medium text-white transition-colors duration-200 shadow-sm"
+          aria-label="Αναζήτηση"
+        >
+          Αναζήτηση
+        </button>
+      </div>
+      <p class="mt-3 text-sm text-green-200">
+        Δοκιμάστε: <button class="quick-search underline hover:text-white transition-colors" data-q="Photoshop">Photoshop</button>,
+        <button class="quick-search underline hover:text-white transition-colors" data-q="Office">Office</button>,
+        <button class="quick-search underline hover:text-white transition-colors" data-q="Windows">Windows</button>
+      </p>
+    </div>
+
+    <!-- Stats row -->
+    <div class="mt-12 flex flex-wrap justify-center gap-8">
+      <div class="text-center">
+        <div class="text-3xl font-bold text-white">{totalCount}+</div>
+        <div class="text-sm text-green-200 mt-0.5">Εργαλεία</div>
+      </div>
+      <div class="hidden sm:block w-px bg-white/20 self-stretch"></div>
+      <div class="text-center">
+        <div class="text-3xl font-bold text-white">10+</div>
+        <div class="text-sm text-green-200 mt-0.5">Κατηγορίες</div>
+      </div>
+      <div class="hidden sm:block w-px bg-white/20 self-stretch"></div>
+      <div class="text-center">
+        <div class="text-3xl font-bold text-white">100%</div>
+        <div class="text-sm text-green-200 mt-0.5">Δωρεάν</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const heroSearch = document.getElementById('hero-search') as HTMLInputElement;
+  const searchGrid = document.getElementById('software-search') as HTMLInputElement;
+
+  function syncSearch(value: string) {
+    if (searchGrid) {
+      searchGrid.value = value;
+      searchGrid.dispatchEvent(new Event('input', { bubbles: true }));
+      const gridSection = document.getElementById('software-grid-section');
+      if (gridSection) {
+        gridSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }
+
+  heroSearch?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') syncSearch(heroSearch.value);
+  });
+
+  document.getElementById('hero-search-btn')?.addEventListener('click', () => {
+    syncSearch(heroSearch.value);
+  });
+
+  document.querySelectorAll('.quick-search').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const q = (btn as HTMLElement).dataset.q || '';
+      if (heroSearch) heroSearch.value = q;
+      syncSearch(q);
+    });
+  });
+</script>

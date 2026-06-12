@@ -1,0 +1,80 @@
+---
+interface Props {
+  categories: string[];
+}
+const { categories } = Astro.props;
+const sorted = [...categories].sort((a, b) => a.localeCompare(b, 'el'));
+---
+
+<div class="flex flex-wrap gap-2 items-center" id="category-filter-container">
+  <button
+    class="category-btn px-3 py-1.5 rounded-full text-sm font-medium border transition-all duration-200 cursor-pointer bg-green-600 text-white border-green-600 dark:bg-green-700 dark:border-green-700"
+    data-category="all"
+    id="cat-btn-all"
+    aria-pressed="true"
+  >
+    Όλα
+  </button>
+  {sorted.map((cat) => (
+    <button
+      class="category-btn px-3 py-1.5 rounded-full text-sm font-medium border border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-400 hover:border-green-400 hover:text-green-700 hover:bg-green-50 dark:hover:border-green-600 dark:hover:text-green-400 dark:hover:bg-green-950 transition-all duration-200 cursor-pointer"
+      data-category={cat}
+      id={`cat-btn-${cat.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`}
+      aria-pressed="false"
+    >
+      {cat}
+    </button>
+  ))}
+</div>
+
+<script>
+  const catButtons = document.querySelectorAll<HTMLButtonElement>('.category-btn');
+  const searchInput = document.getElementById('software-search') as HTMLInputElement;
+
+  const ACTIVE_CLASSES = ['bg-green-600', 'text-white', 'border-green-600', 'dark:bg-green-700', 'dark:border-green-700'];
+  const INACTIVE_CLASSES = ['border-gray-200', 'dark:border-gray-700', 'text-gray-600', 'dark:text-gray-400'];
+
+  catButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Reset all buttons
+      catButtons.forEach(b => {
+        b.classList.remove(...ACTIVE_CLASSES);
+        b.classList.add(...INACTIVE_CLASSES);
+        b.setAttribute('aria-pressed', 'false');
+      });
+      // Activate clicked button
+      btn.classList.add(...ACTIVE_CLASSES);
+      btn.classList.remove(...INACTIVE_CLASSES);
+      btn.setAttribute('aria-pressed', 'true');
+
+      const category = btn.dataset.category || 'all';
+      const grid = document.getElementById('software-grid');
+      if (!grid) return;
+
+      const cards = grid.querySelectorAll<HTMLElement>('[data-categories]');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const cats = JSON.parse(card.dataset.categories || '[]') as string[];
+        const searchTerm = searchInput?.value.toLowerCase() || '';
+        const matchesCategory = category === 'all' || cats.includes(category);
+        const cardText = (card.dataset.searchText || '').toLowerCase();
+        const matchesSearch = !searchTerm || cardText.includes(searchTerm);
+        const visible = matchesCategory && matchesSearch;
+        card.style.display = visible ? '' : 'none';
+        if (visible) visibleCount++;
+      });
+
+      const el = document.getElementById('result-count');
+      if (el) el.textContent = `${visibleCount} αποτελέσματα`;
+      const empty = document.getElementById('empty-state');
+      if (empty) empty.classList.toggle('hidden', visibleCount > 0);
+    });
+  });
+
+  // Export for card click-through
+  (window as any).filterByCategory = (category: string) => {
+    const btn = document.querySelector<HTMLButtonElement>(`[data-category="${category}"]`);
+    btn?.click();
+  };
+</script>

@@ -1,0 +1,132 @@
+---
+import SoftwareCard from './SoftwareCard.astro';
+
+interface SoftwareEntry {
+  slug: string;
+  data: {
+    title: string;
+    alternative_to: string[];
+    categories: string[];
+    logo: string;
+    license: string;
+    description: string;
+    website: string;
+    featured?: boolean;
+  };
+}
+
+interface Props {
+  entries: SoftwareEntry[];
+}
+
+const { entries } = Astro.props;
+// Sort: featured first, then alphabetically
+const sorted = [...entries].sort((a, b) => {
+  if (a.data.featured && !b.data.featured) return -1;
+  if (!a.data.featured && b.data.featured) return 1;
+  return a.data.title.localeCompare(b.data.title, 'el');
+});
+---
+
+<!-- Search + count row -->
+<div class="flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between mb-6">
+  <div class="relative flex-1 max-w-sm">
+    <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+      <svg class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
+      </svg>
+    </div>
+    <input
+      id="software-search"
+      type="search"
+      placeholder="Φιλτράρισμα αποτελεσμάτων..."
+      autocomplete="off"
+      class="w-full rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 py-2.5 pl-9 pr-4 text-sm text-gray-900 dark:text-gray-100 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 dark:focus:ring-green-600 focus:border-transparent transition-all duration-200"
+      aria-label="Φιλτράρισμα λογισμικού"
+    />
+  </div>
+  <div class="text-sm text-gray-500 dark:text-gray-400 flex-shrink-0">
+    <span id="result-count">{entries.length} αποτελέσματα</span>
+  </div>
+</div>
+
+<!-- Software grid -->
+<div
+  id="software-grid"
+  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
+>
+  {sorted.map((entry) => (
+    <SoftwareCard
+      title={entry.data.title}
+      alternative_to={entry.data.alternative_to}
+      categories={entry.data.categories}
+      logo={entry.data.logo}
+      license={entry.data.license}
+      description={entry.data.description}
+      website={entry.data.website}
+      slug={entry.id.replace(/\.md$/, '')}
+      featured={entry.data.featured}
+    />
+  ))}
+</div>
+
+<!-- Empty state -->
+<div id="empty-state" class="hidden text-center py-16">
+  <svg class="mx-auto h-12 w-12 text-gray-300 dark:text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
+  </svg>
+  <h3 class="mt-4 text-base font-semibold text-gray-900 dark:text-white">Δεν βρέθηκαν αποτελέσματα</h3>
+  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Δοκιμάστε διαφορετική αναζήτηση ή κατηγορία.</p>
+  <button
+    id="clear-search"
+    class="mt-4 text-sm text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300 font-medium underline"
+  >
+    Εκκαθάριση φίλτρων
+  </button>
+</div>
+
+<script>
+  const searchInput = document.getElementById('software-search') as HTMLInputElement;
+  const grid = document.getElementById('software-grid');
+  const resultCount = document.getElementById('result-count');
+  const emptyState = document.getElementById('empty-state');
+  const clearBtn = document.getElementById('clear-search');
+
+  function getActiveCategory(): string {
+    const activeBtn = document.querySelector<HTMLButtonElement>('.category-btn.active');
+    return activeBtn?.dataset.category || 'all';
+  }
+
+  function filterCards() {
+    if (!grid) return;
+    const term = searchInput?.value.toLowerCase().trim() || '';
+    const category = getActiveCategory();
+    const cards = grid.querySelectorAll<HTMLElement>('[data-categories]');
+    let count = 0;
+
+    cards.forEach(card => {
+      const cats = JSON.parse(card.dataset.categories || '[]') as string[];
+      const searchText = (card.dataset.searchText || '').toLowerCase();
+      const matchesCategory = category === 'all' || cats.includes(category);
+      const matchesSearch = !term || searchText.includes(term);
+      const visible = matchesCategory && matchesSearch;
+      card.style.display = visible ? '' : 'none';
+      if (visible) count++;
+    });
+
+    if (resultCount) resultCount.textContent = `${count} αποτελέσματα`;
+    if (emptyState) emptyState.classList.toggle('hidden', count > 0);
+  }
+
+  let debounceTimer: ReturnType<typeof setTimeout>;
+  searchInput?.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(filterCards, 200);
+  });
+
+  clearBtn?.addEventListener('click', () => {
+    if (searchInput) searchInput.value = '';
+    const allBtn = document.querySelector<HTMLButtonElement>('[data-category="all"]');
+    allBtn?.click();
+  });
+</script>

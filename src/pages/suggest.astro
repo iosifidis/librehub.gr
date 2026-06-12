@@ -1,0 +1,226 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const CATEGORIES = [
+  "Γραφείο",
+  "Παραγωγικότητα",
+  "Γραφικά",
+  "Επεξεργασία Εικόνας",
+  "Διανυσματικά",
+  "Ψηφιακή Ζωγραφική",
+  "Πολυμέσα",
+  "Βίντεο",
+  "Επεξεργασία Βίντεο",
+  "Streaming",
+  "Επεξεργασία Ήχου",
+  "3D Μοντελοποίηση",
+  "Ανάπτυξη Λογισμικού",
+  "Εργαλεία",
+  "Εκπαίδευση",
+  "Μαθηματικά",
+  "Πλατφόρμες Μάθησης",
+  "Προγραμματισμός",
+  "Cloud",
+  "Email",
+  "Επικοινωνία",
+  "Ιδιωτικότητα",
+  "Πλοήγηση",
+  "Λειτουργικά Συστήματα",
+];
+---
+
+<BaseLayout
+  title="Προτείνετε Λογισμικό"
+  description="Προτείνετε νέο ανοιχτού κώδικα λογισμικό για προσθήκη στον κατάλογό μας."
+>
+  <Header />
+
+  <main class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Breadcrumb -->
+    <nav class="mb-8 flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-green-600 dark:hover:text-green-400 transition-colors">Αρχική</a>
+      <svg class="h-4 w-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
+      </svg>
+      <span class="text-gray-900 dark:text-white font-medium">Προτείνετε Λογισμικό</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="mb-10">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-green-100 dark:bg-green-900/50">
+          <svg class="h-5 w-5 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+          </svg>
+        </div>
+        <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Προτείνετε Λογισμικό</h1>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+        Γνωρίζετε ένα εξαιρετικό ανοιχτού κώδικα λογισμικό που λείπει από τον κατάλογό μας;
+        Συμπληρώστε την παρακάτω φόρμα και θα το εξετάσουμε για προσθήκη!
+      </p>
+    </div>
+
+    <!-- Success message (shown after submission) -->
+    <div id="form-success" class="hidden mb-6 rounded-xl bg-green-50 dark:bg-green-950/50 border border-green-200 dark:border-green-800 p-4 flex items-start gap-3">
+      <svg class="h-5 w-5 text-green-600 dark:text-green-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/>
+      </svg>
+      <div>
+        <p class="text-sm font-medium text-green-800 dark:text-green-200">Η πρότασή σας ελήφθη!</p>
+        <p class="text-sm text-green-700 dark:text-green-300 mt-0.5">Ευχαριστούμε. Θα εξετάσουμε την πρότασή σας και θα προσθέσουμε το λογισμικό αν πληροί τα κριτήριά μας.</p>
+      </div>
+    </div>
+
+    <!-- Netlify Form -->
+    <form
+      id="suggest-form"
+      name="suggest-software"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      action="/success"
+      class="space-y-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 sm:p-8 shadow-sm"
+    >
+      <!-- Netlify hidden fields -->
+      <input type="hidden" name="form-name" value="suggest-software" />
+
+      <!-- Honeypot (bot prevention) -->
+      <div class="hidden" aria-hidden="true">
+        <label>
+          Μην συμπληρώσετε αυτό αν είστε άνθρωπος:
+          <input name="bot-field" tabindex="-1" autocomplete="off" />
+        </label>
+      </div>
+
+      <!-- OSS Name -->
+      <div>
+        <label for="oss-name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5">
+          Όνομα Ανοιχτού Λογισμικού <span class="text-red-500">*</span>
+        </label>
+        <input
+          id="oss-name"
+          name="oss_name"
+          type="text"
+          required
+          placeholder="π.χ. LibreOffice"
+          class="w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 dark:focus:ring-green-600 focus:border-transparent transition-all duration-200"
+        />
+      </div>
+
+      <!-- Proprietary alternative -->
+      <div>
+        <label for="proprietary" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5">
+          Εναλλακτικό ιδιόκτητου λογισμικού <span class="text-red-500">*</span>
+        </label>
+        <input
+          id="proprietary"
+          name="proprietary_alternative"
+          type="text"
+          required
+          placeholder="π.χ. Microsoft Office"
+          class="w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 dark:focus:ring-green-600 focus:border-transparent transition-all duration-200"
+        />
+      </div>
+
+      <!-- Category -->
+      <div>
+        <label for="category" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5">
+          Κατηγορία <span class="text-red-500">*</span>
+        </label>
+        <select
+          id="category"
+          name="category"
+          required
+          class="w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-green-500 dark:focus:ring-green-600 focus:border-transparent transition-all duration-200"
+        >
+          <option value="" disabled selected>Επιλέξτε κατηγορία...</option>
+          {CATEGORIES.map(cat => (
+            <option value={cat}>{cat}</option>
+          ))}
+          <option value="Άλλο">Άλλο</option>
+        </select>
+      </div>
+
+      <!-- Website -->
+      <div>
+        <label for="website" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5">
+          Ιστοσελίδα
+        </label>
+        <input
+          id="website"
+          name="website"
+          type="url"
+          placeholder="https://example.org"
+          class="w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 dark:focus:ring-green-600 focus:border-transparent transition-all duration-200"
+        />
+      </div>
+
+      <!-- License -->
+      <div>
+        <label for="license" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5">
+          Άδεια χρήσης
+        </label>
+        <input
+          id="license"
+          name="license"
+          type="text"
+          placeholder="π.χ. GPL-3.0, MIT, Apache-2.0"
+          class="w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 dark:focus:ring-green-600 focus:border-transparent transition-all duration-200"
+        />
+      </div>
+
+      <!-- Message -->
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5">
+          Σχόλια / Πρόσθετες πληροφορίες
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Περιγράψτε γιατί αυτό το λογισμικό αξίζει να προστεθεί..."
+          class="w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 dark:focus:ring-green-600 focus:border-transparent transition-all duration-200 resize-none"
+        ></textarea>
+      </div>
+
+      <!-- Submit -->
+      <div class="pt-2">
+        <button
+          id="submit-btn"
+          type="submit"
+          class="w-full flex items-center justify-center gap-2 rounded-xl bg-green-600 hover:bg-green-700 active:bg-green-800 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:shadow-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+        >
+          <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"/>
+          </svg>
+          Υποβολή Πρότασης
+        </button>
+        <p class="mt-3 text-center text-xs text-gray-400 dark:text-gray-500">
+          Τα δεδομένα σας αποστέλλονται με ασφάλεια μέσω Netlify Forms.
+        </p>
+      </div>
+    </form>
+
+    <!-- Info box -->
+    <div class="mt-6 rounded-xl bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-900 p-4">
+      <div class="flex items-start gap-3">
+        <svg class="h-5 w-5 text-blue-600 dark:text-blue-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"/>
+        </svg>
+        <div>
+          <p class="text-sm font-medium text-blue-800 dark:text-blue-200">Κριτήρια αποδοχής</p>
+          <ul class="mt-1 text-sm text-blue-700 dark:text-blue-300 space-y-1 list-disc list-inside">
+            <li>Το λογισμικό πρέπει να διαθέτει εγκεκριμένη ανοιχτή άδεια (OSI ή FSF)</li>
+            <li>Να είναι ενεργά αναπτυσσόμενο ή σε συντήρηση</li>
+            <li>Να αποτελεί ουσιαστικό εναλλακτικό ιδιόκτητου λογισμικού</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
