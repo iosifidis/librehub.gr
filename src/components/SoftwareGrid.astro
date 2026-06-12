@@ -104,19 +104,39 @@ const sorted = [...entries].sort((a, b) => {
     const cards = grid.querySelectorAll<HTMLElement>('[data-categories]');
     let count = 0;
 
+    const isDefaultState = category === 'all' && term === '';
+
     cards.forEach(card => {
       const cats = JSON.parse(card.dataset.categories || '[]') as string[];
       const searchText = (card.dataset.searchText || '').toLowerCase();
+      const isFeatured = card.dataset.featured === 'true';
+      
       const matchesCategory = category === 'all' || cats.includes(category);
       const matchesSearch = !term || searchText.includes(term);
-      const visible = matchesCategory && matchesSearch;
+      
+      let visible = false;
+      if (isDefaultState) {
+        visible = isFeatured;
+      } else {
+        visible = matchesCategory && matchesSearch;
+      }
+
       card.style.display = visible ? '' : 'none';
       if (visible) count++;
     });
 
-    if (resultCount) resultCount.textContent = `${count} αποτελέσματα`;
+    if (resultCount) {
+      if (isDefaultState) {
+        resultCount.textContent = `${count} προτεινόμενα`;
+      } else {
+        resultCount.textContent = `${count} αποτελέσματα`;
+      }
+    }
     if (emptyState) emptyState.classList.toggle('hidden', count > 0);
   }
+
+  // Initialize on load to hide non-featured items initially
+  filterCards();
 
   let debounceTimer: ReturnType<typeof setTimeout>;
   searchInput?.addEventListener('input', () => {
