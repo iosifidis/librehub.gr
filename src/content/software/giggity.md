@@ -1,7 +1,7 @@
 ---
 title: "Giggity"
 alternative_to: ["Whova (attendee app)", "Guidebook", "Conference Compass"]
-categories: ["Παραγωγικότητα", "Εργαλεία", "Πλοήγηση"]
+categories: ["Παραγωγικότητα", "Εργαλεία", "Συνέδρια", "Εκδηλώσεις", "Πλοήγηση"]
 website: "https://wilmer.gaa.st/main.php/giggity.html"
 logo: "/images/placeholder.svg"
 license: "Apache-2.0 (open source)"

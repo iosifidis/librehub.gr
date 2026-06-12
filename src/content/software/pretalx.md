@@ -1,7 +1,7 @@
 ---
 title: "Pretalx"
 alternative_to: ["Sessionize", "Call for Papers (CFP) platforms", "EasyChair (conference track)"]
-categories: ["Εργαλεία", "Παραγωγικότητα", "Cloud"]
+categories: ["Εργαλεία", "Παραγωγικότητα", "Συνέδρια", "Εκδηλώσεις", "Cloud"]
 website: "https://pretalx.com/"
 logo: "/images/placeholder.svg"
 license: "Apache-2.0"

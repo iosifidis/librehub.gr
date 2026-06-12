@@ -1,7 +1,7 @@
 ---
 title: "Pretix"
 alternative_to: ["Eventbrite", "Ticketmaster", "Tito", "Billetto"]
-categories: ["Cloud", "Εργαλεία", "Παραγωγικότητα"]
+categories: ["Cloud", "Εργαλεία", "Συνέδρια", "Εκδηλώσεις", "Παραγωγικότητα"]
 website: "https://pretix.eu/"
 logo: "/images/placeholder.svg"
 license: "AGPL-3.0"

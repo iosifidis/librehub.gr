@@ -1,7 +1,7 @@
 ---
 title: "Indico"
 alternative_to: ["Cvent", "Eventbrite (conferences)", "ConfTool", "EasyChair (advanced conferences)"]
-categories: ["Εργαλεία", "Cloud", "Εκπαίδευση"]
+categories: ["Εργαλεία", "Cloud", "Συνέδρια", "Εκδηλώσεις"]
 website: "https://getindico.io/"
 logo: "/images/placeholder.svg"
 license: "GPL-3.0"

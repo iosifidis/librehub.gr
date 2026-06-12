@@ -1,7 +1,7 @@
 ---
 title: "OSEM (Open Source Event Manager)"
 alternative_to: ["EasyChair", "OpenConf", "ConfTool", "EDAS"]
-categories: ["Εργαλεία", "Εκπαίδευση", "Cloud"]
+categories: ["Εργαλεία", "Συνέδρια", "Εκδηλώσεις",  "Cloud"]
 website: "https://osem.io/"
 logo: "/images/placeholder.svg"
 license: "GPL-3.0 (supposedly, as open source)"
