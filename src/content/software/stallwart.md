@@ -1,7 +1,7 @@
 ---
 title: "Stalwart Mail Server"
 alternative_to: ["Proprietary Enterprise Mail Servers"]
-categories: ["Email", "Cloud", "Επικοινωνία", "Ανάπτυξη Λογισμικού"]
+categories: ["Email", "Cloud", "Επικοινωνία"]
 website: "https://stalw.art/"
 logo: "/images/placeholder.svg"
 license: "AGPL-3.0"
