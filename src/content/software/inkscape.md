@@ -24,6 +24,12 @@ featured: false
     - **Export:** SVG (clean), PDF (vector), EPS, PNG, DXF, HPGL, POVRay, κ.ά.
 - **Extensions (Python):** Υπάρχει μεγάλη συλλογή extensions για βελτιστοποίηση, render (3D), plotting, CNC, laser cut, etc.
 
+**Πλεονεκτήματα:**
+- Εγγενής χρήση SVG — τα αρχεία ανοίγουν απευθείας σε κάθε περιηγητή.
+- Ιδανικό για laser cutting, CNC, web graphics, print design.
+- Διαθέσιμο για Windows, macOS, Linux.
+- Τεράστια κοινότητα με χιλιάδες δωρεάν resources και tutorials.
+
 **Inkscape vs Illustrator:**
 
 | Χαρακτηριστικό | Inkscape | Adobe Illustrator |
