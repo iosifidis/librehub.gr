@@ -1,6 +1,6 @@
 ---
 title: "Wire"
-alternative_to: ["WhatsApp", "Signal", "Skype", "Microsoft Teams (Chat part)"]
+alternative_to: ["WhatsApp", "Skype", "Microsoft Teams (Chat part)"]
 categories: ["Επικοινωνία", "Ιδιωτικότητα", "Παραγωγικότητα"]
 website: "https://wire.com/"
 logo: "/images/placeholder.svg"
@@ -18,3 +18,17 @@ featured: false
 - **Σύγχρονο UI:** Διαισθητική διεπαφή με ομαδικές συνομιλίες (group chats), quotes, reactions, και δυνατότητα επεξεργασίας μηνυμάτων.
 - **Διαχείριση Ταυτότητας:** Υποστήριξη Single Sign-On (SSO), LDAP, Active Directory, SCIM για αυτόματη προμήθεια χρηστών.
 - **Cross-Platform:** Διαθέσιμο ως desktop εφαρμογή (Windows, macOS, Linux), mobile (iOS, Android), και web client.
+
+**Κύρια Χαρακτηριστικά:**
+- **End-to-End Encryption:** Προσαρμοσμένο Proteus protocol (βασισμένο στο Signal Protocol) για μηνύματα και κλήσεις.
+- **Guest Rooms:** Προσωρινές κρυπτογραφημένες αίθουσες για εξωτερικούς συμμετέχοντες — χωρίς εγκατάσταση.
+- **Multi-Device:** Πλήρης υποστήριξη πολλαπλών συσκευών ταυτόχρονα (έως 8).
+- **Self-Hosting:** Wire Server διαθέσιμος για επιχειρήσεις που θέλουν πλήρη έλεγχο υποδομής.
+- **File Sharing:** Κοινοποίηση αρχείων, εικόνων, βίντεο με κρυπτογράφηση.
+- **Conference Calls:** Ομαδικές κλήσεις για έως 25 συμμετέχοντες.
+
+**Πλεονεκτήματα:**
+- Εγγραφή χωρίς αριθμό τηλεφώνου — μόνο email ή ανώνυμα.
+- Ανοιχτός κώδικας για clients και server.
+- Ιδανικό για επαγγελματική χρήση με ενσωμάτωση ομάδων και projects.
+- Διαθέσιμο για Android, iOS, Windows, macOS, Linux, Web.

@@ -1,6 +1,6 @@
 ---
-title: "Vaultwarden (formerly Bitwarden_RS)"
-alternative_to: ["1Password Business (commercial)", "LastPass Enterprise (commercial)", "Dashlane (commercial)"]
+title: "Vaultwarden"
+alternative_to: ["1Password Business", "LastPass Enterprise", "Dashlane"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Password Manager"]
 website: "https://github.com/dani-garcia/vaultwarden"
 logo: "/images/placeholder.svg"
