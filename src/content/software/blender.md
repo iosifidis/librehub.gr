@@ -1,7 +1,6 @@
 ---
 title: "Blender"
 alternative_to: ["Autodesk 3ds Max", "Maya", "Cinema 4D"]
-categories: ["Γραφικά", "3D Μοντελοποίηση", "Επεξεργασία Βίντεο"]
 categories: ["Εκπαίδευση", "3D Μοντελοποίηση", "Animation", "Γραφικά"]
 website: "https://www.blender.org"
 logo: "/images/placeholder.svg"
