@@ -1,7 +1,7 @@
 ---
 title: "ADempiere"
 alternative_to: ["SAP ERP (Small/Medium Business)", "Oracle E-Business Suite", "Compiere ERP"]
-categories: ["Παραγωγικότητα", "Cloud", "ERP", "CRM" "SCM", "Γραφείο"]
+categories: ["Παραγωγικότητα", "Cloud", "ERP", "CRM", "SCM", "Γραφείο"]
 website: "https://adempiere.io/"
 logo: "/images/placeholder.svg"
 license: "GPL-2.0"
