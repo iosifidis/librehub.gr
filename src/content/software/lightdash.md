@@ -5,7 +5,7 @@ categories: ["Ανάλυση Δεδομένων", "Εργαλεία", "Cloud"]
 website: "https://www.lightdash.com/"
 logo: "/images/placeholder.svg"
 license: "MIT"
-description: "Σύγχρονη, open-source πλατφόρμα Business Intelligence (BI) σχεδιασμένη για να λειτουργεί απευθείας πάνω από το **dbt (data build tool)**. Αντί να χρειάζεται ξεχωριστό semantic layer, το Lightdash διαβάζει τα dbt models, metrics, descriptions, και tests, δημιουργώντας αυτόματα ένα API για εξερεύνηση δεδομένων (no-code). Ιδανικό για data teams που ήδη χρησιμοποιούν dbt (ELT) και θέλουν to "Looker alternative open source"."
+description: "Σύγχρονη, open-source πλατφόρμα Business Intelligence (BI) σχεδιασμένη για να λειτουργεί απευθείας πάνω από το **dbt (data build tool)**. Αντί να χρειάζεται ξεχωριστό semantic layer, το Lightdash διαβάζει τα dbt models, metrics, descriptions, και tests, δημιουργώντας αυτόματα ένα API για εξερεύνηση δεδομένων (no-code). Ιδανικό για data teams που ήδη χρησιμοποιούν dbt (ELT) και θέλουν το «Looker»."
 featured: false
 ---
 
