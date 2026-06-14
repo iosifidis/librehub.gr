@@ -1,7 +1,7 @@
 ---
 title: "Claper (Interactive Presentations)"
 alternative_to: ["Kahoot! (presentation mode, commercial)", "Slido (commercial)", "Mentimeter (commercial)"]
-categories: ["Εκπαίδευση", "Διαδραστικές Παρουσιάσεις", "eLearning"]
+categories: ["Εκπαίδευση", "Διαδραστικές Παρουσιάσεις", "Εκδηλώσεις", "eLearning"]
 website: "https://claper.co/"
 logo: "/images/placeholder.svg"
 license: "AGPL-3.0"
