@@ -1,7 +1,7 @@
 ---
 title: "SuiteCRM"
 alternative_to: ["Salesforce Sales Cloud", "HubSpot CRM", "Zoho CRM", "Microsoft Dynamics 365 Sales"]
-categories: ["Παραγωγικότητα", "Γραφείο", CRM", "Cloud"]
+categories: ["Παραγωγικότητα", "Γραφείο", "CRM", "Cloud"]
 website: "https://suitecrm.com"
 logo: "/images/placeholder.svg"
 license: "AGPL-3.0"
