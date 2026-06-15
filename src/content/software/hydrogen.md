@@ -1,7 +1,7 @@
 ---
 title: "Hydrogen (Drum Machine)"
 alternative_to: ["DrumCore", "EZdrummer", "Superior Drummer"]
-categories: ["Εκπαίδευση", "Μουσική", "Ηχητικά"]
+categories: ["Εκπαίδευση", "Μουσική", "Επεξεργασία Ήχου"]
 website: "https://www.hydrogen-music.org/"
 logo: "/images/placeholder.svg"
 license: "GPL-2.0"

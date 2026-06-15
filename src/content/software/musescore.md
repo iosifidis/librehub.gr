@@ -1,7 +1,7 @@
 ---
-title: "MuseScore (Music Notation Software)"
+title: "MuseScore"
 alternative_to: ["Sibelius", "Finale", "Dorico"]
-categories: ["Εκπαίδευση", "Μουσική", "Σύνθεση"]
+categories: ["Εκπαίδευση", "Μουσική", "Σύνθεση", "Επεξεργασία Ήχου", "Πολυμέσα"]
 website: "https://musescore.org/"
 logo: "/images/placeholder.svg"
 license: "GPL-3.0"

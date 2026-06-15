@@ -1,7 +1,7 @@
 ---
 title: "TuxGuitar (Tablature Editor)"
 alternative_to: ["GuitarPro", "PowerTab", "MuseScore (with TAB support)"]
-categories: ["Εκπαίδευση", "Μουσική", "Σύνθεση"]
+categories: ["Εκπαίδευση", "Μουσική", "Σύνθεση", "Επεξεργασία Ήχου", "Πολυμέσα"]
 website: "https://www.tuxguitar.app/"
 logo: "/images/placeholder.svg"
 license: "LGPL-2.1"

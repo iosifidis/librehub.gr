@@ -1,7 +1,7 @@
 ---
 title: "OBS Studio"
-alternative_to: ["Camtasia", "Bandicam", "XSplit", "Wirecast (professional, commercial)", "Streamlabs Desktop (commercial with limitations)"]
-categories: ["Επεξεργασία Βίντεο", "Streaming", "Πολυμέσα"]
+alternative_to: ["Camtasia", "Bandicam", "XSplit", "Wirecast", "Streamlabs Desktop"]
+categories: ["Επεξεργασία Βίντεο", "Streaming", "Πολυμέσα", "Βίντεο", "Εγγραφή Οθόνης", "Δημιουργία Περιεχομένου"]
 website: "https://obsproject.com"
 logo: "/images/obs.svg"
 license: "GPL-2.0"
