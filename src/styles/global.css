@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* Enable class-based dark mode for Tailwind v4 */
 @variant dark (&:where(.dark, .dark *));
@@ -47,4 +48,41 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+}
+
+/* ── Prose (Markdown content) customisation ───────────────────────────────
+   Override Tailwind Typography defaults to match the EELLAK palette.
+   These apply inside any element that carries the `prose` class.
+   ─────────────────────────────────────────────────────────────────────── */
+.prose {
+  /* headings */
+  --tw-prose-headings:       #166534;   /* green-800 */
+  /* links */
+  --tw-prose-links:          #16a34a;   /* green-600 */
+  /* bullets & list markers */
+  --tw-prose-bullets:        #f58220;   /* EELLAK orange */
+  --tw-prose-counters:       #f58220;
+  /* bold */
+  --tw-prose-bold:           #111827;   /* gray-900 */
+  /* hr / quotes */
+  --tw-prose-hr:             #e5e7eb;
+  --tw-prose-quote-borders:  #16a34a;
+  /* code */
+  --tw-prose-code:           #166534;
+  --tw-prose-pre-bg:         #f0fdf4;
+}
+
+/* Dark-mode overrides */
+.dark .prose {
+  --tw-prose-body:           #d1d5db;   /* gray-300 */
+  --tw-prose-headings:       #4ade80;   /* green-400 */
+  --tw-prose-links:          #4ade80;
+  --tw-prose-bullets:        #fcaf17;   /* EELLAK amber */
+  --tw-prose-counters:       #fcaf17;
+  --tw-prose-bold:           #f9fafb;   /* gray-50 */
+  --tw-prose-hr:             #374151;
+  --tw-prose-quote-borders:  #4ade80;
+  --tw-prose-code:           #86efac;   /* green-300 */
+  --tw-prose-pre-bg:         #052e16;   /* green-950 */
+  --tw-prose-captions:       #9ca3af;
 }
