@@ -3,7 +3,7 @@ title: "Code::Blocks"
 alternative_to: ["Microsoft Visual Studio (C/C++ development)", "Eclipse CDT", "CLion (commercial)"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://www.codeblocks.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/code-blocks.jpg"
 license: "GPL-3.0"
 description: "Εξαιρετικά παραμετροποιήσιμο και επεκτάσιμο IDE για C, C++ και Fortran, χτισμένο γύρω από plugins. Υποστηρίζει πολλούς compilers (GCC, Clang, MSVC, MinGW, Digital Mars, Borland C++), debugging (GDB/CDB), και έχει ενσωματωμένο GUI designer (wxSmith) για εφαρμογές wxWidgets."
 featured: false
