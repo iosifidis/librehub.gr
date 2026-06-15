@@ -1,6 +1,6 @@
 ---
-title: "RustDesk (Remote Desktop)"
-alternative_to: ["TeamViewer (commercial)", "AnyDesk (commercial)", "Splashtop (commercial)"]
+title: "RustDesk"
+alternative_to: ["TeamViewer", "AnyDesk", "Splashtop"]
 categories: ["Απομακρυσμένη Πρόσβαση", "Εργαλεία", "Δίκτυα"]
 website: "https://rustdesk.com/"
 logo: "/images/placeholder.svg"

@@ -1,7 +1,7 @@
 ---
 title: "Argos Translate"
-alternative_to: ["Google Translate (offline mode)", "Microsoft Translator (offline)", "DeepL (Pro offline)"]
-categories: ["Εργαλεία", "Ανάπτυξη Λογισμικού", "Εκπαίδευση", "Γραφείο"]
+alternative_to: ["Google Translate", "Microsoft Translator", "DeepL (Pro offline)"]
+categories: ["Εργαλεία", "Ιδιωτικότητα", "Εκπαίδευση", "Γραφείο"]
 website: "https://www.argosopentech.com/"
 logo: "/images/placeholder.svg"
 license: "GPL-3.0 (library), MIT (GUI)"

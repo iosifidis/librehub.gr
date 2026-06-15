@@ -1,6 +1,6 @@
 ---
 title: "Docker"
-alternative_to: ["VMware vSphere (container vs VM)", "Podman (daemonless)", "containerd + nerdctl"]
+alternative_to: ["VMware vSphere", "Podman (daemonless)", "VirtualBox", "VMware"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://www.docker.com/"
 logo: "/images/placeholder.svg"

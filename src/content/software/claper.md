@@ -1,6 +1,6 @@
 ---
 title: "Claper (Interactive Presentations)"
-alternative_to: ["Kahoot! (presentation mode, commercial)", "Slido (commercial)", "Mentimeter (commercial)"]
+alternative_to: ["Kahoot!", "Slido", "Mentimeter"]
 categories: ["Εκπαίδευση", "Διαδραστικές Παρουσιάσεις", "Εκδηλώσεις", "eLearning"]
 website: "https://claper.co/"
 logo: "/images/placeholder.svg"
