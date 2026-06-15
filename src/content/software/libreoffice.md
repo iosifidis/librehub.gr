@@ -3,7 +3,7 @@ title: "LibreOffice"
 alternative_to: ["Microsoft Office", "Word", "Excel", "PowerPoint"]
 categories: ["Γραφείο", "Παραγωγικότητα", "Ημερήσια Χρήση"]
 website: "https://el.libreoffice.org"
-logo: "/images/libreoffice.svg"
+logo: "/images/libreoffice.jpg"
 license: "MPL-2.0"
 description: "Η πιο ισχυρή και δημοφιλής εναλλακτική σουίτα γραφείου ανοιχτού κώδικα, πλήρως συμβατή με αρχεία Microsoft Office (.docx, .xlsx, .pptx). Περιλαμβάνει εφαρμογές για επεξεργασία κειμένου (Writer), υπολογιστικά φύλλα (Calc), παρουσιάσεις (Impress), σχέδια (Draw), βάσεις δεδομένων (Base) και μαθηματικές εξισώσεις (Math). Υποστηρίζει μακροεντολές (Basic, Python, JavaScript), templates, και είναι διαθέσιμο σε Windows, macOS, Linux, καθώς και φορητή έκδοση (portable)."
 featured: true
