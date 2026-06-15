@@ -3,7 +3,7 @@ title: "BigBlueButton"
 alternative_to: ["Zoom", "Google Meet", "Microsoft Teams", "Webex"]
 categories: ["Εκπαίδευση", "Πολυμέσα", "Επικοινωνία", "Cloud"]
 website: "https://bigbluebutton.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/BigBlueButton.svg"
 license: "LGPL-3.0"
 description: "Ειδικά σχεδιασμένο λογισμικό εικονικής τάξης (virtual classroom) ανοιχτού κώδικα, που δίνει έμφαση στη μαθησιακή εμπειρία με εργαλεία αξιολόγησης, διαδραστικούς πίνακες και αναλυτικά στοιχεία συμμετοχής."
 featured: true
