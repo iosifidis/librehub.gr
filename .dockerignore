@@ -7,3 +7,6 @@ dist
 .DS_Store
 *.log
 npm-debug.log*
+# Not needed inside the builder image
+netlify.toml
+README.md

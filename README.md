@@ -8,7 +8,7 @@
 - 📁 Περιεχόμενο σε Markdown (Astro Content Collections)
 - ⚡ Static Site Generation με Astro
 - 📋 Φόρμα πρότασης μέσω Netlify Forms
-- 🐳 Docker-ready για self-hosting
+- 🐳 Docker-ready για self-hosting — με **αυτόματο rebuild** όταν προστίθεται νέο περιεχόμενο
 
 ---
 
@@ -72,6 +72,7 @@ featured: false
 ---
 
 Εδώ μπορείτε να γράψετε πιο αναλυτικό Markdown περιεχόμενο για τη σελίδα λεπτομερειών.
+Υποστηρίζεται **bold**, *italic*, λίστες με bullets, headings κ.ά.
 ```
 
 #### Περιγραφή πεδίων
@@ -85,7 +86,7 @@ featured: false
 | `logo` | string | ✅ | Path στο `/images/` |
 | `license` | string | ✅ | Άδεια (π.χ. `GPL-3.0`, `MIT`, `Apache-2.0`) |
 | `description` | string | ✅ | Σύντομη περιγραφή (1-2 προτάσεις) |
-| `featured` | boolean | ❌ | `true` = εμφανίζεται πρώτο & με badge |
+| `featured` | boolean | ❌ | `true` = εμφανίζεται στην αρχική σελίδα ως «Δημοφιλές» |
 
 #### Διαθέσιμες κατηγορίες
 ```
@@ -116,40 +117,125 @@ public/images/onoma-logismikou.png   ← (PNG γίνεται επίσης δεκ
 
 ## 🐳 Deploy με Docker
 
-### Build & Run
+Υπάρχουν **δύο τρόποι** deploy με Docker, ανάλογα με τις ανάγκες σας:
+
+---
+
+### 🔁 Τρόπος 1: Docker Compose με αυτόματο rebuild (συνιστάται για VM)
+
+Αυτή η προσέγγιση χρησιμοποιεί δύο containers και bind mounts, ώστε να **μην χρειάζεται rebuild του Docker image** κάθε φορά που προστίθεται νέο λογισμικό.
+
+#### Αρχιτεκτονική
+
+```
+VM (host filesystem)
+├── src/content/software/   ← βάλτε εδώ τα .md αρχεία
+└── public/images/          ← βάλτε εδώ τα logos
+        │
+        │  bind mount (παρακολουθείται αυτόματα)
+        ↓
+┌─────────────────────┐    shared volume    ┌─────────────────────┐
+│  builder container  │ ──── dist_data ───→ │  web (nginx:alpine) │
+│  (node:20-alpine)   │                     │  serve :80          │
+│                     │                     └─────────────────────┘
+│  1. Αρχικό build    │
+│  2. Παρακολούθηση  │
+│     αλλαγών        │
+│  3. Αυτόματο       │
+│     rebuild        │
+└─────────────────────┘
+```
+
+#### Εκκίνηση
 
 ```bash
-# 1. Κατασκευή image
+# Πρώτη φορά — clone + build + start
+git clone https://gitlab.ellak.gr/mathe-ellak/mathe-ellak.gr.git
+cd mathe-ellak.gr
+docker compose up -d --build
+```
+
+#### Προσθήκη νέου λογισμικού (χωρίς restart!)
+
+```bash
+# 1. Δημιουργήστε το .md αρχείο στο host
+nano src/content/software/νεο-λογισμικο.md
+
+# 2. Αντιγράψτε το logo
+cp /path/to/logo.png public/images/νεο-λογισμικο.png
+
+# → Ο builder ανιχνεύει αυτόματα την αλλαγή
+#   και κάνει rebuild σε ~15-30 δευτερόλεπτα.
+#   Δεν χρειάζεται restart ή docker build!
+```
+
+#### Παρακολούθηση rebuild
+
+```bash
+# Δείτε τα logs του builder σε πραγματικό χρόνο
+docker compose logs -f builder
+```
+
+Θα δείτε κάτι σαν:
+```
+builder  | ✓ Initial build complete.
+builder  | Watching for changes in: src/content/software public/images
+builder  |
+builder  |   ↻  Change detected — rebuilding...
+builder  |   ✓ Rebuild complete.
+```
+
+#### Update κώδικα (components, layouts, styles)
+
+Αν αλλάξετε τον κώδικα του site (όχι μόνο περιεχόμενο), χρειάζεται rebuild του image:
+
+```bash
+git pull
+docker compose up -d --build
+```
+
+#### Αρχεία Docker Compose
+
+| Αρχείο | Σκοπός |
+|--------|--------|
+| `docker-compose.yml` | Ορίζει τις υπηρεσίες builder + web και τα volumes |
+| `Dockerfile.builder` | Image του builder με Node.js και inotify-tools |
+| `docker-watch.sh` | Script παρακολούθησης αλλαγών και αυτόματου rebuild |
+| `nginx.conf` | Ρύθμιση Nginx (χρησιμοποιείται από το web container) |
+
+---
+
+### 📦 Τρόπος 2: Single-container (απλός, για static deploy)
+
+Κατάλληλο για περιπτώσεις όπου το περιεχόμενο αλλάζει σπάνια.
+Κάθε φορά που προσθέτετε λογισμικό, χρειάζεται νέο `docker build`.
+
+```bash
+# Build image
 docker build -t mathe-ellak .
 
-# 2. Εκτέλεση container (port 8080 → 80)
+# Εκτέλεση (port 8080 → 80)
 docker run -d -p 8080:80 --name mathe-ellak mathe-ellak
 
-# 3. Επίσκεψη στο http://localhost:8080
+# Επίσκεψη στο http://your-vm-ip:8080
 ```
 
-### Με Docker Compose
-
-Δημιουργήστε ένα `docker-compose.yml`:
-
-```yaml
-version: '3.8'
-services:
-  web:
-    build: .
-    ports:
-      - "8080:80"
-    restart: unless-stopped
-```
-
-```bash
-docker compose up -d
-```
-
-### Multi-stage build λεπτομέρειες
-
+**Multi-stage build λεπτομέρειες:**
 - **Stage 1** (`node:20-alpine`): Εγκαθιστά dependencies και κάνει `npm run build`
 - **Stage 2** (`nginx:alpine`): Αντιγράφει μόνο τα built static files → ελάχιστο μέγεθος image (~25MB)
+
+---
+
+### Σύγκριση τρόπων Docker deploy
+
+| | Τρόπος 1 (Compose + watcher) | Τρόπος 2 (Single container) |
+|---|---|---|
+| Προσθήκη .md | ✅ Αυτόματα, χωρίς restart | ❌ Χρειάζεται `docker build` |
+| Προσθήκη logo | ✅ Αυτόματα, χωρίς restart | ❌ Χρειάζεται `docker build` |
+| Update κώδικα | `docker compose up --build` | `docker build && docker run` |
+| Πολυπλοκότητα | Μέτρια (2 containers) | Απλή (1 container) |
+| Κατανάλωση RAM | ~150–200MB | ~10MB |
+| Κατάλληλο για | VM με συχνές ενημερώσεις | Static / σπάνιες αλλαγές |
 
 ---
 
@@ -190,34 +276,40 @@ docker compose up -d
 .
 ├── src/
 │   ├── content/
-│   │   ├── config.ts              # Zod schema για Content Collections
-│   │   └── software/              # Ένα .md αρχείο ανά λογισμικό
+│   │   ├── content.config.ts          # Zod schema για Content Collections
+│   │   └── software/                  # Ένα .md αρχείο ανά λογισμικό
 │   │       ├── libreoffice.md
 │   │       ├── gimp.md
 │   │       └── ...
 │   ├── components/
-│   │   ├── Header.astro           # Sticky header + dark mode toggle
-│   │   ├── Hero.astro             # Hero section με search bar
-│   │   ├── CategoryFilter.astro   # Pill buttons φιλτραρίσματος
-│   │   ├── SoftwareCard.astro     # Κάρτα λογισμικού
-│   │   ├── SoftwareGrid.astro     # Grid + client-side search
+│   │   ├── Header.astro               # Sticky header + dark mode toggle
+│   │   ├── Hero.astro                 # Hero section με search bar
+│   │   ├── CategoryFilter.astro       # Pill buttons φιλτραρίσματος
+│   │   ├── SoftwareCard.astro         # Κάρτα λογισμικού
+│   │   ├── SoftwareGrid.astro         # Grid + client-side search
 │   │   └── Footer.astro
 │   ├── layouts/
-│   │   └── BaseLayout.astro       # HTML shell + SEO + dark mode init
+│   │   └── BaseLayout.astro           # HTML shell + SEO + dark mode init
 │   ├── pages/
-│   │   ├── index.astro            # Αρχική σελίδα
-│   │   ├── suggest.astro          # Φόρμα πρότασης
-│   │   ├── success.astro          # Σελίδα επιτυχίας μετά υποβολή
-│   │   ├── category/[slug].astro  # Δυναμική σελίδα κατηγορίας
-│   │   └── software/[slug].astro  # Δυναμική σελίδα λεπτομερειών
+│   │   ├── index.astro                # Αρχική σελίδα
+│   │   ├── suggest.astro              # Φόρμα πρότασης
+│   │   ├── success.astro              # Σελίδα επιτυχίας μετά υποβολή
+│   │   ├── category/[slug].astro      # Δυναμική σελίδα κατηγορίας
+│   │   └── software/[slug].astro      # Δυναμική σελίδα λεπτομερειών
+│   ├── utils/
+│   │   └── slugify.ts                 # Μετατροπή ελληνικών σε URL slugs
 │   └── styles/
-│       └── global.css             # Tailwind imports + base styles
+│       └── global.css                 # Tailwind imports + base styles + prose
 ├── public/
-│   ├── favicon.svg
-│   └── images/                    # Λογότυπα λογισμικού
-├── Dockerfile                     # Multi-stage: node + nginx
-├── nginx.conf                     # Nginx config για Docker
-├── netlify.toml                   # Netlify build + redirects + headers
+│   ├── favicon.ico                    # Favicon (δημιουργήθηκε από ellak_logo.png)
+│   ├── ellak_logo.png                 # Λογότυπο ΕΛ/ΛΑΚ (header + favicon)
+│   └── images/                        # Λογότυπα λογισμικού
+├── Dockerfile                         # Single-container: node build + nginx serve
+├── Dockerfile.builder                 # Builder image για το Docker Compose setup
+├── docker-compose.yml                 # Compose: builder (watcher) + web (nginx)
+├── docker-watch.sh                    # Script αυτόματης παρακολούθησης & rebuild
+├── nginx.conf                         # Nginx config (gzip, cache, security headers)
+├── netlify.toml                       # Netlify build + redirects + headers
 ├── .dockerignore
 └── astro.config.mjs
 ```

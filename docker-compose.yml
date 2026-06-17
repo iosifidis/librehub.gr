@@ -1,0 +1,46 @@
+services:
+
+  # ── Builder / Watcher ────────────────────────────────────────────────────
+  # Builds the Astro site and watches for content/image changes.
+  # src/content/software/ and public/images/ are bind-mounted from the host,
+  # so you can add .md files or logos directly on the VM without touching
+  # Docker. The builder detects the change and rebuilds automatically.
+  builder:
+    build:
+      context: .
+      dockerfile: Dockerfile.builder
+    volumes:
+      # ── Bind mounts (host → container) ───────────────────────
+      # Edit these on the VM; the watcher will pick up the change.
+      - ./src/content/software:/app/src/content/software
+      - ./public/images:/app/public/images
+      # ── Shared output volume (builder → web) ─────────────────
+      - dist_data:/app/dist
+    restart: unless-stopped
+
+  # ── Web / Nginx ──────────────────────────────────────────────────────────
+  # Serves the pre-built static files from the shared dist_data volume.
+  # No Node.js at runtime — ultra-lightweight.
+  web:
+    image: nginx:alpine
+    volumes:
+      # Serve the built site
+      - dist_data:/usr/share/nginx/html:ro
+      # Images are also accessible directly (optional, dist already has them)
+      - ./public/images:/usr/share/nginx/html/images:ro
+      # Nginx config
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "80:80"
+    depends_on:
+      - builder
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+# ── Named volume shared between builder and web ────────────────────────────
+volumes:
+  dist_data:
