@@ -3,7 +3,7 @@ title: "Apache HTTP Server"
 alternative_to: ["Microsoft IIS", "Nginx (commercial support)", "LiteSpeed"]
 categories: ["Ανάπτυξη Λογισμικού", "Server", "Web"]
 website: "https://httpd.apache.org/"
-logo: "/images/apache.png"
+logo: "/images/apache.jpg"
 license: "Apache-2.0"
 description: "Ο πιο διαδεδομένος και ώριμος διακομιστής ιστού (web server) παγκοσμίως, γνωστός για την ευελιξία του, την εκτεταμένη διαμόρφωση ανά φάκελο (.htaccess) και τη δυνατότητα δυναμικής φόρτωσης modules."
 featured: true
