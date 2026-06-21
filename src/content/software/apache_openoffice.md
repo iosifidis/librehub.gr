@@ -1,7 +1,7 @@
 ---
 title: "Apache OpenOffice"
 alternative_to: ["Microsoft Office", "Word", "Excel", "PowerPoint"]
-categories: ["Γραφείο", "Παραγωγικότητα"]
+categories: ["Γραφείο", "Παραγωγικότητα", "Σουίτα Γραφείου"]
 website: "https://www.openoffice.org/el/"
 logo: "/images/openoffice.png"
 license: "Apache-2.0"
