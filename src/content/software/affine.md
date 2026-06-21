@@ -1,9 +1,9 @@
 ---
-title: "AFFiNE (All-in-one Workspace)"
+title: "AFFiNE"
 alternative_to: ["Notion", "Miro", "Obsidian (markdown notes)", "Coda"]
 categories: ["Σημειώσεις", "Λευκοπίνακες", "Παραγωγικότητα"]
 website: "https://affine.pro/"
-logo: "/images/placeholder.svg"
+logo: "/images/aaffine.png"
 license: "MIT (core), Commercial (Cloud)"
 description: "Μια πλατφόρμα εργασίας ανοιχτού κώδικα (all-in-one workspace) που συνδυάζει **σημειώσεις**, **έγγραφα** (blocks), **λευκοπίνακες** (whiteboard), **πίνακες** (databases), και **σχεδίαση** σε ένα ενιαίο περιβάλλον, εμπνευσμένη από το Notion (blocks) και το Miro (whiteboard). Υποστηρίζει Edgeless (free form) mode και Page mode (δομημένο). Το περιεχόμενο αποθηκεύεται τοπικά (client-side) και μπορεί να συγχρονιστεί με self-hosted server (AFFiNE Server). Ιδανικό για γνωσιακή βάση (knowledge base), project management, και team collaboration."
 featured: false
@@ -11,7 +11,7 @@ featured: false
 
 Το AFFiNE (το όνομα προέρχεται από τα αρχικά "A Free Future In Notion Experience") είναι μια πολλά υποσχόμενη open-source εναλλακτική του Notion, με έμφαση στην ιδιωτικότητα (offline-first) και στην ελευθερία μορφής (Edgeless mode).
 
-**Βασικές Λειτουργίες (Modes):**
+**Βασικές Λειτουργίες:**
 
 - **Page Mode (Λειτουργία σελίδας):** Δομημένη εγγραφή με blocks (παρόμοια με Notion). Υποστηρίζει επικεφαλίδες, λίστες (ordered/unordered/checklist), code blocks (highlighting), μαθηματικά (LaTeX), εικόνες, πίνακες, διαιρέσεις, quotes, callouts.
 - **Edgeless Mode (Λευκοπίνακας):** Σχεδίαση ελεύθερης μορφής (σαν το Excalidraw) με πλαίσια (rectangles), βέλη (arrows), σχήματα, χειρόγραφο κείμενο, εικόνες. Μπορείτε να ομαδοποιείτε αντικείμενα, να δημιουργείτε mind maps.
