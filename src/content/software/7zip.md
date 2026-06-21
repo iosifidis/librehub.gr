@@ -6,7 +6,7 @@ website: "https://www.7-zip.org/"
 logo: "/images/7zip.svg"
 license: "LGPL-2.1"
 description: "Το κορυφαίο ανοιχτού κώδικα εργαλείο συμπίεσης και αποσυμπίεσης αρχείων, με εξαιρετικό compression ratio — ειδικά στη μορφή 7z (LZMA/LZMA2). Υποστηρίζει ZIP, RAR, TAR, GZIP, BZIP2, XZ, ISO, CAB και δεκάδες άλλες μορφές, με ενσωματωμένη AES-256 κρυπτογράφηση."
-featured: true
+featured: false
 ---
 Το 7-Zip είναι η αδιαμφισβήτητη επιλογή για συμπίεση αρχείων — δωρεάν, χωρίς nag screens, χωρίς «δοκιμαστικές περιόδους» (σε αντίθεση με το WinRAR που το χρησιμοποιεί ο κόσμος «δωρεάν» εδώ και 30 χρόνια παρακάμπτοντας το registration). Προσφέρει καλύτερο compression ratio από ZIP και ισάξιο ή ανώτερο από RAR.
 
