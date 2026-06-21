@@ -1,4 +1,4 @@
-# Μάθε για το ΕΛ/ΛΑΚ — Κατάλογος Ελεύθερου Λογισμικού
+# LibreHub — Κατάλογος Ελεύθερου Λογισμικού
 
 Ένας σύγχρονος, γρήγορος κατάλογος ελεύθερου και ανοιχτού κώδικα λογισμικού (ΕΛ/ΛΑΚ), φτιαγμένος με **Astro** + **Tailwind CSS**. Αντικαθιστά τον παλαιό ιστότοπο WordPress.
 
@@ -22,8 +22,8 @@
 
 ```bash
 # 1. Κλωνοποίηση / μετάβαση στον κατάλογο
-git clone https://gitlab.ellak.gr/mathe-ellak/mathe-ellak.gr.git
-cd mathe-ellak.gr
+git clone https://gitlab.com/librehub
+cd librehub
 
 # 2. Εγκατάσταση dependencies
 npm install
@@ -139,10 +139,10 @@ VM (host filesystem)
 │  (node:20-alpine)   │                     │  serve :80          │
 │                     │                     └─────────────────────┘
 │  1. Αρχικό build    │
-│  2. Παρακολούθηση  │
-│     αλλαγών        │
-│  3. Αυτόματο       │
-│     rebuild        │
+│  2. Παρακολούθηση   │
+│     αλλαγών         │
+│  3. Αυτόματο        │
+│     rebuild         │
 └─────────────────────┘
 ```
 
@@ -212,16 +212,16 @@ docker compose up -d --build
 
 ```bash
 # Build image
-docker build -t mathe-ellak .
+docker build -t librehub .
 
 # Εκτέλεση (port 8080 → 80)
-docker run -d -p 8080:80 --name mathe-ellak mathe-ellak
+docker run -d -p 8080:80 --name librehub librehub
 
 # Επίσκεψη στο http://your-vm-ip:8080
 ```
 
 **Multi-stage build λεπτομέρειες:**
-- **Stage 1** (`node:20-alpine`): Εγκαθιστά dependencies και κάνει `npm run build`
+- **Stage 1** (`node:22-alpine`): Εγκαθιστά dependencies και κάνει `npm run build`
 - **Stage 2** (`nginx:alpine`): Αντιγράφει μόνο τα built static files → ελάχιστο μέγεθος image (~25MB)
 
 ---
