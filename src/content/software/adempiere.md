@@ -1,9 +1,9 @@
 ---
 title: "ADempiere"
 alternative_to: ["SAP ERP (Small/Medium Business)", "Oracle E-Business Suite", "Compiere ERP"]
-categories: ["Παραγωγικότητα", "Cloud", "ERP", "CRM", "SCM", "Γραφείο"]
+categories: ["Παραγωγικότητα", "ERP", "CRM", "SCM", "Επιχείρηση"]
 website: "https://adempiere.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/adempiere.svg"
 license: "GPL-2.0"
 description: "Ολοκληρωμένο σύστημα ERP, CRM και SCM ανοιχτού κώδικα (fork του Compiere), σχεδιασμένο για μεσαίες και μεγάλες επιχειρήσεις, με έμφαση στην επεκτασιμότητα, τις πολλαπλές οντότητες και το προηγμένο reporting."
 featured: false
