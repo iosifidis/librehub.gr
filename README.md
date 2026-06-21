@@ -113,6 +113,54 @@ public/images/onoma-logismikou.png   ← (PNG γίνεται επίσης δεκ
 - Αν χρησιμοποιείτε PNG/JPEG: ιδανικό μέγεθος **256×256px** ή **512×512px**
 - Βεβαιωθείτε ότι το path στο frontmatter (`logo`) αντιστοιχεί ακριβώς στο αρχείο
 
+
+---
+
+## 🎨 Προσαρμογή Επωνυμίας & Λογοτύπων (Branding)
+
+Για να αλλάξετε την επωνυμία (τίτλους, λογότυπα, favicons) της εφαρμογής, επεξεργαστείτε τα παρακάτω αρχεία:
+
+### 1. Λογότυπο & Κείμενο στο Header (Πάνω αριστερά)
+*   **Αρχείο λογοτύπου:** Τοποθετήστε το νέο σας λογότυπο στο `public/librehub_logo.png` (ή όποιο όνομα επιλέξετε).
+*   **Κώδικας Header:** Επεξεργαστείτε το αρχείο `src/components/Header.astro`. Στις γραμμές 11-20 θα βρείτε το tag `<img>` και τα κείμενα δίπλα του:
+    ```astro
+    <img
+      src="/librehub_logo.png"
+      alt="LibreHub logo"
+      class="h-9 w-auto object-contain"
+    />
+    <div class="hidden sm:block">
+      <span class="ml-1 text-lg font-bold text-green-600 dark:text-green-400 leading-tight">LibreHub</span>
+      <span class="text-lg font-bold text-gray-900 dark:text-white leading-tight">ο κόμβος του ανοιχτού λογισμικού</span>
+    </div>
+    ```
+
+### 2. Εικονίδιο Σελίδας (Favicon & Apple Icon)
+*   **Αρχείο Favicon:** Αντικαταστήστε τα αρχεία `public/favicon.ico` και `public/librehub_logo.png` με τα δικά σας εικονίδια.
+*   **Κώδικας Layout:** Στο αρχείο `src/layouts/BaseLayout.astro` (γραμμές 24-26) ορίζονται τα εικονίδια που φορτώνει ο browser:
+    ```astro
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/librehub_logo.png" sizes="200x200" />
+    <link rel="apple-touch-icon" href="/librehub_logo.png" />
+    ```
+    > **Tip:** Επειδή οι browsers αποθηκεύουν τα favicons στην cache τους πολύ επιθετικά, αν αλλάξετε το εικονίδιο και δεν το βλέπετε, προσθέστε μια παράμετρο ανανέωσης στο τέλος του path (π.χ. `href="/favicon.ico?v=3"`).
+
+### 3. Τίτλος Σελίδας & Bookmarks (Browser Tab Title)
+Ο τίτλος της σελίδας (αυτός που φαίνεται στο tab του browser και αποθηκεύεται στα Bookmarks) αποτελείται από δύο μέρη:
+*   **Το σταθερό κομμάτι / κατάληξη (π.χ. " | LibreHub"):**
+    Ορίζεται κεντρικά στο αρχείο `src/layouts/BaseLayout.astro` (γραμμή 30 και 37):
+    ```astro
+    <title>{title} | LibreHub</title>
+    ```
+*   **Το μεταβλητό κομμάτι (π.χ. "Ανοιχτές λύσεις για κάθε ανάγκη"):**
+    Ορίζεται ξεχωριστά σε κάθε σελίδα ως παράμετρος. Για παράδειγμα, στην αρχική σελίδα ορίζεται στο αρχείο `src/pages/index.astro` (γραμμή 19):
+    ```astro
+    <BaseLayout
+      title="Ανοιχτές λύσεις για κάθε ανάγκη"
+      description="..."
+    >
+    ```
+
 ---
 
 ## 🐳 Deploy με Docker
