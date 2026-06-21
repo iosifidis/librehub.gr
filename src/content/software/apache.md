@@ -1,9 +1,9 @@
 ---
 title: "Apache HTTP Server"
 alternative_to: ["Microsoft IIS", "Nginx (commercial support)", "LiteSpeed"]
-categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Server"]
+categories: ["Ανάπτυξη Λογισμικού", "Server", "Web"]
 website: "https://httpd.apache.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/apache.png"
 license: "Apache-2.0"
 description: "Ο πιο διαδεδομένος και ώριμος διακομιστής ιστού (web server) παγκοσμίως, γνωστός για την ευελιξία του, την εκτεταμένη διαμόρφωση ανά φάκελο (.htaccess) και τη δυνατότητα δυναμικής φόρτωσης modules."
 featured: true
@@ -19,9 +19,4 @@ featured: true
 - **Επεκτασιμότητα (Extensibility):** Πάνω από 100 επίσημα modules (rewriting – mod_rewrite, proxying, SSI, CGI, scripting (PHP via mod_php), WebDAV, FTP, κ.ά.).
 - **Φορητότητα (Portability):** Λειτουργεί σε Linux, Windows, macOS, BSD, Solaris, και άλλα Unix-like συστήματα.
 
-**Εκδόσεις & Συντήρηση:**
-
-- **2.4.x (stable):** Η τρέχουσα κύρια έκδοση, με τακτικές ενημερώσεις (π.χ. 2.4.68, Ιούνιος 2026). Απαιτείται 2.4.43+ για TLS 1.3 με OpenSSL 1.1.1.
-- **2.2.x (EOL):** End-of-Life από το 2017 (τελευταία έκδοση 2.2.34). Δεν λαμβάνει patches ασφαλείας.
-
-> **Σημείωση:** Ο Apache είναι ιδανικός για shared hosting (.htaccess), πολύπλοκες ρυθμίσεις URL rewriting, και περιβάλλοντα με πολλαπλές εφαρμογές. Για ακραία υψηλή ταυτοχρονία (concurrency) static files, το Nginx συχνά υπερέχει, αλλά ο Apache παραμένει το πιο ευέλικτο και καλά τεκμηριωμένο web server.
+> **Σημείωση:** Ο Apache είναι ιδανικός για shared hosting (.htaccess), πολύπλοκες ρυθμίσεις URL rewriting, και περιβάλλοντα με πολλαπλές εφαρμογές. Για ακραία υψηλό concurrency static files, ο Nginx συχνά υπερέχει, αλλά ο Apache παραμένει ο πιο ευέλικτος και καλά τεκμηριωμένο web server.
