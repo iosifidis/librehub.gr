@@ -1,7 +1,7 @@
 ---
 title: "Amarok"
-alternative_to: ["Apple iTunes"]
-categories: ["Πολυμέσα", "Εργαλεία"]
+alternative_to: ["Apple iTunes", "Winamp"]
+categories: ["Πολυμέσα", "Μουσική"]
 website: "https://amarok.kde.org/"
 logo: "/images/amarok.svg"
 license: "GPL-2.0"
