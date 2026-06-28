@@ -3,7 +3,7 @@ title: "Audacious"
 alternative_to: ["Winamp"]
 categories: ["Πολυμέσα", "Εργαλεία", "Μουσική"]
 website: "https://audacious-media-player.org/"
-logo: "/images/audacious.svg"
+logo: "/images/audacious.png"
 license: "BSD-2-Clause"
 description: "Προηγμένος αναπαραγωγέας ήχου με εστίαση στη χαμηλή κατανάλωση πόρων και την υψηλή ποιότητα ήχου. Υποστηρίζει Winamp skins (Classic interface) ή σύγχρονη Qt διεπαφή, gapless playback, equalizer 10-band, LADSPA plugins, internet radio, Last.fm scrobbling και ευρεία γκάμα formats."
 featured: false
