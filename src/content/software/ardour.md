@@ -3,7 +3,7 @@ title: "Ardour"
 alternative_to: ["Adobe Audition", "Apple Logic Pro"]
 categories: ["Επεξεργασία Ήχου", "Πολυμέσα"]
 website: "https://ardour.org/"
-logo: "/images/ardour.svg"
+logo: "/images/ardour.png"
 license: "GPL-2.0"
 description: "Επαγγελματικός Digital Audio Workstation (DAW) για εγγραφή, επεξεργασία, μίξη και mastering πολυκάναλου ήχου. Υποστηρίζει MIDI, εκατοντάδες plugins (LV2, VST, AU), non-destructive editing, automation lanes και professional routing μέσω JACK — ιδανικός για μουσικούς, ηχολήπτες και ραδιοφωνικούς παραγωγούς."
 featured: false
