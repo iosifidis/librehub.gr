@@ -3,7 +3,7 @@ title: "Atom"
 alternative_to: ["Sublime Text (commercial)", "Visual Studio Code (proprietary core)", "Brackets"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://atom.io/"
-logo: "/images/atom.svg"
+logo: "/images/atom.png"
 license: "MIT"
 description: "Σύγχρονος, πλήρως παραμετροποιήσιμος επεξεργαστής κώδικα (hackable editor) που αναπτύχθηκε από το GitHub. Χρησιμοποιεί Electron (Chromium + Node.js) και υποστηρίζει χιλιάδες plugins για Git integration, linting, autocompletion, themes, και συνεργασία σε πραγματικό χρόνο."
 featured: false
