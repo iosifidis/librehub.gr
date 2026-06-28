@@ -1,9 +1,9 @@
 ---
 title: "Argos Translate"
 alternative_to: ["Google Translate", "Microsoft Translator", "DeepL (Pro offline)"]
-categories: ["Εργαλεία", "Ιδιωτικότητα", "Εκπαίδευση", "Γραφείο"]
+categories: ["Ιδιωτικότητα", "Μετάφραση", "Εργαλεία", "Γραφείο"]
 website: "https://www.argosopentech.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/argos.png"
 license: "GPL-3.0 (library), MIT (GUI)"
 description: "Ελαφριά βιβλιοθήκη αυτόματης μετάφρασης (νευρωνικά δίκτυα) γραμμένη σε Python, που λειτουργεί πλήρως offline, χωρίς cloud ή API calls, και αποτελεί τη μηχανή πίσω από το LibreTranslate."
 featured: false
