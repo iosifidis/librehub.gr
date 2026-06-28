@@ -3,13 +3,13 @@ title: "Atom"
 alternative_to: ["Sublime Text (commercial)", "Visual Studio Code (proprietary core)", "Brackets"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://atom.io/"
-logo: "/images/placeholder.svg"
-license: "MIT (open source)"
-description: "Σύγχρονος, πλήρως παραμετροποιήσιμος επεξεργαστής κώδικα (hackable editor) που αναπτύχθηκε από το GitHub. Χρησιμοποιεί Electron (Chromium + Node.js) και υποστηρίζει χιλιάδες plugins (packages) για Git integration, linting, autocompletion, themes, και συνεργασία σε πραγματικό χρόνο (Teletype)."
+logo: "/images/atom.svg"
+license: "MIT"
+description: "Σύγχρονος, πλήρως παραμετροποιήσιμος επεξεργαστής κώδικα (hackable editor) που αναπτύχθηκε από το GitHub. Χρησιμοποιεί Electron (Chromium + Node.js) και υποστηρίζει χιλιάδες plugins για Git integration, linting, autocompletion, themes, και συνεργασία σε πραγματικό χρόνο."
 featured: false
 ---
 
-**Σημαντική ενημέρωση:** Το Atom **έπαψε να υποστηρίζεται επίσημα** από τις **15 Δεκεμβρίου 2022**. Το GitHub (νυν Microsoft) ανακοίνωσε το sunset του Atom, προτείνοντας μετάβαση στο **Visual Studio Code** (το οποίο βασίζεται σε πολλές ιδέες του Atom, συμπεριλαμβανομένου του Electron). Αν και το repository είναι ακόμα διαθέσιμο (read-only), δεν υπάρχουν ενημερώσεις ασφαλείας ή νέα features.
+**Σημαντική ενημέρωση:** Το Atom **έπαψε να υποστηρίζεται επίσημα** από τις **15 Δεκεμβρίου 2022**. Το GitHub ανακοίνωσε το sunset του Atom, προτείνοντας μετάβαση στο **Visual Studio Code** (το οποίο βασίζεται σε πολλές ιδέες του Atom, συμπεριλαμβανομένου του Electron). Αν και το repository είναι ακόμα διαθέσιμο (read-only), δεν υπάρχουν ενημερώσεις ασφαλείας ή νέα features.
 
 **Ιστορικά σημαντικές δυνατότητες (όταν ήταν active):**
 
