@@ -1,9 +1,9 @@
 ---
 title: "Brackets"
 alternative_to: ["Adobe Dreamweaver (proprietary)", "Visual Studio Code", "Sublime Text"]
-categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
+categories: ["Ανάπτυξη Λογισμικού", "Editor", "Προγραμματισμός"]
 website: "https://brackets.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/brackets.svg"
 license: "MIT"
 description: "Σύγχρονος, ανοιχτού κώδικα επεξεργαστής κώδικα με έμφαση στη web design (HTML, CSS, JavaScript). Διαθέτει μοναδικά χαρακτηριστικά: Live Preview (αλλαγές CSS/HTML εμφανίζονται σε πραγματικό χρόνο στον browser), inline editing για CSS properties, και Preprocessor support (LESS, SCSS)."
 featured: false

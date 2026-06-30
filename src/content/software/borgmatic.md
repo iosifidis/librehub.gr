@@ -1,7 +1,7 @@
 ---
 title: "Borgmatic"
 alternative_to: ["Acronis", "Time Machine"]
-categories: ["Εργαλεία", "Ασφάλεια", "Λειτουργικά Συστήματα"]
+categories: ["Εργαλεία", "Ασφάλεια", "Backup"]
 website: "https://torsion.org/borgmatic/"
 logo: "/images/borgmatic.svg"
 license: "GPL-3.0"

@@ -1,7 +1,7 @@
 ---
 title: "Atom"
 alternative_to: ["Sublime Text (commercial)", "Visual Studio Code (proprietary core)", "Brackets"]
-categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
+categories: ["Ανάπτυξη Λογισμικού", "Editor", "Προγραμματισμός"]
 website: "https://atom.io/"
 logo: "/images/atom.png"
 license: "MIT"

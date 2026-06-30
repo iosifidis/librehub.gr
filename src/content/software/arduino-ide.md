@@ -6,7 +6,7 @@ website: "https://www.arduino.cc/en/software"
 logo: "/images/arduino.png"
 license: "GPL-2.0"
 description: "Ολοκληρωμένο περιβάλλον ανάπτυξης (IDE) για προγραμματισμό πλακετών Arduino και συμβατών μικροελεγκτών. Απλή C/C++ σύνταξη, ενσωματωμένος compiler, serial monitor, library manager και plotter — ιδανικό για εκπαίδευση, IoT projects και physical computing."
-featured: true
+featured: false
 ---
 Το Arduino IDE είναι η πύλη εισόδου εκατοντάδων εκατομμυρίων χρηστών στον κόσμο του embedded programming. Η Arduino πλατφόρμα έκανε τον μικροελεγκτή προσβάσιμο σε καλλιτέχνες, εκπαιδευτικούς και hobbyists — χωρίς ανάγκη για βαθιές γνώσεις ηλεκτρονικής.
 

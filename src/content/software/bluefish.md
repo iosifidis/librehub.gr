@@ -1,9 +1,9 @@
 ---
 title: "Bluefish"
 alternative_to: ["Adobe Dreamweaver (proprietary)", "VS Code (for web dev)", "Sublime Text"]
-categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
+categories: ["Ανάπτυξη Λογισμικού", "Editor", "Προγραμματισμός"]
 website: "https://bluefish.openoffice.nl/"
-logo: "/images/placeholder.svg"
+logo: "/images/bluefish.png"
 license: "GPL-3.0"
 description: "Ισχυρός, γρήγορος (GTK-based) επεξεργαστής κώδικα με έμφαση στη web development (HTML, CSS, JavaScript, PHP, SQL) και τον προγραμματισμό (C, C++, Java, Perl, Python). Διαθέτει μοναδικά 'wizards' για γρήγορο scaffolding, multiple document interface, project support, και advanced search/replace (regex, multi-line)."
 featured: false

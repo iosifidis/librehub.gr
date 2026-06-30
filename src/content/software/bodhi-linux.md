@@ -3,7 +3,7 @@ title: "Bodhi Linux"
 alternative_to: ["Microsoft Windows", "macOS"]
 categories: ["Λειτουργικά Συστήματα"]
 website: "https://www.bodhilinux.com/"
-logo: "/images/bodhi-linux.svg"
+logo: "/images/bodhilinux.png"
 license: "GPL-2.0"
 description: "Ελαφριά διανομή Linux βασισμένη στο Ubuntu LTS, με το μοναδικό γραφικό περιβάλλον Moksha (fork του Enlightenment). Γνωστή για την εξαιρετικά χαμηλή κατανάλωση πόρων, την ασυνήθιστη αισθητική και την ικανότητά της να τρέχει σε πολύ παλαιό υλικό — ακόμα και σε υπολογιστές με 256MB RAM."
 featured: false

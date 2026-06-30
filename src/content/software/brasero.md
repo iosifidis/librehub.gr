@@ -3,7 +3,7 @@ title: "Brasero"
 alternative_to: ["Nero Burning ROM"]
 categories: ["Εργαλεία", "Πολυμέσα"]
 website: "https://wiki.gnome.org/Apps/Brasero"
-logo: "/images/brasero.svg"
+logo: "/images/brasero.png"
 license: "GPL-2.0"
 description: "Απλή και λειτουργική εφαρμογή εγγραφής οπτικών δίσκων για το GNOME περιβάλλον. Υποστηρίζει εγγραφή δεδομένων, audio CD, Video DVD, αντιγραφή δίσκων και εγγραφή ISO images — με καθαρή, διαισθητική διεπαφή που ακολουθεί τις αρχές σχεδίασης GNOME."
 featured: false

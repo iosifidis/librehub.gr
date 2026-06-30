@@ -6,7 +6,7 @@ website: "https://guacamole.apache.org/"
 logo: "/images/placeholder.svg"
 license: "Apache-2.0"
 description: "Μια πύλη απομακρυσμένης επιφάνειας εργασίας που σας επιτρέπει να συνδέεστε σε RDP, SSH, VNC, και Kubernetes (K8s) servers **χωρίς την εγκατάσταση client**. Απαιτεί μόνο ένα browser (HTML5, WebSocket). Ο Guacamole server δρα ως γέφυρα (proxy) μεταξύ του browser και των backend servers. Ιδανικό για οργανισμούς που θέλουν να προσφέρουν ασφαλή πρόσβαση σε εσωτερικές υποδομές μέσω internet χωρίς VPN."
-featured: true
+featured: false
 ---
 
 Το Apache Guacamole είναι μια "clientless" λύση: οι τελικοί χρήστες δεν χρειάζεται να εγκαταστήσουν RDP client, SSH client, ή VPN. Ανοίγουν τον browser (https://guacamole.example.com), πιστοποιούνται, και βλέπουν μια λίστα από connections (RDP to Windows, SSH to Linux). Ο Guacamole χειρίζεται τα πρωτόκολλα και κάνει rendering σε HTML5.
