@@ -1,7 +1,7 @@
 ---
 title: "Apache HTTP Server"
 alternative_to: ["Microsoft IIS", "Nginx (commercial support)", "LiteSpeed"]
-categories: ["Ανάπτυξη Λογισμικού", "Server", "Web"]
+categories: ["Ανάπτυξη Λογισμικού", "Server", "Reverse Proxy", "Web"]
 website: "https://httpd.apache.org/"
 logo: "/images/apache.png"
 license: "Apache-2.0"
