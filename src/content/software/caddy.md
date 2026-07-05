@@ -1,9 +1,9 @@
 ---
 title: "Caddy Server"
 alternative_to: ["Microsoft IIS", "Nginx Plus", "Apache (with manual SSL)"]
-categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Server"]
+categories: ["Reverse Proxy", "Server", "Web", "Ανάπτυξη Λογισμικού"]
 website: "https://caddyserver.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/caddy.png"
 license: "Apache-2.0"
 description: "Σύγχρονος, εξαιρετικά εύκολος web server (γραμμένος σε Go) που παρέχει αυτόματη διαχείριση πιστοποιητικών TLS (HTTPS) από προεπιλογή – χωρίς καμία ρύθμιση. Υποστηρίζει HTTP/3, reverse proxy, load balancing, και dynamic configuration (API)."
 featured: false
