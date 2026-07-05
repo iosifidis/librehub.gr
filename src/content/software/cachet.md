@@ -1,9 +1,9 @@
 ---
-title: "Cachet (Status Page)"
+title: "Cachet"
 alternative_to: ["Statuspage.io (commercial, Atlassian)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Παρακολούθηση"]
 website: "https://cachethq.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/cachet.png"
 license: "BSD-3-Clause"
 description: "Πλατφόρμα status page ανοιχτού κώδικα, γραμμένη σε PHP (Laravel). Σας επιτρέπει να δημιουργήσετε μια σελίδα όπου μπορείτε να ενημερώνετε τους χρήστες σας για την κατάσταση των υπηρεσιών (operational, degraded, outage), και να δημοσιεύετε προγραμματισμένες συντηρήσεις (incidents). Υποστηρίζει μετρικές (metrics), API, notifications (email), και πολλαπλές ομάδες. Δυστυχώς η ανάπτυξη έχει σταματήσει (τελευταίο commit 2022)."
 featured: false
