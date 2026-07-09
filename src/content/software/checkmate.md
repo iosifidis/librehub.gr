@@ -3,7 +3,7 @@ title: "Checkmate (Uptime Monitoring)"
 alternative_to: ["Pingdom (commercial)", "UptimeRobot (commercial tier)", "BetterStack Uptime (commercial)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Παρακολούθηση"]
 website: "https://github.com/bluewave-labs/Checkmate"
-logo: "/images/placeholder.svg"
+logo: "/images/checkmate.svg"
 license: "MIT"
 description: "Ελαφρύ, self-hosted εργαλείο παρακολούθησης uptime (εναλλακτική Pingdom/UptimeRobot). Υποστηρίζει monitoring HTTP(s), ping, ports, keywords, SSL expiry, και domain expiry. Διαθέτει status page, notifications (email, Slack, Discord, Webhook), και βασική αναφορά uptime. Ιδανικό για μικρές ομάδες που χρειάζονται απλό monitoring χωρίς την εγκατάσταση Zabbix."
 featured: false
