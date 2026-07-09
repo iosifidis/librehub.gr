@@ -1,12 +1,12 @@
 ---
 title: "CapRover"
 alternative_to: ["Heroku (PaaS)", "Dokku", "Netlify (static sites + functions)", "PaaS (self-hosted)"]
-categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Εργαλεία"]
+categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://caprover.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/caprover.png"
 license: "MIT"
 description: "Εξαιρετικά εύχρηστη πλατφόρμα διαχείρισης εφαρμογών και διακομιστών (self-hosted PaaS) με web GUI, CLI, και one-click apps. Βασίζεται σε Docker, nginx, Let's Encrypt, NetData, και Docker Swarm (clustering). Ιδανική εναλλακτική Heroku που τρέχει στον δικό σας server."
-featured: true
+featured: false
 ---
 
 Το CapRover είναι μια αυτο-φιλοξενούμενη πλατφόρμα PaaS που συνδυάζει την απλότητα του Heroku με την ευελιξία του Docker, προσφέροντας **web interface** (για non-technical χρήστες) και **CLI** (για αυτοματισμούς). Κάτω από την κουκούλα χρησιμοποιεί Docker Swarm (orchestration), nginx (reverse proxy), Let's Encrypt (αυτόματο SSL), και NetData (real-time monitoring). Μπορείτε να κάνετε deploy εφαρμογές (Node.js, Python, PHP, Java, Ruby, Go, .NET) ή one-click apps (WordPress, MySQL, MongoDB, PostgreSQL, etc.) με λίγα κλικ.
