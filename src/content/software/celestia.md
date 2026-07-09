@@ -3,7 +3,7 @@ title: "Celestia (3D Space Simulator)"
 alternative_to: ["Space Engine (commercial)", "Starry Night (space module)", "No Man's Sky (game)"]
 categories: ["Εκπαίδευση", "Αστρονομία", "3D Μοντελοποίηση"]
 website: "https://celestiaproject.space/"
-logo: "/images/placeholder.svg"
+logo: "/images/celestia.png"
 license: "GPL-2.0"
 description: "Ένας **τρισδιάστατος εξομοιωτής διαστήματος** που επιτρέπει στους χρήστες να ταξιδέψουν ελεύθερα στο ηλιακό σύστημα, σε κοντινούς αστέρες, ακόμα και σε γαλαξίες (beyond Milky Way). Σε αντίθεση με το Stellarium (που δείχνει τον ουρανό από τη Γη), το Celestia σας τοποθετεί μέσα στο διάστημα: μπορείτε να «πετάξετε» προς τον πλανήτη Δία, να δείτε τους δακτυλίους του Κρόνου, και να συνεχίσετε προς τον Αλφα Κενταύρου. Χρησιμοποιεί επιστημονικά δεδομένα (μέγεθος, απόσταση, τροχιά) για την απεικόνιση."
 featured: false
