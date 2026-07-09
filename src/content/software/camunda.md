@@ -1,9 +1,9 @@
 ---
 title: "Camunda (BPMN + DMN Workflow Engine)"
 alternative_to: ["Pega (commercial BPM)", "IBM Business Automation Workflow", "Appian (low-code BPM)", "Proprietary Workflow Engines"]
-categories: ["Αυτοματισμός", "Επιχειρήσεις", "Ανάπτυξη Λογισμικού"]
+categories: ["Αυτοματισμός", "Επιχειρήσεις", "Ανάπτυξη Λογισμικού", "Διαδικασίες"]
 website: "https://camunda.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/camunda.png"
 license: "Apache-2.0 (Camunda 7 Community Edition), Commercial (Camunda 8 SaaS/Enterprise)"
 description: "Η κορυφαία πλατφόρμα αυτοματισμού ροών εργασίας και διαδικασιών (workflow & decision automation), βασισμένη στα πρότυπα BPMN 2.0 (Business Process Model and Notation) και DMN 1.3 (Decision Model and Notation). Χρησιμοποιείται για την ψηφιοποίηση και αυτοματοποίηση σύνθετων διοικητικών διαδικασιών, από microservices orchestration έως human task management (approvals). Η Camunda 8 προσθέτει horizontal scalability, Zeebe engine, και cloud-native deployment (Kubernetes)."
 featured: true
