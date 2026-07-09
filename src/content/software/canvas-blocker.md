@@ -3,7 +3,7 @@ title: "CanvasBlocker"
 alternative_to: ["Anti-tracking software"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Πλοήγηση"]
 website: "https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/"
-logo: "/images/canvasblocker.svg"
+logo: "/images/canvasblocker.png"
 license: "MIT"
 description: "Επέκταση Firefox που αποτρέπει την ψηφιακή αποτύπωση μέσω Canvas API (Canvas Fingerprinting) — μία από τις πιο δύσκολες μεθόδους παρακολούθησης που δεν αντιμετωπίζουν τα παραδοσιακά ad blockers. Προσθέτει ελεγχόμενο «θόρυβο» στα canvas δεδομένα ώστε κάθε αναγνώρισή σας να αποτυγχάνει."
 featured: false
