@@ -3,7 +3,7 @@ title: "Chamilo (LMS - E-Learning Platform)"
 alternative_to: ["Moodle (heavy)", "Canvas", "Google Classroom", "Dokeos"]
 categories: ["Εκπαίδευση", "Πλατφόρμες Μάθησης"]
 website: "https://chamilo.org/en/"
-logo: "/images/placeholder.svg"
+logo: "/images/chamilo.png"
 license: "GPL-3.0"
 description: "Ένα σύστημα διαχείρισης μάθησης (LMS) ανοιχτού κώδικα, που αναπτύχθηκε ως fork του Dokeos (το οποίο έγινε commercial). Στόχος του είναι να είναι **ελαφρύ, γρήγορο, και εύκολο στη χρήση** (ακόμα και για μη-τεχνικούς). Διαθέτει όλες τις βασικές λειτουργίες (μαθήματα, ασκήσεις, forums, wikis, chat, assignments, αναφορές), αλλά με μικρότερη καμπύλη εκμάθησης από το Moodle. Χρησιμοποιείται από πανεπιστήμια, ΜΚΟ, εταιρείες, και δημόσιους φορείς."
 featured: false
