@@ -16,7 +16,7 @@ featured: false
 - Χωρίς αυτόματες ενημερώσεις — απαιτεί χειροκίνητη ή system-level διαχείριση.
 - Χωρίς Google Safe Browsing (που αποστέλλει URLs στη Google για έλεγχο).
 
-**Κύρια Χαρακτηριστικά:**
+**Κύρια χαρακτηριστικά:**
 - **Blink Engine:** Η ίδια μηχανή απόδοσης με τον Chrome — πλήρης συμβατότητα με σύγχρονες ιστοσελίδες.
 - **V8 JavaScript Engine:** Υψηλές επιδόσεις σε web apps και JavaScript-heavy ιστότοπους.
 - **Chrome Extensions:** Πλήρης υποστήριξη του Chrome Web Store (με χειροκίνητη εγκατάσταση).
