@@ -3,15 +3,15 @@ title: "Checkmk"
 alternative_to: ["Nagios XI (commercial)", "SolarWinds (commercial)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Παρακολούθηση"]
 website: "https://checkmk.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/checkmk.png"
 license: "GPL-2.0 (Raw Edition), Commercial (Enterprise, Cloud)"
-description: "Ολοκληρωμένο σύστημα παρακολούθησης υποδομών (monitoring) που συνδυάζει την ευελιξία του Nagios (plugins) με μια σύγχρονη web UI, αυτόματη ανακάλυψη (inventory), agent-based και agentless monitoring, distributed setup, και ενσωματωμένη γραφική παρουσίαση. Το Checkmk Raw Edition (CRE) είναι πλήρως open source."
+description: "Ολοκληρωμένο σύστημα παρακολούθησης υποδομών που συνδυάζει την ευελιξία του Nagios (plugins) με μια σύγχρονη web UI, αυτόματη ανακάλυψη, agent-based και agentless monitoring, distributed setup, και ενσωματωμένη γραφική παρουσίαση. Το Checkmk Raw Edition (CRE) είναι πλήρως open source."
 featured: false
 ---
 
-Το Checkmk ξεκίνησε ως "Nagios wrapper" (2009) και εξελίχθηκε σε αυτόνομο monitoring system με δικό του agent (checkmk agent) και web UI. Υποστηρίζει monitoring servers, network devices, cloud, containers (Docker, Kubernetes), databases, applications. Είναι δημοφιλές για την **ταχύτητα** (πολλαπλά checks ανά λεπτό) και την **ευκολία διαμόρφωσης** (μέσω GUI rule-based).
+Το Checkmk ξεκίνησε ως "Nagios wrapper" (2009) και εξελίχθηκε σε αυτόνομο monitoring system με δικό του agent και web UI. Υποστηρίζει monitoring servers, network devices, cloud, containers (Docker, Kubernetes), databases, applications. Είναι δημοφιλές για την **ταχύτητα** (πολλαπλά checks ανά λεπτό) και την **ευκολία διαμόρφωσης** (μέσω GUI rule-based).
 
-**Βασικές Δυνατότητες (Raw Edition):**
+**Βασικές Δυνατότητες:**
 
 - **Data Collection (Agent-based, SNMP, agents for Windows/Linux/Unix, special agents for VMware, AWS, etc.)**
 - **Auto-discovery (Service discovery):** Ανιχνεύει αυτόματα services (MySQL, Apache, network interfaces) σε ένα host.
