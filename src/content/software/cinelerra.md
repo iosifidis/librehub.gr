@@ -3,7 +3,7 @@ title: "Cinelerra"
 alternative_to: ["Adobe Premiere"]
 categories: ["Επεξεργασία Βίντεο", "Βίντεο"]
 website: "https://cinelerra-gg.org/"
-logo: "/images/cinelerra.svg"
+logo: "/images/cinelerra.png"
 license: "GPL-2.0"
 description: "Προηγμένο εργαλείο επεξεργασίας βίντεο και compositing για Linux, σχεδιασμένο για παραγωγές υψηλών απαιτήσεων. Υποστηρίζει HDR, 8K video, πολυκάναλο ήχο, floating point processing, και εκατοντάδες εφέ — αποτελώντας μία από τις πιο ισχυρές ανοιχτού κώδικα λύσεις για επαγγελματική παραγωγή βίντεο."
 featured: false
