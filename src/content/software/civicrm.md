@@ -1,9 +1,9 @@
 ---
 title: "CiviCRM"
 alternative_to: ["Salesforce Nonprofit Edition", "Blackbaud (eTapestry, Raiser's Edge)", "NeonCRM"]
-categories: ["Παραγωγικότητα", "CRM", "Cloud"]
+categories: ["Παραγωγικότητα", "CRM"]
 website: "https://civicrm.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/civicrm.png"
 license: "AGPL-3.0"
 description: "Η κορυφαία ανοιχτού κώδικα πλατφόρμα CRM ειδικά σχεδιασμένη για μη κερδοσκοπικούς οργανισμούς, ΜΚΟ, και advocacy groups. Διαχειρίζεται επαφές, δωρεές, εκδηλώσεις, συνδρομές μέλη, email campaigns, και αξιολογήσεις."
 featured: true
@@ -50,4 +50,4 @@ featured: true
 - Extensible via extensions (marketplace with 200+ free/paid extensions).
 - API: REST, AJAX, JSON, XML.
 
-> **Σημείωση:** Το CiviCRM είναι το **de facto standard CRM για μη κερδοσκοπικούς οργανισμούς** (NPOs) στον χώρο του open source. Είναι όμως πιο βαρύ (complex) από απλές λύσεις διαχείρισης επαφών. Απαιτεί εξοικείωση και συχνά μια μικρή ομάδα για διαχείριση. Για πολύ μικρές ΜΚΟ, το **SuiteCRM** (με custom fields) ή ακόμα και το **Dolibarr** (για invoicing) μπορεί να είναι απλούστερες λύσεις, αλλά το CiviCRM υπερέχει στα donor management & membership.
+> **Σημείωση:** Το CiviCRM είναι το **de facto standard CRM για μη κερδοσκοπικούς οργανισμούς** (NPOs) στον χώρο του open source. Είναι όμως πιο βαρύ από απλές λύσεις διαχείρισης επαφών. Απαιτεί εξοικείωση και συχνά μια μικρή ομάδα για διαχείριση. Για πολύ μικρές ΜΚΟ, το **SuiteCRM** (με custom fields) ή ακόμα και το **Dolibarr** (για invoicing) μπορεί να είναι απλούστερες λύσεις, αλλά το CiviCRM υπερέχει στα donor management & membership.
