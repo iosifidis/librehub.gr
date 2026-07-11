@@ -1,11 +1,11 @@
 ---
-title: "cState (Static Status Page)"
+title: "cState"
 alternative_to: ["Statuspage.io (commercial)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Παρακολούθηση"]
-website: "https://cstate.netlify.app/"
-logo: "/images/placeholder.svg"
+website: "https://cstate.uncascade.com/"
+logo: "/images/cstate.png"
 license: "MIT"
-description: "Εξαιρετικά ελαφριά, στατική (static) status page που βασίζεται στον generator ιστοσελίδων Hugo. Δεν απαιτεί database ή server-side runtime (PHP, Node.js). Τα δεδομένα (υπηρεσίες, περιστατικά) αποθηκεύονται σε αρχεία Markdown (YAML frontmatter). Είναι απλά στην εγκατάσταση (αντίγραφο repository, commit, deploy σε Netlify/GitHub Pages). Ιδανική για μικρές ομάδες που θέλουν status page χωρίς συντήρηση server."
+description: "Εξαιρετικά ελαφριά, στατική status page που βασίζεται στον generator ιστοσελίδων Hugo. Δεν απαιτεί database ή server-side runtime (PHP, Node.js). Τα δεδομένα (υπηρεσίες, περιστατικά) αποθηκεύονται σε αρχεία Markdown (YAML frontmatter). Είναι απλά στην εγκατάσταση (αντίγραφο repository, commit, deploy σε Netlify/GitHub Pages). Ιδανική για μικρές ομάδες που θέλουν status page χωρίς συντήρηση server."
 featured: false
 ---
 
