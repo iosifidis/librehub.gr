@@ -3,7 +3,7 @@ title: "ClamWin"
 alternative_to: ["McAfee VirusScan", "Norton Antivirus"]
 categories: ["Ασφάλεια", "Εργαλεία"]
 website: "https://www.clamwin.com/"
-logo: "/images/clamwin.svg"
+logo: "/images/clamwin.png"
 license: "GPL-2.0"
 description: "Ελεύθερο antivirus για Windows βασισμένο στη μηχανή ClamAV, με γραφική διεπαφή, αυτόματες ενημερώσεις ορισμών ιών, προγραμματισμένες σαρώσεις και ενσωμάτωση με το Microsoft Outlook. Ιδανικό για χρήστες και οργανισμούς που αναζητούν αξιόπιστη, δωρεάν προστασία χωρίς συνδρομές."
 featured: false
