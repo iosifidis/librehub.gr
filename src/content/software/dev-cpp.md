@@ -3,7 +3,7 @@ title: "Dev-C++"
 alternative_to: ["Microsoft Visual Studio (C++ only)", "Code::Blocks", "Turbo C++ (ancient)"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://dev-cpp.com/Dev-Cpp-5/"
-logo: "/images/placeholder.svg"
+logo: "/images/dev-cpp.png"
 license: "GPL-2.0"
 description: "Ελαφρύ, αποδοτικό IDE για προγραμματισμό σε C/C++ με ενσωματωμένο MinGW compiler (GCC), βασικό debugger (GDB), και απλό GUI designer (βασισμένο σε Windows Forms). Δημοφιλές σε εκπαιδευτικό περιβάλλον (σχολεία, αρχάρια)."
 featured: false
