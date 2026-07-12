@@ -3,10 +3,10 @@ title: "Debian"
 alternative_to: ["Microsoft Windows", "macOS"]
 categories: ["Λειτουργικά Συστήματα"]
 website: "https://debian.org/"
-logo: "/images/debian.svg"
+logo: "/images/debian.jpg"
 license: "GPL-2.0"
 description: "Η μητρική διανομή που αποτελεί τη βάση για Ubuntu, Linux Mint, Raspberry Pi OS και εκατοντάδες άλλες. Συνώνυμο αξιοπιστίας και σταθερότητας — με αυστηρά ελεγμένα packages, τρεις εκδόσεις (Stable/Testing/Unstable) και υποστήριξη για περισσότερες αρχιτεκτονικές από κάθε άλλη διανομή."
-featured: false
+featured: true
 ---
 Το Debian είναι η «γιαγιά» των Linux διανομών — ένα από τα αρχαιότερα και πιο σεβαστά projects του ανοιχτού κώδικα, που ξεκίνησε το 1993. Αναπτύσσεται εξ ολοκλήρου από εθελοντές χωρίς εταιρική χρηματοδότηση και ακολουθεί αυστηρές αρχές ελεύθερου λογισμικού.
 
