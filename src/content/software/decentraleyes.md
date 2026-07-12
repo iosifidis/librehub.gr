@@ -3,7 +3,7 @@ title: "Decentraleyes"
 alternative_to: ["Content Delivery Networks"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Πλοήγηση"]
 website: "https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/"
-logo: "/images/decentraleyes.svg"
+logo: "/images/decentraleyes.png"
 license: "MPL-2.0"
 description: "Επέκταση περιηγητή που τοπικά σερβίρει κοινές βιβλιοθήκες JavaScript (jQuery, Bootstrap, Angular κ.ά.) που κανονικά φορτώνονται από CDN τρίτων (Google, Cloudflare, jsDelivr). Αποτρέπει έτσι την παρακολούθηση από αυτά τα δίκτυα και επιταχύνει τη φόρτωση σελίδων."
 featured: false
