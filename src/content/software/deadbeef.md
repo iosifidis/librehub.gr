@@ -1,11 +1,11 @@
 ---
 title: "DeaDBeeF"
 alternative_to: ["Apple iTunes", "Winamp"]
-categories: ["Πολυμέσα", "Εργαλεία"]
+categories: ["Πολυμέσα", "Εργαλεία", "Ήχος"]
 website: "https://deadbeef.sourceforge.io/"
-logo: "/images/deadbeef.svg"
+logo: "/images/deadbeef.png"
 license: "GPL-2.0"
-description: "Ελαφρύς και αρθρωτός (modular) αναπαραγωγέας μουσικής με ελάχιστη κατανάλωση πόρων και ευρύτατη υποστήριξη formats ήχου. Επεκτάσιμος μέσω plugins, υποστηρίζει gapless playback, cue sheets, ReplayGain, internet radio και διαθέτει χαρακτηριστικό tabbed playlist interface."
+description: "Ελαφρύς και αρθρωτός αναπαραγωγέας μουσικής με ελάχιστη κατανάλωση πόρων και ευρύτατη υποστήριξη formats ήχου. Επεκτάσιμος μέσω plugins, υποστηρίζει gapless playback, cue sheets, ReplayGain, internet radio και διαθέτει χαρακτηριστικό tabbed playlist interface."
 featured: false
 ---
 Το DeaDBeeF (Double-EAted bDoubleEF — χιουμοριστικό παιχνίδι με hex 0xDEADBEEF) είναι ο music player για χρήστες που θέλουν **ταχύτητα** και **συμβατότητα formats** πάνω από όλα. Δεν έχει ωραίο εξώφυλλο-κεντρικό UI — έχει έναν καλά οργανωμένο playlist browser και αναπαράγει σχεδόν τα πάντα.
