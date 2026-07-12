@@ -1,15 +1,15 @@
 ---
-title: "Dia (Diagram Editor)"
+title: "Dia"
 alternative_to: ["Microsoft Visio (Pro)", "Draw.io (diagrams.net)", "yEd Graph Editor (commercial)"]
 categories: ["Γραφικά", "Διανυσματικά", "Διαγράμματα", "Παραγωγικότητα"]
 website: "https://gitlab.gnome.org/GNOME/dia"
-logo: "/images/placeholder.svg"
+logo: "/images/dia.png"
 license: "GPL-2.0"
-description: "Ελαφρύ εργαλείο για τη σχεδίαση διαγραμμάτων και ροών εργασίας (flowcharts). Υποστηρίζει πολλές γλώσσες διαγραμμάτων: UML (class, sequence, use case), network diagrams (Cisco, computer), ER diagrams (entity-relationship), flowcharts, organizational charts, electrical circuits, and more. Εξάγει σε PNG, SVG, EPS, PDF, και C++/Java code skeletons (για UML)."
+description: "Ελαφρύ εργαλείο για τη σχεδίαση διαγραμμάτων και ροών εργασίας. Υποστηρίζει πολλές γλώσσες διαγραμμάτων: UML (class, sequence, use case), network diagrams (Cisco, computer), ER diagrams (entity-relationship), flowcharts, organizational charts, electrical circuits, and more. Εξάγει σε PNG, SVG, EPS, PDF, και C++/Java code skeletons (για UML)."
 featured: false
 ---
 
-Το Dia είναι ένα GTK-based διάγραμμα-επεξεργαστής (diagram editor), με έμφαση στην απλότητα και την υποστήριξη πολλαπλών διαγραμματικών γλωσσών (UML, flowchart, network, κ.ά.). Ενώ το UI του είναι "παλιομοδίτικο" (δεν έχει διαρκώς ενημερωθεί από το 2011 περίπου), παραμένει λειτουργικό και εξαιρετικά ελαφρύ. Ιδανικό για μικρά projects (σχεδίαση database schemas, δομή λογισμικού) χωρίς να χρειάζεται να εγκαταστήσετε βαρύ Visio.
+Το Dia είναι ένα GTK-based επεξεργαστής διαγραμμάτων, με έμφαση στην απλότητα και την υποστήριξη πολλαπλών διαγραμματικών γλωσσών (UML, flowchart, network, κ.ά.). Ενώ το UI του είναι "παλιομοδίτικο" (δεν έχει διαρκώς ενημερωθεί από το 2011 περίπου), παραμένει λειτουργικό και εξαιρετικά ελαφρύ. Ιδανικό για μικρά projects (σχεδίαση database schemas, δομή λογισμικού) χωρίς να χρειάζεται να εγκαταστήσετε βαρύ Visio.
 
 **Υποστηριζόμενοι Τύποι Διαγραμμάτων (Shapes):**
 
