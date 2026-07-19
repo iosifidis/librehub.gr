@@ -22,8 +22,8 @@
 
 ```bash
 # 1. Κλωνοποίηση / μετάβαση στον κατάλογο
-git clone https://gitlab.com/librehub
-cd librehub
+git clone https://gitlab.com/librehub.gr
+cd librehub.gr
 
 # 2. Εγκατάσταση dependencies
 npm install
