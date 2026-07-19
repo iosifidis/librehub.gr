@@ -1,9 +1,9 @@
 ---
-title: "EDUBlocks (Python Transition Tool)"
+title: "EDUBlocks"
 alternative_to: ["Microsoft MakeCode (Blocks to Python)", "Blockly (Python generation)", "Mu Editor (text-based)"]
 categories: ["Εκπαίδευση", "Προγραμματισμός", "Πλατφόρμες Μάθησης"]
 website: "https://edublocks.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/edublocks.png"
 license: "AGPL-3.0 (Community), Commercial (Pro)"
 description: "Μια δωρεάν γλώσσα προγραμματισμού και περιβάλλον (IDE) που βοηθά τους μαθητές να κάνουν τη μετάβαση από τον **οπτικό προγραμματισμό με μπλοκ (block-based)** στον **κώδικα Python (text-based)**. Συνδυάζει δύο τρόπους λειτουργίας: 'Blocks' (Scratch-like) και 'Python'. Ο μαθητής μπορεί να 'σύρει' ένα μπλοκ και να δει αμέσως την Python εντολή που αντιστοιχεί, ή να γράψει Python και να δει το αντίστοιχο μπλοκ."
 featured: false
@@ -11,7 +11,7 @@ featured: false
 
 Το EDUBlocks (προφέρεται "Educational blocks") λύνει το πρόβλημα "I know Scratch, but I'm scared of Python". Είναι ιδιαίτερα δημοφιλές στο **Micro:bit** (BBC) και **Raspberry Pi** (GPIO).
 
-**Βασικές Λειτουργίες (Two Modes):**
+**Βασικές Λειτουργίες:**
 
 - **Blocks Mode:** Πλήρης ανάπτυξη με μπλοκ (παρόμοια με Scratch).
 - **Python Mode:** Εμφανίζει τον κείμενο κώδικα Python που παράγεται από τα μπλοκ.
