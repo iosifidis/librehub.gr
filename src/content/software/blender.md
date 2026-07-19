@@ -3,7 +3,7 @@ title: "Blender"
 alternative_to: ["Autodesk 3ds Max", "Maya", "Cinema 4D"]
 categories: ["Επεξεργασία Βίντεο", "3D Μοντελοποίηση", "Animation", "Γραφικά"]
 website: "https://www.blender.org"
-logo: "/images/blender.svg"
+logo: "/images/blender.png"
 license: "GPL-3.0"
 description: "Η κορυφαία open-source σουίτα για 3D μοντελοποίηση, sculpting, animation, rigging, rendering (Cycles/Eevee), compositing, motion tracking, video editing (VSE), και game creation. Χρησιμοποιείται από επαγγελματίες (animation studios, VFX artists, indie developers) και εκπαιδευτικά ιδρύματα παγκοσμίως."
 featured: true
