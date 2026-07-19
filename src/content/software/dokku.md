@@ -1,11 +1,11 @@
 ---
 title: "Dokku"
 alternative_to: ["Heroku (PaaS)", "CapRover", "Fly.io", "Render (self-hosted alternative)"]
-categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Εργαλεία"]
+categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://dokku.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/dokku.png"
 license: "MIT"
-description: "Μικρή (minimal), ανοιχτού κώδικα πλατφόρμα PaaS (Platform as a Service) που λειτουργεί πάνω από Docker. Επιτρέπει την ανάπτυξη εφαρμογών με `git push` (όπως στο Heroku), υποστηρίζοντας αυτόματο buildpack detection (Python, Node.js, Ruby, Go, PHP, Java, κ.ά.), zero-downtime deployments, SSL, και postgres/redis/mongo add-ons."
+description: "Μικρή, ανοιχτού κώδικα πλατφόρμα PaaS (Platform as a Service) που λειτουργεί πάνω από Docker. Επιτρέπει την ανάπτυξη εφαρμογών με `git push` (όπως στο Heroku), υποστηρίζοντας αυτόματο buildpack detection (Python, Node.js, Ruby, Go, PHP, Java, κ.ά.), zero-downtime deployments, SSL, και postgres/redis/mongo add-ons."
 featured: false
 ---
 
