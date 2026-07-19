@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getCollection, render } from 'astro:content';
+import { categoryToSlug } from '../../utils/slugify';
 
 export async function getStaticPaths() {
   const allSoftware = await getCollection('software');
@@ -36,6 +37,8 @@ const { title, alternative_to, categories, logo, license, description, website }
           src={logo}
           alt={`${title} logo`}
           class="h-20 w-20 rounded-2xl object-contain p-2 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm flex-shrink-0"
+          width="80"
+          height="80"
           onerror="this.src='/images/placeholder.svg'"
         />
         <div class="flex-1 min-w-0">
@@ -43,7 +46,7 @@ const { title, alternative_to, categories, logo, license, description, website }
           <div class="mt-2 flex flex-wrap gap-2">
             <span class="rounded-md bg-gray-100 dark:bg-gray-800 px-2 py-0.5 text-xs font-mono text-gray-500 dark:text-gray-400">{license}</span>
             {categories.map(cat => (
-              <a href={`/category/${cat.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`}
+              <a href={`/category/${categoryToSlug(cat)}`}
                 class="rounded-full bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300 border border-green-200 dark:border-green-800 px-2.5 py-0.5 text-xs font-medium hover:bg-green-100 transition-colors">
                 {cat}
               </a>

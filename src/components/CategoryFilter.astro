@@ -1,4 +1,5 @@
 ---
+import { categoryToSlug } from '../utils/slugify';
 interface Props {
   categories: string[];
 }
@@ -19,7 +20,7 @@ const sorted = [...categories].sort((a, b) => a.localeCompare(b, 'el'));
     <button
       class="category-btn px-3 py-1.5 rounded-full text-sm font-medium border border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-400 hover:border-green-400 hover:text-green-700 hover:bg-green-50 dark:hover:border-green-600 dark:hover:text-green-400 dark:hover:bg-green-950 transition-all duration-200 cursor-pointer"
       data-category={cat}
-      id={`cat-btn-${cat.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`}
+      id={`cat-btn-${categoryToSlug(cat)}`}
       aria-pressed="false"
     >
       {cat}
@@ -72,8 +73,13 @@ const sorted = [...categories].sort((a, b) => a.localeCompare(b, 'el'));
     });
   });
 
-  // Export for card click-through
-  (window as any).filterByCategory = (category: string) => {
+  // Export filterByCategory with proper type declaration
+  declare global {
+    interface Window {
+      filterByCategory: (category: string) => void;
+    }
+  }
+  window.filterByCategory = (category: string) => {
     const btn = document.querySelector<HTMLButtonElement>(`[data-category="${category}"]`);
     btn?.click();
   };

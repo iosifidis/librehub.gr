@@ -94,7 +94,7 @@ const sorted = [...entries].sort((a, b) => {
   const clearBtn = document.getElementById('clear-search');
 
   function getActiveCategory(): string {
-    const activeBtn = document.querySelector<HTMLButtonElement>('.category-btn.active');
+    const activeBtn = document.querySelector<HTMLButtonElement>('.category-btn[aria-pressed="true"]');
     return activeBtn?.dataset.category || 'all';
   }
 

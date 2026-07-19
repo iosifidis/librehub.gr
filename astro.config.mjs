@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://mathe.ellak.gr',
+  site: 'https://librehub.netlify.app',
   output: 'static',
   vite: {
     plugins: [tailwindcss()],
