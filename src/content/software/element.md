@@ -3,9 +3,9 @@ title: "Element"
 alternative_to: ["Slack", "Discord", "Microsoft Teams"]
 categories: ["Επικοινωνία", "Παραγωγικότητα", "Ιδιωτικότητα"]
 website: "https://element.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/element.png"
 license: "Apache-2.0"
-description: "Ο πιο δημοφιλής πελάτης (client) για το δίκτυο Matrix, που προσφέρει ασφαλή επικοινωνία και συνεργασία με κρυπτογράφηση άκρου-προς-άκρο, διαθέσιμος ως web app, desktop και mobile εφαρμογή."
+description: "Ο πιο δημοφιλής πελάτης για το δίκτυο Matrix, που προσφέρει ασφαλή επικοινωνία και συνεργασία με κρυπτογράφηση άκρου-προς-άκρο, διαθέσιμος ως web app, desktop και mobile εφαρμογή."
 featured: true
 ---
 
