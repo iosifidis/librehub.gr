@@ -1,12 +1,12 @@
 ---
-title: "Open eClass (Greek LMS)"
+title: "Open eClass"
 alternative_to: ["Moodle", "Chamilo", "Blackboard"]
 categories: ["Εκπαίδευση", "Πλατφόρμες Μάθησης"]
 website: "https://www.openeclass.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/openeclass.png"
 license: "GPL-2.0"
-description: "Ελληνικό σύστημα διαχείρισης μάθησης (LMS), που αναπτύχθηκε από το Πανεπιστήμιο Αθηνών (ΕΚΠΑ) / GUnet (Greek Universities Network). Χρησιμοποιείται από τα περισσότερα ελληνικά πανεπιστήμια, δημόσιες σχολές, και εκπαιδευτικούς φορείς. Προσφέρει μαθήματα, announcements, assignments, ασκήσεις (quiz), forums, documents, ημερολόγιο, chat, και βαθμολόγηση. Είναι πλήρως ελληνική και συμβατή με το ελληνικό νομικό πλαίσιο."
-featured: true
+description: "Ελληνικό σύστημα διαχείρισης μάθησης (LMS), που αναπτύχθηκε από το Πανεπιστήμιο Αθηνών (ΕΚΠΑ) / GUnet (Greek Universities Network). Χρησιμοποιείται από τα περισσότερα ελληνικά πανεπιστήμια, δημόσιες σχολές, και εκπαιδευτικούς φορείς. Προσφέρει μαθήματα, announcements, assignments, ασκήσεις, forums, documents, ημερολόγιο, chat, και βαθμολόγηση. Είναι πλήρως ελληνική και συμβατή με το ελληνικό νομικό πλαίσιο."
+featured: false
 ---
 
 Το Open eClass (προφέρεται "e-class") είναι η επίσημη πλατφόρμα e-learning της ελληνικής ακαδημαϊκής κοινότητας (υποστηρίζεται από την GUnet). Διατίθεται δωρεάν και μπορεί να εγκατασταθεί σε οποιονδήποτε server PHP/MySQL. Είναι εξαιρετικά δημοφιλές για μαθήματα εξ αποστάσεως (συμπληρωματικά).
