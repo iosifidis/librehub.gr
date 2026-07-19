@@ -1,9 +1,9 @@
 ---
 title: "DuckDuckGo Lite"
 alternative_to: ["Google Search (Mobile Lite)"]
-categories: ["Πλοήγηση", "Ιδιωτικότητα"]
+categories: ["Πλοήγηση", "Ιδιωτικότητα", "Μηχανή αναζήτησης"]
 website: "https://duckduckgo.com/lite/"
-logo: "/images/duckduckgo.svg"
+logo: "/images/duckduckgo.png"
 license: "Apache-2.0"
 description: "Εξαιρετικά ελαφριά έκδοση της μηχανής αναζήτησης DuckDuckGo, σχεδιασμένη χωρίς JavaScript και με ελάχιστο HTML. Ιδανική για παλαιότερες συσκευές, αργές συνδέσεις, περιηγητές κειμένου (Lynx, w3m) και χρήστες που θέλουν μέγιστη ταχύτητα και ελάχιστο αποτύπωμα δεδομένων."
 featured: false

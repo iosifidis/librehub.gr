@@ -1,9 +1,9 @@
 ---
 title: "Duplicati"
 alternative_to: ["Backblaze", "Carbonite"]
-categories: ["Εργαλεία", "Ασφάλεια"]
+categories: ["Εργαλεία", "Ασφάλεια", "Backup"]
 website: "https://duplicati.com/"
-logo: "/images/duplicati.svg"
+logo: "/images/duplicati.png"
 license: "LGPL-2.1"
 description: "Λογισμικό δημιουργίας κρυπτογραφημένων online αντιγράφων ασφαλείας, συμβατό με δεκάδες παρόχους cloud (S3, B2, OneDrive, Google Drive, SFTP κ.ά.). Με web-based διεπαφή, αυτόματο χρονοπρόγραμμα, AES-256 κρυπτογράφηση και incremental backups — ιδανικό για αυτοματοποιημένα backup σε cloud."
 featured: false

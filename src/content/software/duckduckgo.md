@@ -1,9 +1,9 @@
 ---
 title: "DuckDuckGo"
 alternative_to: ["Google Search", "Bing"]
-categories: ["Πλοήγηση", "Ιδιωτικότητα"]
+categories: ["Πλοήγηση", "Ιδιωτικότητα", "Μηχανή αναζήτησης"]
 website: "https://duckduckgo.com/"
-logo: "/images/duckduckgo.svg"
+logo: "/images/DuckDuckGo.png"
 license: "Apache-2.0"
 description: "Μηχανή αναζήτησης που σέβεται την ιδιωτικότητα: δεν καταγράφει ιστορικό αναζητήσεων, δεν δημιουργεί προφίλ χρήστη και δεν προβάλλει εξατομικευμένες διαφημίσεις. Προσφέρει αποτελέσματα από πολλαπλές πηγές (Bing, Wikipedia, κ.ά.) και χρήσιμες συντομεύσεις (!bangs) για άμεση αναζήτηση σε εκατοντάδες ιστότοπους."
 featured: true

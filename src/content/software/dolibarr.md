@@ -3,10 +3,10 @@ title: "Dolibarr"
 alternative_to: ["SAP Business One", "Odoo (lightweight alternative)", "QuickBooks (for SMBs)"]
 categories: ["Παραγωγικότητα", "Γραφείο", "ERP", "CRM", "Cloud"]
 website: "https://www.dolibarr.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/dolibarr.png"
 license: "GPL-3.0"
 description: "Ελαφρύ, modular ERP & CRM ανοιχτού κώδικα για μικρές και μεσαίες επιχειρήσεις, freelancers, και μη κερδοσκοπικούς οργανισμούς. Διακρίνεται για την εξαιρετικά απλή εγκατάσταση (απαιτεί μόνο PHP + MySQL) και το εύχρηστο interface."
-featured: true
+featured: false
 ---
 
 Το Dolibarr είναι ένα σύγχρονο, modular ERP/CRM που ξεχωρίζει για τη μικροσκοπική του επιφάνεια (footprint) και την ευκολία εγκατάστασης. Σε αντίθεση με πολλά ERP (Odoo, ERPNext), το Dolibarr μπορεί να τρέξει ακόμα και σε shared hosting (χωρίς shell access) και δεν απαιτεί πολύπλοκες εξαρτήσεις. Ιδανικό για ΜΜΕ που θέλουν να ξεκινήσουν γρήγορα.
@@ -44,4 +44,4 @@ featured: true
 | Accounting | Διπλογραφικό (πλήρες) | Ναι (community περιορισμένο) | Ναι (πλήρες) |
 | Manufacturing | Όχι (basic BOM) | Ναι (modules) | Ναι (full) |
 
-> **Σημείωση:** Το Dolibarr είναι ιδανικό για **SMBs, freelancers, associations, retail** που χρειάζονται CRM + invoicing + inventory + accounting, αλλά **δεν** απαιτούν προηγμένη παραγωγή (manufacturing) ή πολύπλοκο supply chain. Είναι η πιο εύκολη είσοδος στον κόσμο των open source ERP.
+> **Σημείωση:** Το Dolibarr είναι ιδανικό για **SMBs, freelancers, associations, retail** που χρειάζονται CRM + invoicing + inventory + accounting, αλλά **δεν** απαιτούν προηγμένη παραγωγή ή πολύπλοκο supply chain. Είναι η πιο εύκολη είσοδος στον κόσμο των open source ERP.
