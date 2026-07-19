@@ -8,9 +8,9 @@ const { totalCount } = Astro.props;
 <section
   class="relative overflow-hidden bg-gradient-to-br from-green-700 via-green-600 to-emerald-500 dark:from-green-900 dark:via-green-800 dark:to-emerald-700 py-20 sm:py-28"
 >
-  <!-- Background pattern -->
-  <div class="absolute inset-0 opacity-10">
-    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background pattern (decorative) -->
+  <div class="absolute inset-0 opacity-10" aria-hidden="true">
+    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
       <defs>
         <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
           <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/>
@@ -21,13 +21,13 @@ const { totalCount } = Astro.props;
   </div>
 
   <!-- Decorative blobs -->
-  <div class="pointer-events-none absolute -top-24 right-0 h-96 w-96 rounded-full bg-white/10 blur-3xl"></div>
-  <div class="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full blur-3xl" style="background-color: rgba(245, 130, 32, 0.18);"></div>
+  <div class="pointer-events-none absolute -top-24 right-0 h-96 w-96 rounded-full bg-white/10 blur-3xl" aria-hidden="true"></div>
+  <div class="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full blur-3xl" style="background-color: rgba(245, 130, 32, 0.18);" aria-hidden="true"></div>
 
   <div class="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
     <!-- Badge -->
     <div class="mb-6 inline-flex items-center gap-2 rounded-full bg-white/20 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm ring-1 ring-white/30">
-      <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+      <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/>
       </svg>
       <span>{totalCount}+ Εργαλεία Ανοιχτού Κώδικα</span>
@@ -47,7 +47,7 @@ const { totalCount } = Astro.props;
     <div class="mt-10 mx-auto max-w-2xl">
       <div class="relative flex items-center">
         <div class="pointer-events-none absolute left-4 flex items-center">
-          <svg class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <svg class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
           </svg>
         </div>
@@ -69,9 +69,9 @@ const { totalCount } = Astro.props;
         </button>
       </div>
       <p class="mt-3 text-sm text-green-200">
-        Δοκιμάστε: <button class="quick-search underline hover:text-white transition-colors" data-q="Photoshop">Photoshop</button>,
-        <button class="quick-search underline hover:text-white transition-colors" data-q="Office">Office</button>,
-        <button class="quick-search underline hover:text-white transition-colors" data-q="Windows">Windows</button>
+        Δοκιμάστε: <button type="button" class="quick-search underline hover:text-white transition-colors" data-q="Photoshop" aria-label="Γρήγορη αναζήτηση: Photoshop">αντικαταστατικά Photoshop</button>,
+        <button type="button" class="quick-search underline hover:text-white transition-colors" data-q="Office" aria-label="Γρήγορη αναζήτηση: Office">αντικαταστατικά Office</button>,
+        <button type="button" class="quick-search underline hover:text-white transition-colors" data-q="Windows" aria-label="Γρήγορη αναζήτηση: Windows">αντικαταστατικά Windows</button>
       </p>
     </div>
 

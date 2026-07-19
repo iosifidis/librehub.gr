@@ -6,7 +6,7 @@ const { categories } = Astro.props;
 const sorted = [...categories].sort((a, b) => a.localeCompare(b, 'el'));
 ---
 
-<div class="flex flex-wrap gap-2 items-center" id="category-filter-container">
+<div class="flex flex-wrap gap-2 items-center" id="category-filter-container" role="group" aria-label="Φίλτρο κατηγοριών">
   <button
     class="category-btn px-3 py-1.5 rounded-full text-sm font-medium border transition-all duration-200 cursor-pointer bg-green-600 text-white border-green-600 dark:bg-green-700 dark:border-green-700"
     data-category="all"

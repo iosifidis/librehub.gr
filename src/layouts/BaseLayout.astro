@@ -17,7 +17,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
-<html lang="el" class="scroll-smooth">
+<html lang="el" dir="ltr" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -60,6 +60,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <body
     class="min-h-screen bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 font-[Inter,system-ui,sans-serif] transition-colors duration-300"
   >
+    <!-- Skip to main content (keyboard accessibility) -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[200] focus:px-4 focus:py-2 focus:bg-green-600 focus:text-white focus:rounded-lg focus:font-medium focus:shadow-lg"
+    >
+      Μετάβαση στο κυρίως περιεχόμενο
+    </a>
     <slot />
   </body>
 </html>
