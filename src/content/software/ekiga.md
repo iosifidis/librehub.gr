@@ -3,7 +3,7 @@ title: "Ekiga"
 alternative_to: ["Microsoft Teams", "Skype", "Zoom"]
 categories: ["Επικοινωνία"]
 website: "http://www.ekiga.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/ekiga.png"
 license: "GPL-2.0"
 description: "Επαγγελματική εφαρμογή Softphone και τηλεδιάσκεψης ανοιχτού κώδικα που υποστηρίζει τα πρότυπα SIP και H.323, επιτρέποντας κλήσεις φωνής, βίντεο και διασκέψεις IP δωρεάν."
 featured: false
