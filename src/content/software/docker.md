@@ -3,7 +3,7 @@ title: "Docker"
 alternative_to: ["VMware vSphere", "Podman (daemonless)", "VirtualBox", "VMware"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://www.docker.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/docker.png"
 license: "Apache-2.0 (Moby engine), Commercial (Docker Desktop)"
 description: "Η κορυφαία πλατφόρμα για τη δημιουργία, αποστολή και εκτέλεση εφαρμογών σε containers. Απλοποιεί τη διαχείριση περιβαλλόντων, την απομόνωση εφαρμογών και την αυτοματοποίηση ανάπτυξης (CI/CD) μέσω εικόνων OCI (Open Container Initiative)."
 featured: true
