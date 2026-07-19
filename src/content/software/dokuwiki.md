@@ -1,9 +1,9 @@
 ---
 title: "DokuWiki"
 alternative_to: ["Confluence", "Notion", "SharePoint"]
-categories: ["Εργαλεία", "Εκπαίδευση", "Δημιουργία Περιεχομένου"]
+categories: ["Εργαλεία", "Εκπαίδευση", "Δημιουργία Περιεχομένου", "Wiki"]
 website: "https://www.dokuwiki.org/"
-logo: "/images/dokuwiki.svg"
+logo: "/images/dokuwiki.png"
 license: "GPL-2.0"
 description: "Ελαφρύ, ευέλικτο wiki λογισμικό που δεν απαιτεί βάση δεδομένων — αποθηκεύει τα πάντα σε απλά αρχεία κειμένου. Ιδανικό για τεκμηρίωση ομάδων, εσωτερικά wikis εταιρειών, σημειώσεις έργων και εκπαιδευτικό περιεχόμενο — με απλή σύνταξη Markdown-like και πλούσιο σύστημα plugins."
 featured: false
