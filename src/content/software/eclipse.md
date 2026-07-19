@@ -3,13 +3,13 @@ title: "Eclipse IDE"
 alternative_to: ["Microsoft Visual Studio", "IntelliJ IDEA Ultimate", "NetBeans"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://www.eclipse.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/eclipse.png"
 license: "EPL-2.0 (Eclipse Public License)"
 description: "Ένα από τα πιο δημοφιλή, ισχυρά και επεκτάσιμα Integrated Development Environments (IDE) παγκοσμίως, με τεράστιο οικοσύστημα plugins για Java, C/C++, Python, PHP, JavaScript, Rust, Go, και εκατοντάδες άλλες γλώσσες και frameworks."
 featured: true
 ---
 
-Το Eclipse IDE είναι ένα open-source, πλατφορμικό (cross-platform) περιβάλλον ανάπτυξης λογισμικού, γνωστό κυρίως για την υποστήριξη Java (με κορυφαίο refactoring και debugging), αλλά χάρη στην αρχιτεκτονική plugins μπορεί να μετατραπεί σε IDE για σχεδόν οποιαδήποτε γλώσσα. Ιδρύθηκε από την IBM το 2001 και πλέον διαχειρίζεται από το Eclipse Foundation (μη κερδοσκοπικό).
+Το Eclipse IDE είναι ένα open-source, cross-platform περιβάλλον ανάπτυξης λογισμικού, γνωστό κυρίως για την υποστήριξη Java (με κορυφαίο refactoring και debugging), αλλά χάρη στην αρχιτεκτονική plugins μπορεί να μετατραπεί σε IDE για σχεδόν οποιαδήποτε γλώσσα. Ιδρύθηκε από την IBM το 2001 και πλέον διαχειρίζεται από το Eclipse Foundation (μη κερδοσκοπικό).
 
 **Βασικά Χαρακτηριστικά:**
 
