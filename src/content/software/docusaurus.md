@@ -1,11 +1,11 @@
 ---
-title: "Docusaurus (Documentation Generator)"
+title: "Docusaurus"
 alternative_to: ["GitBook", "Read the Docs", "VuePress"]
 categories: ["Εκπαίδευση", "Τεκμηρίωση"]
 website: "https://docusaurus.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/docusaurus.svg"
 license: "MIT"
-description: "Ένα εργαλείο για τη δημιουργία, δόμηση και πλοήγηση σε σύνθετες δομές περιεχομένων και τεκμηρίωση λογισμικού. Βασίζεται σε Markdown/React, παράγει στατικές ιστοσελίδες (εξαιρετικά γρήγορες), υποστηρίζει versioning (πολλαπλές εκδόσεις), αναζήτηση, i18n (50+ γλώσσες), και dark mode. Αναπτύχθηκε από το Meta (Facebook) και χρησιμοποιείται από πολλά open source projects (React Native, Redux, Jest)."
+description: "Ένα εργαλείο για τη δημιουργία, δόμηση και πλοήγηση σε σύνθετες δομές περιεχομένων και τεκμηρίωση λογισμικού. Βασίζεται σε Markdown/React, παράγει στατικές ιστοσελίδες (εξαιρετικά γρήγορες), υποστηρίζει versioning (πολλαπλές εκδόσεις), αναζήτηση, i18n (50+ γλώσσες), και dark mode. Αναπτύχθηκε από την Meta (Facebook) και χρησιμοποιείται από πολλά open source projects (React Native, Redux, Jest)."
 featured: false
 ---
 
