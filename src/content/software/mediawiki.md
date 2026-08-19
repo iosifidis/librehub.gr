@@ -3,7 +3,7 @@ title: "MediaWiki (Wiki Platform)"
 alternative_to: ["Confluence", "Notion", "DokuWiki"]
 categories: ["Εκπαίδευση", "Τεκμηρίωση", "Wiki"]
 website: "https://www.mediawiki.org"
-logo: "/images/placeholder.svg"
+logo: "/images/mediawiki.png"
 license: "GPL-2.0"
 description: "Η πλατφόρμα wiki που τρέχει τη **Wikipedia**. Ιδανική για τη δημιουργία γνωσιακών βάσεων, εσωτερικών wikis, αποθετηρίων τεκμηρίωσης, και συνεργατικών εγχειριδίων. Υποστηρίζει πολλαπλούς χρήστες, εκδόσεις, πρότυπα, επεκτάσεις , γλωσσικές μεταφράσεις, και είναι κλιμακώσιμη (για εκατομμύρια σελίδες)."
 featured: true

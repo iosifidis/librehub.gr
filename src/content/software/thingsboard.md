@@ -3,7 +3,7 @@ title: "ThingsBoard (Open-source IoT Platform)"
 alternative_to: ["AWS IoT Core (cloud, commercial)", "Azure IoT Hub (commercial)", "Google Cloud IoT (deprecated)", "Datadog IoT (commercial)"]
 categories: ["IoT", "Cloud", "Ανάλυση Δεδομένων", "Παρακολούθηση"]
 website: "https://thingsboard.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/thingsboard.png"
 license: "Apache-2.0 (Community Edition), Commercial (Professional Edition)"
 description: "Η κορυφαία open-source πλατφόρμα IoT για συλλογή, επεξεργασία, οπτικοποίηση δεδομένων (telemetry), διαχείριση συσκευών (device management), και κανόνες (rule engine). Υποστηρίζει MQTT, CoAP, HTTP, LwM2M, SNMP, και IoT Gateway (Modbus, BACnet, CAN, OPC-UA). Ιδανική για smart energy, fleet management, industrial IoT, smart farming, and environmental monitoring. Τρέχει on-premise ή στο cloud, με δυνατότητα scaling σε εκατομμύρια συσκευές."
 featured: true

@@ -3,7 +3,7 @@ title: "GRASS GIS (Geospatial Analysis)"
 alternative_to: ["ArcInfo", "Whitebox Geospatial (open source)", "SAGA GIS (open source)"]
 categories: ["Εκπαίδευση", "GIS", "Χαρτογραφία"]
 website: "https://grass.osgeo.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/grass-gis.png"
 license: "GPL-2.0"
 description: "Ένα από τα παλαιότερα και πιο ισχυρά λογισμικά για διαχείριση και ανάλυση γεωχωρικών δεδομένων, ειδικά σε ακαδημαϊκό και ερευνητικό περιβάλλον (γεωμορφολογία, υδρολογία, απομακρυσμένη ανίχνευση). Υποστηρίζει raster (τρισδιάστατα δεδομένα), vector (τοπολογία), υψομετρικά μοντέλα (DEM), χωρική μοντελοποίηση, γεωστατιστική, και ανάλυση λεκανών απορροής."
 featured: false

@@ -3,7 +3,7 @@ title: "Indico"
 alternative_to: ["Cvent", "Eventbrite (conferences)", "ConfTool", "EasyChair (advanced conferences)"]
 categories: ["Εργαλεία", "Cloud", "Συνέδρια", "Εκδηλώσεις"]
 website: "https://getindico.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/indico.png"
 license: "GPL-3.0"
 description: "Γενικής χρήσης, πλήρως διαδικτυακό εργαλείο διαχείρισης εκδηλώσεων, συνεδρίων και ομάδων εργασίας, αναπτυγμένο από το CERN. Υποστηρίζει CfP, κρατήσεις δωματίων, διαχείριση υλικού, και επεκτείνεται μέσω plugins."
 featured: false

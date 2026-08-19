@@ -3,7 +3,7 @@ title: "Moodle (LMS - Learning Management System)"
 alternative_to: ["Blackboard", "Canvas LMS", "Google Classroom", "Schoology"]
 categories: ["Εκπαίδευση", "Πλατφόρμες Μάθησης"]
 website: "https://moodle.org"
-logo: "/images/moodle.svg"
+logo: "/images/moodle.png"
 license: "GPL-3.0"
 description: "Η πιο δημοφιλής open-source πλατφόρμα διαχείρισης μάθησης (LMS) παγκοσμίως. Χρησιμοποιείται από πανεπιστήμια, σχολεία, εταιρείες, και κυβερνητικούς οργανισμούς για την παροχή online μαθημάτων, δημιουργία εκπαιδευτικού περιεχομένου, διαχείριση χρηστών, βαθμολόγηση, κουίζ, wiki, forums, chat, assignments, badges, certificates, analytics, και ενσωμάτωση (plugins). Υποστηρίζει SCORM, xAPI (Tin Can), και είναι επεκτάσιμο (2000+ plugins)."
 featured: true

@@ -3,7 +3,7 @@ title: "Geany"
 alternative_to: ["Sublime Text (proprietary)", "Notepad++ (Windows only)", "VS Code (heavyweight alternative)"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://www.geany.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/geany.png"
 license: "GPL-2.0"
 description: "Εξαιρετικά γρήγορος, ελαφρύς επεξεργαστής κειμένου με δυνατότητες IDE: syntax highlighting (πάνω από 50 γλώσσες), code folding, autocompletion, project management, built-in terminal, και plugin system. Ιδανικός για παλιούς υπολογιστές ή minimal setups."
 featured: false

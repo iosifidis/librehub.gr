@@ -3,7 +3,7 @@ title: "firewalld (Dynamic Firewall Manager)"
 alternative_to: ["iptables (traditional, less dynamic)", "nftables (newer, firewalld can use as backend)", "UFW (simpler, Ubuntu)"]
 categories: ["Ασφάλεια", "Δίκτυα", "Λειτουργικά Συστήματα"]
 website: "https://firewalld.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/firewalld.png"
 license: "GPL-2.0"
 description: "Δυναμικός διαχειριστής τείχους προστασίας (firewall) για Linux (default in Red Hat, CentOS, Fedora, SUSE). Υποστηρίζει ζώνες δικτύου (zones) που ορίζουν διαφορετικά επίπεδα εμπιστοσύνης (trust levels), επιτρέποντας την εύκολη εναλλαγή κανόνων (π.χ. 'public' vs 'home' vs 'internal'). Σε αντίθεση με το iptables (static, requires restart), το firewalld εφαρμόζει αλλαγές σε runtime χωρίς να διακόπτει υπάρχουσες συνδέσεις."
 featured: false

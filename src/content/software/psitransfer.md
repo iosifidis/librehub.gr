@@ -3,7 +3,7 @@ title: "PsiTransfer"
 alternative_to: ["WeTransfer Plus", "Dropbox Transfer", "SendSafely"]
 categories: ["Cloud", "Παραγωγικότητα"]
 website: "https://github.com/psi-4ward/psitransfer"
-logo: "/images/placeholder.svg"
+logo: "/images/psitransfer.png"
 license: "MIT"
 description: "Απλή, ελαφριά και self-hosted λύση για προσωρινό διαμοιρασμό αρχείων (temporary file sharing), με διεπαφή drag-and-drop, κωδικούς πρόσβασης και λήξη συνδέσμων."
 featured: false

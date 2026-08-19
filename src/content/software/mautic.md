@@ -3,7 +3,7 @@ title: "Mautic (Marketing Automation)"
 alternative_to: ["HubSpot Marketing Hub (commercial)", "Marketo (Adobe)", "Mailchimp (basic marketing)"]
 categories: ["Παραγωγικότητα", "Email Marketing", "Αυτοματισμός"]
 website: "https://www.mautic.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/mautic.png"
 license: "GPL-3.0"
 description: "Η κορυφαία open-source πλατφόρμα marketing automation. Επιτρέπει στις επιχειρήσεις να αυτοματοποιούν campaigns (email, SMS, social media), να βαθμολογούν leads (lead scoring), να τμηματοποιούν επαφές (segments), να δημιουργούν landing pages/forms, και να παρακολουθούν συμπεριφορά επισκεπτών – όλα self-hosted."
 featured: true

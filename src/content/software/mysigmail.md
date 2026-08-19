@@ -3,7 +3,7 @@ title: "MySigMail (Email Signature Editor)"
 alternative_to: ["HubSpot Email Signature Generator (free, cloud)", "WiseStamp", "Signature.email"]
 categories: ["Email", "Παραγωγικότητα", "Εργαλεία"]
 website: "https://github.com/antonreshetov/mysigmail"
-logo: "/images/placeholder.svg"
+logo: "/images/mysigmail.svg"
 license: "MIT"
 description: "Ένας δωρεάν, open-source επεξεργαστής για τη δημιουργία επαγγελματικών υπογραφών email, είτε για τοπική χρήση είτε για web (HTML). Προσφέρει drag-and-drop builder, προεπισκόπηση σε πραγματικό χρόνο, υποστήριξη για logos, social media icons (Facebook, Twitter, LinkedIn, GitHub), κείμενο (όνομα, θέση, τηλέφωνο, email), χρώματα και προσαρμογή CSS. Εξάγει την υπογραφή σε μορφή HTML (για να την αντιγράψετε σε Thunderbird, Outlook, Gmail) ή σε PNG (στιγμιότυπο). Είναι διαθέσιμο ως web app (χωρίς εγκατάσταση) και ως desktop (Electron)."
 featured: false

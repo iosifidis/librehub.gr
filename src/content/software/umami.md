@@ -3,7 +3,7 @@ title: "Umami"
 alternative_to: ["Google Analytics (GA4)", "Plausible Analytics (self-hosted alternative)", "GoAccess (real-time logs)"]
 categories: ["Ιδιωτικότητα", "Ανάλυση Ιστού"]
 website: "https://umami.is/"
-logo: "/images/placeholder.svg"
+logo: "/images/umami.svg"
 license: "MIT"
 description: "Απλή, εύχρηστη, και εστιασμένη στην ιδιωτικότητα εναλλακτική λύση analytics (παρόμοια με Plausible). Συλλέγει μόνο απαραίτητες μετρικές (σελίδες, referrers, browsers, devices), δεν χρησιμοποιεί cookies, και είναι πλήρως συμβατή με GDPR. Μπορεί να self-hosted (Node.js + PostgreSQL ή MySQL) ή μέσω cloud."
 featured: false

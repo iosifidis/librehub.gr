@@ -3,7 +3,7 @@ title: "Firefox Focus"
 alternative_to: ["Opera Mini", "Chrome Incognito"]
 categories: ["Πλοήγηση", "Ιδιωτικότητα"]
 website: "https://www.mozilla.org/el/firefox/mobile/"
-logo: "/images/firefox-focus.svg"
+logo: "/images/firefox-focus.png"
 license: "MPL-2.0"
 description: "Ελαφρύς περιηγητής για κινητά (Android & iOS) που εστιάζει στην ταχύτητα και την αυτόματη διαγραφή ιστορικού, cookies και trackers μετά από κάθε συνεδρία. Ιδανικός για γρήγορη, ιδιωτική περιήγηση χωρίς ίχνη."
 featured: false

@@ -3,7 +3,7 @@ title: "PyBitmessage"
 alternative_to: ["Email", "Encrypted Messaging"]
 categories: ["Επικοινωνία", "Ιδιωτικότητα", "Κρυπτογραφία"]
 website: "https://bitmessage.org/"
-logo: "/images/bitmessage.svg"
+logo: "/images/pybitmessage.svg"
 license: "MIT"
 description: "Client για το αποκεντρωμένο P2P δίκτυο Bitmessage — σύστημα κρυπτογραφημένης αλληλογραφίας που μοιάζει με email αλλά λειτουργεί χωρίς κεντρικούς servers. Χρησιμοποιεί proof-of-work για αποτροπή spam και strong κρυπτογράφηση για κάθε μήνυμα."
 featured: false

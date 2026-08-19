@@ -3,7 +3,7 @@ title: "Sphinx (Documentation Generator)"
 alternative_to: ["Jekyll", "MkDocs", "Docusaurus", "Read the Docs"]
 categories: ["Εκπαίδευση", "Τεκμηρίωση"]
 website: "https://www.sphinx-doc.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/sphinx.png"
 license: "BSD-2-Clause"
 description: "Εργαλείο (static site generator) για τη δόμηση και πλοήγηση σε σύνθετες δομές περιεχομένων και τεκμηρίωσης. Χρησιμοποιεί reStructuredText (ή Markdown με MyST) ως source, παράγει HTML, PDF (LaTeX), ePub, και άλλα. Διαθέτει extension system για code highlighting, autodoc (πρόσβαση σε docstrings), API documentation (από Python, C, C++), και διαχείριση cross-references. Είναι το standard εργαλείο τεκμηρίωσης για Python projects."
 featured: false

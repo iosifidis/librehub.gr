@@ -3,7 +3,7 @@ title: "Pretix"
 alternative_to: ["Eventbrite", "Ticketmaster", "Tito", "Billetto"]
 categories: ["Cloud", "Εργαλεία", "Συνέδρια", "Εκδηλώσεις", "Παραγωγικότητα"]
 website: "https://pretix.eu/"
-logo: "/images/placeholder.svg"
+logo: "/images/pretix.png"
 license: "AGPL-3.0"
 description: "Πλήρες σύστημα πώλησης εισιτηρίων για εκδηλώσεις κάθε μεγέθους (συνέδρια, μουσεία, φεστιβάλ), με διαδραστικές κατόψεις θέσεων, 30+ πύλες πληρωμών, πολυγλωσσική υποστήριξη, και δυνατότητα self-hosting χωρίς χρέωση ανά εισιτήριο."
 featured: true

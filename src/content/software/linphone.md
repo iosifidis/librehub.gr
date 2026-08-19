@@ -3,7 +3,7 @@ title: "Linphone"
 alternative_to: ["Skype", "Microsoft Teams (VoIP part)", "WhatsApp Calls"]
 categories: ["Επικοινωνία", "Ιδιωτικότητα"]
 website: "https://www.linphone.org"
-logo: "/images/placeholder.svg"
+logo: "/images/linphone.svg"
 license: "GPL-2.0"
 description: "Μια πλήρης, cross-platform λύση VoIP βασισμένη στο πρότυπο SIP, με έντονη εστίαση στην ασφάλεια (κρυπτογράφηση άκρου-προς-άκρο) και διαθέσιμη σε desktop (Windows/Linux/Mac), Android, iOS και ως web SDK."
 featured: false

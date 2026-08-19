@@ -3,7 +3,7 @@ title: "Mullvad Browser"
 alternative_to: ["Google Chrome", "Safari"]
 categories: ["Πλοήγηση", "Ιδιωτικότητα"]
 website: "https://mullvad.net/en/browser"
-logo: "/images/mullvad-browser.svg"
+logo: "/images/mullvad.png"
 license: "MPL-2.0"
 description: "Περιηγητής ανοιχτού κώδικα αναπτυγμένος από τη Mullvad VPN σε συνεργασία με την ομάδα του Tor Project. Σχεδιασμένος για να ελαχιστοποιεί το fingerprinting και να προστατεύει τον μέσο χρήστη από παρακολούθηση, ακόμη και χωρίς χρήση του δικτύου Tor."
 featured: false

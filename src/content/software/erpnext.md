@@ -3,7 +3,7 @@ title: "ERPNext"
 alternative_to: ["SAP ERP", "Oracle NetSuite", "Microsoft Dynamics 365"]
 categories: ["Παραγωγικότητα", "Cloud", "ERP", "CRM", "HRMS", "Γραφείο"]
 website: "https://erpnext.com"
-logo: "/images/placeholder.svg"
+logo: "/images/erpnext.png"
 license: "GPL-3.0"
 description: "Πλήρες ERP ανοιχτού κώδικα για μικρές και μεσαίες επιχειρήσεις (SMEs), με έντονη εστίαση στη διαχείριση αποθήκης, παραγωγής, εφοδιαστικής αλυσίδας και λογιστικών."
 featured: true

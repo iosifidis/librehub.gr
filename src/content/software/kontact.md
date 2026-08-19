@@ -3,7 +3,7 @@ title: "Kontact (Personal Information Manager - PIM)"
 alternative_to: ["Microsoft Outlook", "Evolution (GNOME)", "Thunderbird", "Windows Calendar"]
 categories: ["Email", "Επικοινωνία", "Παραγωγικότητα"]
 website: "https://kontact.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/kontact.png"
 license: "GPL-2.0"
 description: "Ολοκληρωμένος διαχειριστής προσωπικών πληροφοριών (PIM) για το περιβάλλον επιφάνειας εργασίας KDE, που ενοποιεί το ηλεκτρονικό ταχυδρομείο (KMail), το ημερολόγιο (KOrganizer), τις επαφές (KAddressBook), τα καθήκοντα (todo), τις σημειώσεις (KNotes), και την είδηση (Akregator – RSS reader) σε ένα ενιαίο περιβάλλον. Βασίζεται στο πλαίσιο KParts (κάθε συστατικό είναι αυτόνομο αλλά ενσωματωμένο). Ιδανικό για χρήστες KDE Plasma."
 featured: false

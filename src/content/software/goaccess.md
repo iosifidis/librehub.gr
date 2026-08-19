@@ -3,7 +3,7 @@ title: "GoAccess (Real-time Web Log Analyzer)"
 alternative_to: ["Google Analytics (server-side alternative)", "AWStats (deprecated)", "Webalizer (old)"]
 categories: ["Ανάλυση Ιστού", "Εργαλεία"]
 website: "https://goaccess.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/goaccess.svg"
 license: "GPL-2.0"
 description: "Ένας αναλυτής καταγραφών (log analyzer) ιστού σε πραγματικό χρόνο, λειτουργεί από τερματικό (terminal) ή παράγει HTML reports. Διαβάζει αρχεία logs (Apache, Nginx, Amazon S3, CloudFront) και παρουσιάζει στατιστικά (unique visitors, requested files, 404 errors, referrers, browsers, OS, location, κλπ.) χωρίς να χρειάζεται JavaScript tracking (server-side analytics)."
 featured: false

@@ -3,7 +3,7 @@ title: "PHP Dynamic QR Code"
 alternative_to: ["QR Code Generator Pro (paid)", "QRazy (commercial)", "QR Server (self-hosted)"]
 categories: ["Εργαλεία", "Παραγωγικότητα", "QR"]
 website: "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code"
-logo: "/images/placeholder.svg"
+logo: "/images/php-dynamic-qr.svg"
 license: "MIT"
 description: "#1 δυναμικός QR code generator στο GitHub. Επιτρέπει τη δημιουργία, αποθήκευση και διαχείριση στατικών και δυναμικών QR codes με βάση δεδομένων (MySQL). Περιλαμβάνει dashboard, πολλαπλούς λογαριασμούς, στατιστικά σαρώσεων (scans), URL shortener, και πλήρη παραμετροποίηση QR (χρώματα, size, error correction)."
 featured: false

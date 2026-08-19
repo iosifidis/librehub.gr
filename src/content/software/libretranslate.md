@@ -3,7 +3,7 @@ title: "LibreTranslate"
 alternative_to: ["Google Translate API", "DeepL API", "Microsoft Translator"]
 categories: ["Εργαλεία", "Ανάπτυξη Λογισμικού", "Cloud", "Εκπαίδευση"]
 website: "https://libretranslate.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/libretranslate.png"
 license: "AGPL-3.0"
 description: "Ανοιχτού κώδικα, πλήρως self-hosted API μηχανικής μετάφρασης (machine translation), χωρίς περιορισμούς όγκου δεδομένων, χωρίς tracking, και με δυνατότητα offline λειτουργίας."
 featured: true

@@ -3,7 +3,7 @@ title: "HumHub"
 alternative_to: ["Yammer", "Slack", "Facebook Workplace"]
 categories: ["Επικοινωνία", "Παραγωγικότητα", "Cloud"]
 website: "https://www.humhub.com/en/"
-logo: "/images/placeholder.svg"
+logo: "/images/humhub.png"
 license: "AGPL-3.0"
 description: "Ευέλικτη πλατφόρμα κοινωνικού δικτύου για επιχειρήσεις (Enterprise Social Network), που λειτουργεί σαν ένα εσωτερικό Facebook για ομάδες, διευκολύνοντας την επικοινωνία, την ανταλλαγή γνώσης και τη συνεργασία."
 featured: false

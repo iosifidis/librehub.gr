@@ -3,7 +3,7 @@ title: "PostgreSQL (Postgres)"
 alternative_to: ["Oracle Database", "Microsoft SQL Server (Enterprise)", "IBM Db2"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Βάσεις Δεδομένων"]
 website: "https://www.postgresql.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/postgresql.png"
 license: "PostgreSQL License (OSI approved, similar to MIT)"
 description: "Η πιο προηγμένη open-source σχεσιακή βάση δεδομένων (ORDBMS) παγκοσμίως, γνωστή για την ακρίβεια (ACID), επεκτασιμότητα, συμμόρφωση με SQL standards, και υποστήριξη για custom data types, indexing (B-tree, GiST, GIN, BRIN), full-text search, JSON/JSONB, GIS (PostGIS), και πολυ-έκδοση (MVCC). Ιδανική για εφαρμογές που απαιτούν πολύπλοκες ερωτήσεις, data warehousing, και high concurrency."
 featured: true

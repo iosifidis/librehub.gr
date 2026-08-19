@@ -3,7 +3,7 @@ title: "Apache Superset"
 alternative_to: ["Tableau (commercial)", "Microsoft Power BI (commercial)", "Looker (commercial)"]
 categories: ["Ανάλυση Δεδομένων", "Εργαλεία", "Cloud"]
 website: "https://superset.apache.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/superset.png"
 license: "Apache-2.0"
 description: "Σύγχρονη, enterprise-grade πλατφόρμα εξερεύνησης και οπτικοποίησης δεδομένων (Data Visualization & BI) ανοιχτού κώδικα. Ικανή να διαχειριστεί δεδομένα σε κλίμακα petabyte (μέσω υποστήριξης 60+ databases, από PostgreSQL, ClickHouse, Druid, Snowflake, BigQuery, Redshift, έως Presto/Trino). Διαθέτει πλούσιο dashboard builder, no-code explore interface, SQL IDE, semantic layer, και extensible architecture (Python)."
 featured: true

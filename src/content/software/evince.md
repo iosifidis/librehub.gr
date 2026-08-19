@@ -3,7 +3,7 @@ title: "Evince"
 alternative_to: ["Adobe Acrobat Reader"]
 categories: ["Εργαλεία", "Γραφείο"]
 website: "https://wiki.gnome.org/Apps/Evince"
-logo: "/images/evince.svg"
+logo: "/images/evince.png"
 license: "GPL-2.0"
 description: "Ελαφρύς και ισχυρός αναγνώστης εγγράφων για το GNOME περιβάλλον — υποστηρίζει PDF, PostScript, DjVu, TIFF, DVI, XPS, Comic Books (.cbr/.cbz) και άλλα formats σε μία εφαρμογή. Γρήγορος, ασφαλής (sandbox) και ενσωματωμένος στο GNOME."
 featured: false

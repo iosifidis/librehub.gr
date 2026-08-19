@@ -3,7 +3,7 @@ title: "PrivateBin (Secure Pastebin)"
 alternative_to: ["Pastebin (Pro, commercial)", "GitHub Gist (public, not private)"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Επικοινωνία"]
 website: "https://privatebin.info/"
-logo: "/images/placeholder.svg"
+logo: "/images/privatebin.png"
 license: "Zlib (MIT-like)"
 description: "Ένας μινιμαλιστικός, ασφαλής online χώρος αποθήκευσης κειμένου (secure pastebin), όπου ο διακομιστής δεν έχει καμία γνώση των δεδομένων (zero-knowledge). Όλα τα δεδομένα κρυπτογραφούνται (AES-256) και αποκρυπτογραφούνται στην πλευρά του browser (client-side) χρησιμοποιώντας JavaScript. Υποστηρίζει self-hosting, burn-after-reading, password protection, expiration, και σύνταξη Markdown/Syntax highlighting. Ιδανικό για ανταλλαγή ευαίσθητων δεδομένων, logs, ή κώδικα χωρίς να εμπιστεύεστε τον server."
 featured: false

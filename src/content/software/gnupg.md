@@ -3,7 +3,7 @@ title: "GnuPG (GPG)"
 alternative_to: ["Symantec Desktop Encryption"]
 categories: ["Κρυπτογραφία", "Ασφάλεια", "Ιδιωτικότητα"]
 website: "https://gnupg.org/"
-logo: "/images/gnupg.svg"
+logo: "/images/gnupg.png"
 license: "GPL-3.0"
 description: "Η πλήρης και ελεύθερη υλοποίηση του προτύπου OpenPGP για κρυπτογράφηση και ψηφιακή υπογραφή δεδομένων και επικοινωνιών. Αποτελεί τον ακρογωνιαίο λίθο της κρυπτογραφίας ανοιχτού κώδικα — χρησιμοποιείται από δημοσιογράφους, προγραμματιστές και οργανισμούς παγκοσμίως για ασφαλή email, υπογραφή κώδικα και κρυπτογράφηση αρχείων."
 featured: true

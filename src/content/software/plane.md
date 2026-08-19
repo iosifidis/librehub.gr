@@ -3,7 +3,7 @@ title: "Plane"
 alternative_to: ["Jira", "Linear", "ClickUp", "Asana"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Ανάπτυξη Λογισμικού"]
 website: "https://plane.so/"
-logo: "/images/placeholder.svg"
+logo: "/images/plane.svg"
 license: "AGPL-3.0"
 description: "Σύγχρονη, ανοιχτού κώδικα πλατφόρμα διαχείρισης έργων (open-source Jira/Linear alternative), με εστίαση στην ταχύτητα, ευχρηστία, και φιλική προς developer εμπειρία. Υποστηρίζει issues, cycles, modules, analytics, και ενσωματώσεις Git."
 featured: true

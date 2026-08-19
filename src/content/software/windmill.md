@@ -3,7 +3,7 @@ title: "Windmill (Developer Platform for Internal Tools & Automation)"
 alternative_to: ["Retool (commercial, internal tools)", "Temporal (workflow orchestration)", "Airflow (data pipelines)", "n8n (workflow automation for non-devs)"]
 categories: ["Εργαλεία", "Παραγωγικότητα", "Αυτοματισμός"]
 website: "https://www.windmill.dev/"
-logo: "/images/placeholder.svg"
+logo: "/images/windmill.svg"
 license: "AGPL-3.0 (Community Edition), Commercial (Enterprise)"
 description: "Code-first πλατφόρμα αυτοματισμού και ανάπτυξης εσωτερικών εργαλείων (internal tools). Μπορείτε να γράψετε scripts σε Python, TypeScript, Go, Bash, SQL, PHP, C#, Rust και να τα μετατρέψετε αυτόματα σε webhooks, workflows, cron jobs, και UI forms (auto-generated). Συνδυάζει τις δυνατότητες του n8n (workflows) με αυτές του Retool (internal apps) και του Airflow (data pipelines), αλλά με code-first προσέγγιση. 16k+ GitHub stars."
 featured: false

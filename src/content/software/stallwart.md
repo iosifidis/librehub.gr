@@ -3,7 +3,7 @@ title: "Stalwart Mail Server"
 alternative_to: ["Proprietary Enterprise Mail Servers"]
 categories: ["Email", "Cloud", "Επικοινωνία"]
 website: "https://stalw.art/"
-logo: "/images/placeholder.svg"
+logo: "/images/stallwart.svg"
 license: "AGPL-3.0"
 description: "All-in-one mail server γραμμένο σε Rust, που συνδυάζει ταχύτητα, ασφάλεια και επεκτασιμότητα με υποστήριξη για JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV και WebDAV."
 featured: true

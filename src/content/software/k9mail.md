@@ -3,7 +3,7 @@ title: "K-9 Mail (Email Client for Android)"
 alternative_to: ["Gmail", "Microsoft Outlook", "FairEmail (open source alternative)"]
 categories: ["Email", "Επικοινωνία"]
 website: "https://k9mail.github.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/k9mail.png"
 license: "Apache-2.0"
 description: "Μια αυτόνομη, ισχυρή και εστιασμένη στην ιδιωτικότητα εφαρμογή ηλεκτρονικού ταχυδρομείου για Android, που υποστηρίζει πολλαπλούς λογαριασμούς, πρωτόκολλα IMAP, POP3, SMTP, και λειτουργεί με τοπική αποθήκευση (χωρίς ανταλλαγή δεδομένων με cloud της εφαρμογής). Διαθέτει ενοποιημένα εισερχόμενα, φιλτράρισμα, κρυπτογράφηση (OpenPGP μέσω OpenKeychain), υπογραφές, dark mode, και δυνατότητα αποθήκευσης email offline. Είναι η βάση για την επερχόμενη εφαρμογή Thunderbird for Android."
 featured: true

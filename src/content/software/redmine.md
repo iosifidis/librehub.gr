@@ -3,7 +3,7 @@ title: "Redmine"
 alternative_to: ["Jira", "Basecamp", "Trac"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Ανάπτυξη Λογισμικού"]
 website: "https://www.redmine.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/redmine.png"
 license: "GPL-2.0"
 description: "Ευέλικτη διαδικτυακή εφαρμογή διαχείρισης έργων, βασισμένη στο Ruby on Rails, με υποστήριξη πολλαπλών έργων, παρακολούθηση σφαλμάτων (bug tracking), Gantt charts, ημερολόγια, wiki, forums και ενσωμάτωση με SCM (Git, SVN)."
 featured: false

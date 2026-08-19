@@ -3,7 +3,7 @@ title: "Open HRMS"
 alternative_to: ["SAP SuccessFactors", "Oracle HCM Cloud", "BambooHR", "Zoho People"]
 categories: ["Παραγωγικότητα", "Cloud", "HRMS", "Γραφείο"]
 website: "https://www.openhrms.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/openhrms.svg"
 license: "MPL-2.0 (based on Odoo)"
 description: "Ολοκληρωμένο σύστημα διαχείρισης ανθρώπινου δυναμικού (HRMS) ανοιχτού κώδικα, που καλύπτει hiring, παρουσίες, αξιολογήσεις, μισθοδοσία, αποζημιώσεις, και onboarding/offboarding."
 featured: false

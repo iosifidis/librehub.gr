@@ -3,7 +3,7 @@ title: "Typebot (Conversational Forms & Chatbots)"
 alternative_to: ["Landbot (commercial)", "Typeform (conversational forms)", "Paperform", "Tally (basic)"]
 categories: ["Παραγωγικότητα", "Chatbots", "Φόρμες", "Έρευνα"]
 website: "https://typebot.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/typebot.svg"
 license: "AGPL-3.0"
 description: "Εργαλείο δημιουργίας οπτικών chatbots και conversational forms με drag-and-drop, χωρίς κώδικα (no-code). Υποστηρίζει πολλαπλές ροές συνομιλίας (branches, conditions), logic jumps, file uploads, custom variables, και μπορεί να ενσωματωθεί σε website (as pop-up) ή να λειτουργήσει ως αυτόνομη σελίδα."
 featured: false

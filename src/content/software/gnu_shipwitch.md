@@ -3,7 +3,7 @@ title: "GNU Sipwitch"
 alternative_to: ["Avaya IP PBX", "Cisco Unified Communications Manager", "3CX (Proprietary Edition)"]
 categories: ["Επικοινωνία", "Τηλεφωνία", "Λειτουργικά Συστήματα"]
 website: "https://www.gnu.org/software/sipwitch/"
-logo: "/images/placeholder.svg"
+logo: "/images/gnu_shipwitch.svg"
 license: "GPL-3.0"
 description: "Εξυπηρετητής τηλεφωνικών κλήσεων γραφείου (SIP server / IP PBX) που παρέχει διαχείριση εσωτερικών δικτύων επικοινωνίας, προώθηση κλήσεων, τηλεφωνικές ομάδες και σύνδεση με το δημόσιο δίκτυο (PSTN)."
 featured: false

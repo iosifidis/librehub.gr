@@ -3,7 +3,7 @@ title: "Excalidraw (Virtual Whiteboard)"
 alternative_to: ["Miro", "Lucidchart", "Draw.io", "Figma"]
 categories: ["Σχεδίαση", "Διαγράμματα"]
 website: "https://excalidraw.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/excalidraw.png"
 license: "MIT"
 description: "Ένα εργαλείο εικονικού πίνακα (virtual whiteboard) για τη δημιουργία χειρόγραφων σχεδίων, διαγραμμάτων ροής, wireframes, mind maps, και οπτικών σημειώσεων, με μια μοναδική αισθητική (hand-drawn style). Είναι web-based, λειτουργεί offline, υποστηρίζει real-time collaboration, και αποθηκεύει τα σχέδια τοπικά (localStorage) ή στο cloud (Excalidraw+). Δεν απαιτεί λογαριασμό. Τα σχέδια εξάγονται ως PNG, SVG, ή JSON. Ιδανικό για brainstorming, concept design, και quick sketches."
 featured: true

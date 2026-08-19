@@ -3,7 +3,7 @@ title: "Icedove"
 alternative_to: ["Microsoft Outlook"]
 categories: ["Email", "Επικοινωνία"]
 website: "https://www.thunderbird.net/"
-logo: "/images/thunderbird.svg"
+logo: "/images/icedove.png"
 license: "MPL-2.0"
 description: "Το Icedove είναι το επίσημο όνομα του Mozilla Thunderbird στο Debian GNU/Linux — ταυτόσημο λογισμικό, διαφορετικό branding για συμμόρφωση με τις πολιτικές ελεύθερου λογισμικού του Debian. Προσφέρει όλες τις δυνατότητες του Thunderbird: email, RSS, calendar, task management και OpenPGP κρυπτογράφηση."
 featured: false

@@ -3,7 +3,7 @@ title: "Zorin OS"
 alternative_to: ["Microsoft Windows", "macOS"]
 categories: ["Λειτουργικά Συστήματα"]
 website: "https://zorin.com/os/"
-logo: "/images/zorin-os.svg"
+logo: "/images/zorin.svg"
 license: "GPL-2.0"
 description: "Διανομή Linux σχεδιασμένη ειδικά για χρήστες που μεταβαίνουν από Windows ή macOS — με layouts που μιμούνται την εμφάνιση των αντίστοιχων λειτουργικών. Η Pro έκδοση περιλαμβάνει επιπλέον layouts και εφαρμογές, ενώ η Core έκδοση είναι εντελώς δωρεάν και βασισμένη στο Ubuntu LTS."
 featured: false

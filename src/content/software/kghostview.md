@@ -3,7 +3,7 @@ title: "KGhostview (PostScript/PDF Viewer for KDE)"
 alternative_to: ["Okular", "Ghostscript (CLI)", "Evince (GNOME)"]
 categories: ["PDF", "Ανάγνωση", "Ημερήσια Χρήση"]
 website: "https://kde.org/applications/graphics/org.kde.kghostview"
-logo: "/images/placeholder.svg"
+logo: "/images/kghostview.svg"
 license: "GPL-2.0"
 description: "Ένα εργαλείο προβολής (viewer) για αρχεία PostScript (PS) και PDF, βασισμένο στο Ghostscript. Είναι ελαφρύ και λειτουργικό, ειδικά για PostScript (μορφή που χρησιμοποιείται σε εκτυπωτές). Ωστόσο, θεωρείται **παραχημένο (legacy)** – το **Okular** (επίσης KDE) έχει αντικαταστήσει το KGhostview από το 2005. Διατίθεται ακόμα για λόγους συμβατότητας, αλλά δεν συνιστάται για νέες εγκαταστάσεις."
 featured: false

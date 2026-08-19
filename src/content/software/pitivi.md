@@ -3,7 +3,7 @@ title: "Pitivi"
 alternative_to: ["Adobe Premiere Elements"]
 categories: ["Επεξεργασία Βίντεο", "Βίντεο"]
 website: "https://www.pitivi.org/"
-logo: "/images/pitivi.svg"
+logo: "/images/pitivi.png"
 license: "LGPL-2.0"
 description: "Video editor με καθαρό, σύγχρονο και διαισθητικό περιβάλλον εργασίας ενσωματωμένο στο GNOME. Βασισμένος στο GStreamer, υποστηρίζει multi-track editing, εφέ, μεταβάσεις, keyframes και render σε κοινά formats — ιδανικός για χρήστες Linux που θέλουν έναν editor που «αισθάνεται» φυσικά στο περιβάλλον τους."
 featured: false

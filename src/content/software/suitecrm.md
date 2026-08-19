@@ -3,7 +3,7 @@ title: "SuiteCRM"
 alternative_to: ["Salesforce Sales Cloud", "HubSpot CRM", "Zoho CRM", "Microsoft Dynamics 365 Sales"]
 categories: ["Παραγωγικότητα", "Γραφείο", "CRM", "Cloud"]
 website: "https://suitecrm.com"
-logo: "/images/placeholder.svg"
+logo: "/images/suitecrm.png"
 license: "AGPL-3.0"
 description: "Η κορυφαία ανοιχτού κώδικα πλατφόρμα CRM (Customer Relationship Management) στον κόσμο, με πάνω από 3 εκατομμύρια λήψεις. Προσφέρει πλήρη διαχείριση πωλήσεων, μάρκετινγκ, εξυπηρέτησης πελατών, αναφορών και αυτοματισμούς."
 featured: true

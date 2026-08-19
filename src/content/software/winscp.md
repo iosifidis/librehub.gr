@@ -3,7 +3,7 @@ title: "WinSCP"
 alternative_to: ["CuteFTP", "Filezilla (SFTP)"]
 categories: ["Εργαλεία", "Δίκτυα"]
 website: "https://winscp.net/"
-logo: "/images/winscp.svg"
+logo: "/images/winscp.png"
 license: "GPL-3.0"
 description: "Ο πιο δημοφιλής SFTP, FTP, SCP και WebDAV client για Windows — απαραίτητος για ασφαλή μεταφορά αρχείων μεταξύ τοπικού υπολογιστή και Linux/Unix server. Προσφέρει dual-pane διεπαφή, συγχρονισμό φακέλων, scripting, PuTTY integration και φιλοξενία στο SourceForge."
 featured: false

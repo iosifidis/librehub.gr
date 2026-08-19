@@ -3,7 +3,7 @@ title: "Operaton (Open-source BPMN Engine)"
 alternative_to: ["Camunda 7 (proprietary future)", "Camunda 8 (commercial)", "Flowable (open source fork)"]
 categories: ["Αυτοματισμός", "Επιχειρήσεις",  "Ανάπτυξη Λογισμικού"]
 website: "https://operaton.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/operaton.svg"
 license: "Apache-2.0 (Community Engine)"
 description: "Μια πλατφόρμα αυτοματισμού ροών εργασίας και διαδικασιών (BPMN engine) που ξεκίνησε ως fork της Camunda 7 μετά την αλλαγή αδειοδότησης (από Apache 2.0 σε commercial για την Camunda 8). Στόχος της είναι η μακροπρόθεσμη σταθερότητα, η διατήρηση ενός truly free & open-source BPMN engine, και η ανεξαρτησία από εμπορικούς vendors. Παρέχει BPMN 2.0, DMN 1.3, CMMN, Web Modeler (rewritten), και εύκολη μετεγκατάσταση από Camunda 7."
 featured: false

@@ -3,7 +3,7 @@ title: "AFFiNE"
 alternative_to: ["Notion", "Miro", "Obsidian (markdown notes)", "Coda"]
 categories: ["Σημειώσεις", "Λευκοπίνακες", "Παραγωγικότητα"]
 website: "https://affine.pro/"
-logo: "/images/aaffine.png"
+logo: "/images/affine.png"
 license: "MIT (core), Commercial (Cloud)"
 description: "Μια πλατφόρμα εργασίας ανοιχτού κώδικα (all-in-one workspace) που συνδυάζει **σημειώσεις**, **έγγραφα** (blocks), **λευκοπίνακες** (whiteboard), **πίνακες** (databases), και **σχεδίαση** σε ένα ενιαίο περιβάλλον, εμπνευσμένη από το Notion (blocks) και το Miro (whiteboard). Υποστηρίζει Edgeless (free form) mode και Page mode (δομημένο). Το περιεχόμενο αποθηκεύεται τοπικά (client-side) και μπορεί να συγχρονιστεί με self-hosted server (AFFiNE Server). Ιδανικό για γνωσιακή βάση (knowledge base), project management, και team collaboration."
 featured: false

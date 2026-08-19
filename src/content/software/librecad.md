@@ -3,7 +3,7 @@ title: "LibreCAD (2D CAD)"
 alternative_to: ["AutoCAD (2D only)", "DraftSight (free tier limited)", "QCAD (Community Edition)"]
 categories: ["Γραφικά", "3D Μοντελοποίηση", "CAD"]
 website: "https://librecad.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/librecad.png"
 license: "GPL-2.0"
 description: "Εφαρμογή CAD ανοιχτού κώδικα αποκλειστικά για 2D σχεδίαση, βασισμένη στο QCAD Community Edition. Υποστηρίζει μορφή DWG (AutoCAD), DXF (Drawing Exchange Format), και προσφέρει εργαλεία σχεδίασης (γραμμές, arcs, circles, ellipses, polyline), ακρίβεια διαστάσεων (dimensions), layers, blocks, και hatch patterns. Ιδανική για floor plans, μηχανολογικά σχέδια (2D), ηλεκτρικά διαγράμματα, landscape design."
 featured: false

@@ -3,7 +3,7 @@ title: "Apache Subversion (SVN)"
 alternative_to: ["Perforce (Helix Core)", "Git (for centralized workflows)", "Mercurial"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία",]
 website: "https://subversion.apache.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/subversion.svg"
 license: "Apache-2.0"
 description: "Κεντρικό (centralized) σύστημα ελέγχου εκδόσεων (CVCS), σχεδιασμένο ως διάδοχος του CVS. Κρατά ένα κεντρικό repository και κάθε developer 'checkout' ένα αντίγραφο. Υποστηρίζει atomic commits, versioned directories, renames, file meta-data, και branching (αν και λιγότερο ευέλικτο από Git)."
 featured: false

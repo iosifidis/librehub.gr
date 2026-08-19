@@ -3,7 +3,7 @@ title: "ProjectSend"
 alternative_to: ["Citrix ShareFile", "Dropbox Business (for client portals)", "LiquidFiles"]
 categories: ["Cloud", "Παραγωγικότητα", "Επικοινωνία"]
 website: "https://www.projectsend.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/projectsend.png"
 license: "GPL-2.0"
 description: "Επαγγελματική, self-hosted εφαρμογή για ασφαλή αποστολή και λήψη αρχείων με πελάτες ή συνεργάτες, με πλήρη διαχείριση χρηστών, ομάδων, δικαιωμάτων και καταγραφή ενεργειών (audit log)."
 featured: false

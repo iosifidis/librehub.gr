@@ -3,7 +3,7 @@ title: "Lubuntu"
 alternative_to: ["Microsoft Windows", "macOS"]
 categories: ["Λειτουργικά Συστήματα"]
 website: "https://lubuntu.me/"
-logo: "/images/lubuntu.svg"
+logo: "/images/lubuntu.png"
 license: "GPL-2.0"
 description: "Επίσημη παραλλαγή του Ubuntu με γραφικό περιβάλλον LXQt — η ελαφρύτερη από τις επίσημες Ubuntu εκδόσεις. Σχεδιασμένο για μέγιστη απόδοση σε παλαιό υλικό (512MB RAM), προσφέρει μια πλήρη, λειτουργική επιφάνεια εργασίας που αναζωογονεί υπολογιστές που θα αντικαθίσταντο διαφορετικά."
 featured: false

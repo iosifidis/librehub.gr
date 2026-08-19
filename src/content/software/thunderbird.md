@@ -3,7 +3,7 @@ title: "Thunderbird"
 alternative_to: ["Microsoft Outlook", "Apple Mail"]
 categories: ["Email", "Παραγωγικότητα", "Επικοινωνία", "Ιδιωτικότητα"]
 website: "https://www.thunderbird.net"
-logo: "/images/thunderbird.svg"
+logo: "/images/thunderbird.png"
 license: "MPL-2.0"
 description: "Δωρεάν, ανοιχτού κώδικα εφαρμογή email, ημερολογίου, επαφών και chat (PIM), που σέβεται την ιδιωτικότητα (χωρίς διαφημίσεις, χωρίς παρακολούθηση). Διαχειρίζεται πολλαπλούς λογαριασμούς (POP3, IMAP, SMTP). Υποστηρίζει φιλτράρισμα, ετικέτες, γρήγορη αναζήτηση, ημερολόγιο, υπενθυμίσεις, επαφές (CardDAV), chat (Matrix, IRC, XMPP), υπογραφές, templates, και κρυπτογράφηση (OpenPGP, S/MIME). Είναι πλήρως προσαρμόσιμο με themes και extensions."
 featured: false

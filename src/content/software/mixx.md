@@ -3,7 +3,7 @@ title: "Mixxx"
 alternative_to: ["Traktor DJ", "Serato DJ"]
 categories: ["Επεξεργασία Ήχου", "Πολυμέσα", "Δημιουργία Περιεχομένου"]
 website: "https://www.mixxx.org/"
-logo: "/images/mixxx.svg"
+logo: "/images/mixx.png"
 license: "GPL-2.0"
 description: "Επαγγελματικό DJ software ανοιχτού κώδικα για μίξη ήχου σε πραγματικό χρόνο και ζωντανές εμφανίσεις. Υποστηρίζει 4 decks, harmonic mixing, beatgrid, hot cues, loop rolling, effects chains, broadcast streaming και εκατοντάδες DJ controllers — αντάξιο εμπορικών λύσεων χωρίς κόστος."
 featured: true

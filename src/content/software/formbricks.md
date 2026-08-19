@@ -3,7 +3,7 @@ title: "Formbricks (In-App Surveys)"
 alternative_to: ["Typeform (Enterprise)", "Qualtrics (Research)", "Google Forms (basic)", "SurveyJS"]
 categories: ["Φόρμες", "Παραγωγικότητα", "Έρευνα"]
 website: "https://formbricks.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/formbricks.png"
 license: "AGPL-3.0 (community edition)"
 description: "Ισχυρή open-source πλατφόρμα για τη δημιουργία ερευνών εντός της εφαρμογής και microsurveys. Υποστηρίζει targeted surveys (τμηματοποίηση χρηστών based on attributes/events), multiple question types, μορφή pop-ups/modal/embedded, integration με Next.js/React/Node, και αποτελεί εναλλακτική των Typeform & Qualtrics για product teams."
 featured: false

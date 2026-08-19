@@ -3,7 +3,7 @@ title: "GNUnet (Decentralized P2P Networking Framework)"
 alternative_to: ["Tor (anonymity network)", "I2P (anonymous network)", "IPFS (decentralized storage)", "ZeroNet (decentralized web)"]
 categories: ["Ιδιωτικότητα", "Δίκτυα", "Ασφάλεια"]
 website: "https://gnunet.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/gnunet.png"
 license: "GPL-3.0"
 description: "Ένα πλαίσιο ανοιχτού κώδικα για ασφαλή, αποκεντρωμένη (decentralized) και ανθεκτική στη λογοκρισία δικτύωση (P2P). Δεν βασίζεται σε κεντρικούς διακομιστές. Παρέχει υπηρεσίες: anonymous file sharing, decentralized naming (GNS - GNU Name System), chat, VPN (mesh), και distributed version control. Στόχος του GNUnet είναι να δημιουργήσει ένα ανοιχτό, ασφαλές, και αποκεντρωμένο internet protocol stack (εναλλακτικό στο TCP/IP)."
 featured: false

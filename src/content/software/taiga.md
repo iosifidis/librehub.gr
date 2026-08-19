@@ -3,7 +3,7 @@ title: "Taiga"
 alternative_to: ["Jira Software", "Linear", "Pivotal Tracker"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Ανάπτυξη Λογισμικού"]
 website: "https://taiga.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/taiga.svg"
 license: "MPL-2.0"
 description: "Εξειδικευμένο, όμορφο και εύχρηστο εργαλείο διαχείρισης έργων για Agile/Scrum ομάδες (ειδικά development teams), με πίνακες Kanban, backlog, sprint planning, και ενσωμάτωση με Git."
 featured: true

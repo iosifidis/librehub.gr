@@ -3,7 +3,7 @@ title: "Mailcow"
 alternative_to: ["Microsoft Exchange", "Google Workspace"]
 categories: ["Email", "Cloud", "Επικοινωνία"]
 website: "https://mailcow.email/"
-logo: "/images/placeholder.svg"
+logo: "/images/mailcow.png"
 license: "GPL-3.0"
 description: "Μια σύγχρονη, πλήρης σουίτα email και groupware βασισμένη σε containers (Docker), που προσφέρει εύκολη εγκατάσταση, διαχείριση μέσω web interface, και κορυφαία ασφάλεια."
 featured: false

@@ -3,7 +3,7 @@ title: "MuseScore"
 alternative_to: ["Sibelius", "Finale", "Dorico"]
 categories: ["Εκπαίδευση", "Μουσική", "Σύνθεση", "Επεξεργασία Ήχου", "Πολυμέσα"]
 website: "https://musescore.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/musescore.png"
 license: "GPL-3.0"
 description: "Λογισμικό για μουσική σύνθεση και σημειογραφία (scorewriter) ανοιχτού κώδικα. Επιτρέπει την εισαγωγή νότες μέσω MIDI keyboard, mouse, ή εικονικού πληκτρολογίου. Υποστηρίζει σύνθετες παρτιτούρες, πολυφωνία (voices), εκτέλεση (playback) με soundfonts, και export σε PDF, MIDI, MusicXML, MP3, WAV. Διαθέτει ενσωματωμένο online αποθετήριο (MuseScore.com) για ανταλλαγή παρτιτούρων, αν και το site δεν είναι open source."
 featured: true

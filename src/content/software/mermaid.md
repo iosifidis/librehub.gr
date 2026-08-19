@@ -3,7 +3,7 @@ title: "Mermaid (Diagram as Code)"
 alternative_to: ["Lucidchart", "Draw.io", "Microsoft Visio"]
 categories: ["Εκπαίδευση", "Τεκμηρίωση", "Διαγράμματα"]
 website: "https://mermaid.js.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/mermaid.png"
 license: "MIT"
 description: "Εργαλείο δημιουργίας διαγραμμάτων και οπτικοποίησης **μέσω κώδικα (Markdown-style)** από κείμενο. Υποστηρίζει flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, user journey, gantt charts, pie charts, mindmaps, git graphs, και quadrant charts. Ενσωματώνεται σε Markdown (GitHub, GitLab, Jupyter, Notion, Obsidian) και παράγει SVG/PNG. Ιδανικό για τεκμηρίωση λογισμικού, documentation-as-code, και presentation."
 featured: false

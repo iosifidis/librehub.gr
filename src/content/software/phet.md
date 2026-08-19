@@ -3,7 +3,7 @@ title: "PhET Interactive Simulations (Science)"
 alternative_to: ["Labster (commercial)", "SimBio (commercial)", "Vernier (data collection)"]
 categories: ["Εκπαίδευση", "Φυσική", "Χημεία", "Βιολογία"]
 website: "https://phet.colorado.edu"
-logo: "/images/placeholder.svg"
+logo: "/images/phet.svg"
 license: "GPL-3.0 (source code), CC-BY (simulations content)"
 description: "Μια συλλογή από **δωρεάν, διαδραστικές προσομοιώσεις φυσικής, χημείας, βιολογίας, γεωλογίας και μαθηματικών**, που αναπτύχθηκε από το Πανεπιστήμιο του Κολοράντο (Boulder). Οι προσομοιώσεις βασίζονται σε έρευνα (και αξιολόγηση) και είναι σχεδιασμένες έτσι ώστε οι μαθητές να 'πειραματίζονται' χωρίς κίνδυνο (virtual labs). Υποστηρίζουν HTML5 (λειτουργούν σε browser, κινητά, tablets, χωρίς Flash)."
 featured: true

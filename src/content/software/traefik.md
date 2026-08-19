@@ -3,7 +3,7 @@ title: "Traefik"
 alternative_to: ["F5 BIG-IP", "Citrix ADC", "AWS Application Load Balancer", "Nginx Plus (as ingress)"]
 categories: ["Cloud", "Server", "Ανάπτυξη Λογισμικού"]
 website: "https://traefik.io/traefik"
-logo: "/images/placeholder.svg"
+logo: "/images/traefik.png"
 license: "MIT"
 description: "Κορυφαίος reverse proxy και load balancer ανοιχτού κώδικα, σχεδιασμένος ειδικά για σύγχρονες υποδομές (containers, microservices, Kubernetes). Υποστηρίζει αυτόματη ανακάλυψη υπηρεσιών (service discovery), dynamic configuration, και προηγμένη δρομολόγηση (HTTP, TCP, gRPC)."
 featured: true

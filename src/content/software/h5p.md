@@ -3,7 +3,7 @@ title: "H5P (Interactive Content Creation)"
 alternative_to: ["Articulate Storyline (commercial)", "Adobe Captivate (commercial)", "iSpring (commercial)"]
 categories: ["Εκπαίδευση", "Δημιουργία Περιεχομένου", "eLearning"]
 website: "https://h5p.org"
-logo: "/images/placeholder.svg"
+logo: "/images/h5p.png"
 license: "MIT (core), GPL (some libraries)"
 description: "Ένα framework ανοιχτού κώδικα για τη δημιουργία, κοινή χρήση και επαναχρησιμοποίηση **διαδραστικού εκπαιδευτικού υλικού** (interactive videos, quizzes, drag and drop, presentations, timelines, virtual tours, flashcards). Το H5P ενσωματώνεται εύκολα σε συστήματα διαχείρισης μάθησης (LMS) όπως Moodle, Canvas, WordPress, Drupal, Blackboard μέσω plugins. Δημιουργείται HTML5 περιεχόμενο που λειτουργεί σε οποιαδήποτε συσκευή (responsive)."
 featured: true

@@ -3,7 +3,7 @@ title: "Kubuntu"
 alternative_to: ["Microsoft Windows", "macOS"]
 categories: ["Λειτουργικά Συστήματα"]
 website: "https://kubuntu.org/"
-logo: "/images/kubuntu.svg"
+logo: "/images/kubuntu.png"
 license: "GPL-2.0"
 description: "Επίσημη παραλλαγή του Ubuntu με γραφικό περιβάλλον KDE Plasma — ένα από τα πιο ισχυρά, προσαρμόσιμα και ελκυστικά visually desktop environments. Ιδανικό για χρήστες που θέλουν την αξιοπιστία του Ubuntu με πλούσιο, Windows-like περιβάλλον και μέγιστη δυνατότητα προσαρμογής."
 featured: false

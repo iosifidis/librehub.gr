@@ -3,7 +3,7 @@ title: "Kogito (Cloud-native BPMN + DMN)"
 alternative_to: ["Camunda 8 (commercial)", "Apache Flink (stream processing)", "IBM ODM (commercial rules engine)"]
 categories: ["Αυτοματισμός",  "Επιχειρήσεις", "Ανάπτυξη Λογισμικού"]
 website: "https://kogito.kie.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/kogito.svg"
 license: "Apache-2.0"
 description: "Εργαλειοθήκη για την ανάπτυξη cloud-native εφαρμογών που βασίζονται σε επιχειρηματικούς κανόνες (rules), διαδικασίες (BPMN), και αποφάσεις (DMN). Είναι μέρος του οικοσυστήματος KIE (Knowledge Is Everything) και βασίζεται στο Drools (rule engine). Στόχος του Kogito είναι η εκτέλεση BPMN/DMN processes απευθείας σε cloud περιβάλλον (Kubernetes, OpenShift) με πολύ χαμηλή λανθάνουσα καθυστέρηση (low latency) και native Quarkus υποστήριξη (γρήγορο startup)."
 featured: false

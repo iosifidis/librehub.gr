@@ -3,7 +3,7 @@ title: "Matomo (formerly Piwik)"
 alternative_to: ["Google Analytics (Universal/GA4)", "Adobe Analytics", "Mixpanel (partially)"]
 categories: ["Παραγωγικότητα", "Ιδιωτικότητα", "Ανάλυση Ιστού"]
 website: "https://matomo.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/matomo.png"
 license: "GPL-3.0"
 description: "Κορυφαία πλατφόρμα web analytics ανοιχτού κώδικα, σχεδιασμένη για να προστατεύει την ιδιωτικότητα των χρηστών (GDPR compliant by default). Μπορεί να εγκατασταθεί on-premise ή ως cloud υπηρεσία. Εναλλακτική του Google Analytics με έμφαση στην ιδιοκτησία δεδομένων."
 featured: true

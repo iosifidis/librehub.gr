@@ -3,7 +3,7 @@ title: "Nginx (Engine-X)"
 alternative_to: ["Microsoft IIS", "Apache HTTP Server (high concurrency)", "LiteSpeed"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Server"]
 website: "https://www.nginx.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/nginx.png"
 license: "BSD-2-Clause (core), Commercial (Nginx Plus)"
 description: "Διακομιστής ιστού (web server) υψηλής απόδοσης, reverse proxy, load balancer, HTTP cache, και API gateway. Σχεδιασμένος για υψηλή ταυτοχρονία (concurrency) και χαμηλή κατανάλωση μνήμης (event-driven, asynchronous)."
 featured: true

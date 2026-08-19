@@ -3,7 +3,7 @@ title: "Evolution"
 alternative_to: ["Microsoft Outlook"]
 categories: ["Email", "Επικοινωνία", "Παραγωγικότητα", "Γραφείο"]
 website: "https://flathub.org/en/apps/org.gnome.Evolution"
-logo: "/images/placeholder.svg"
+logo: "/images/evolution.png"
 license: "GPL-2.0-or-later"
 description: "Ολοκληρωμένη εφαρμογή διαχείρισης προσωπικής πληροφορίας (PIM) για το περιβάλλον GNOME, που συνδυάζει email, ημερολόγιο, επαφές, εργασίες και σημειώσεις."
 featured: false

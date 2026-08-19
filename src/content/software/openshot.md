@@ -3,7 +3,7 @@ title: "OpenShot"
 alternative_to: ["iMovie", "Windows Movie Maker"]
 categories: ["Επεξεργασία Βίντεο", "Βίντεο", "Εκπαίδευση"]
 website: "https://www.openshot.org/"
-logo: "/images/openshot.svg"
+logo: "/images/openshot.png"
 license: "GPL-3.0"
 description: "Φιλικός προς τον χρήστη video editor με απλό, διαισθητικό περιβάλλον — ιδανικός για αρχάριους, εκπαιδευτική χρήση και γρήγορο video editing. Υποστηρίζει απεριόριστα tracks, 3D animated titles, chroma key, εφέ μετάβασης και εξαγωγή σε δεκάδες formats."
 featured: false

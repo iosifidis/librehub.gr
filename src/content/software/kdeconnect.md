@@ -3,7 +3,7 @@ title: "KDE Connect"
 alternative_to: ["Microsoft Phone Link", "Apple AirDrop"]
 categories: ["Εργαλεία", "Κινητά"]
 website: "https://kdeconnect.kde.org/"
-logo: "/images/kde-connect.svg"
+logo: "/images/kdeconnect.png"
 license: "GPL-2.0"
 description: "Εργαλείο ενσωμάτωσης smartphone-desktop που επιτρέπει σε Android συσκευές και Linux/Windows/macOS υπολογιστές να επικοινωνούν ασύρματα. Κοινοποίηση ειδοποιήσεων, αρχείων, clipboard, remote control ποντικιού/πληκτρολογίου, SMS από PC και multimedia control — όλα μέσω τοπικού δικτύου Wi-Fi, χωρίς cloud."
 featured: true

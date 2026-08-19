@@ -3,7 +3,7 @@ title: "K-3D"
 alternative_to: ["Autodesk 3ds Max"]
 categories: ["3D Μοντελοποίηση", "Γραφικά", "Βίντεο"]
 website: "https://www.k-3d.org/"
-logo: "/images/k-3d.svg"
+logo: "/images/k3d.png"
 license: "GPL-2.0"
 description: "Ελεύθερο λογισμικό τρισδιάστατης μοντελοποίησης και animation με node-based αρχιτεκτονική για μέγιστη ευελιξία. Υποστηρίζει procedural modeling, NURBS, subdivision surfaces, rigging και rendering μέσω RenderMan-compliant renderers."
 featured: false

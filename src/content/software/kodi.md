@@ -3,7 +3,7 @@ title: "Kodi"
 alternative_to: ["Windows Media Player", "Plex", "Apple TV"]
 categories: ["Πολυμέσα", "Βίντεο", "Streaming"]
 website: "https://kodi.tv/"
-logo: "/images/kodi.svg"
+logo: "/images/kodi.png"
 license: "GPL-2.0"
 description: "Βραβευμένη ανοιχτού κώδικα πλατφόρμα Home Theater PC (HTPC) που μετατρέπει οποιαδήποτε συσκευή σε πλήρες κέντρο πολυμέσων. Οργανώνει και αναπαράγει βίντεο, μουσική, φωτογραφίες και podcasts από τοπική αποθήκη ή δίκτυο, με υποστήριξη add-ons, live TV και PVR."
 featured: true

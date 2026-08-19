@@ -3,7 +3,7 @@ title: "Scratch"
 alternative_to: ["Tynker", "Code.org", "Blockly (library)", "Snap! (advanced blocks)"]
 categories: ["Εκπαίδευση", "Προγραμματισμός", "Πλατφόρμες Μάθησης"]
 website: "https://scratch.mit.edu"
-logo: "/images/scratch.svg"
+logo: "/images/scratch.png"
 license: "GPL-2.0 (Scratch 2.0), BSD-3-Clause (Scratch 3.0)"
 description: "Η πιο δημοφιλής πλατφόρμα (και γλώσσα) εκμάθησης προγραμματισμού μέσω **οπτικών μπλοκ**. Αναπτύχθηκε από το MIT Media Lab. Οι χρήστες (κυρίως ηλικίες 8-16) δημιουργούν διαδραστικές ιστορίες, παιχνίδια, κινούμενα σχέδια, σύροντας και ενώνοντας χρωματιστά μπλοκ (όπως τα τουβλάκια Lego). Η γνώση γίνεται διαισθητικά (χωρίς σύνταξη). Υπάρχει τεράστια online κοινότητα (80 εκατομμύρια projects)."
 featured: false

@@ -3,7 +3,7 @@ title: "ProjectLibre"
 alternative_to: ["Microsoft Project", "ProjectManager.com"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Γραφείο"]
 website: "https://www.projectlibre.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/projectlibre.png"
 license: "CPAL-1.0 (Common Public Attribution License)"
 description: "Η κορυφαία εναλλακτική λύση ανοιχτού κώδικα για το Microsoft Project, με δυνατότητα ανάγνωσης/εγγραφής αρχείων .MPP, Gantt charts, ανάλυση πόρων και διαχείριση κόστους."
 featured: false

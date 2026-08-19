@@ -3,7 +3,7 @@ title: "GIMP"
 alternative_to: ["Adobe Photoshop", "Photoshop", "Affinity Photo (commercial)", "Pixelmator", "Corel PaintShop Pro"]
 categories: ["Γραφικά", "Επεξεργασία Εικόνας", "Φωτογραφία"]
 website: "https://www.gimp.org"
-logo: "/images/gimp.svg"
+logo: "/images/gimp.png"
 license: "GPL-3.0"
 description: "Επαγγελματική, cross-platform εφαρμογή επεξεργασίας εικόνας και γραφικών ανοιχτού κώδικα (εναλλακτική του Adobe Photoshop). Προσφέρει προηγμένα εργαλεία ρετουσάρισμα, διαχείριση χρωμάτων (color management), επίπεδα (layers), μάσκες, φίλτρα, υποστήριξη πολλών μορφών (PSD, JPEG, PNG, TIFF, WebP, κ.ά.) και επέκταση μέσω plugins/scripts (Python, Scheme, C)."
 featured: true

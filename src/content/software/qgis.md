@@ -3,7 +3,7 @@ title: "QGIS (Geographic Information System)"
 alternative_to: ["ArcGIS Pro", "ArcMap", "MapInfo"]
 categories: ["Εκπαίδευση", "GIS", "Χαρτογραφία"]
 website: "https://www.qgis.org"
-logo: "/images/placeholder.svg"
+logo: "/images/qgis.png"
 license: "GPL-2.0"
 description: "Το πιο διαδεδομένο σύστημα γεωγραφικών πληροφοριών (GIS) ανοιχτού κώδικα. Χρησιμοποιείται για τη δημιουργία, επεξεργασία, ανάλυση και οπτικοποίηση γεωχωρικών δεδομένων. Υποστηρίζει raster (πολυφασματικές εικόνες) και vector (shp, GeoJSON, KML), χιλιάδες προβολικά συστήματα (CRS), επεξεργασία layer, χωρική ανάλυση (buffer, intersect, dissolve), παραγωγή χαρτών, και ολοκλήρωση με Python (PyQGIS) και GDAL."
 featured: true

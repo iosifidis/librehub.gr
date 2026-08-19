@@ -3,7 +3,7 @@ title: "Jamovi (Statistical Analysis GUI)"
 alternative_to: ["SPSS", "JASP (similar)", "R Commander (clunky)"]
 categories: ["Εκπαίδευση", "Στατιστική", "Γραφικά"]
 website: "https://www.jamovi.org"
-logo: "/images/placeholder.svg"
+logo: "/images/jamovi.png"
 license: "AGPL-3.0 (core), GPL-3.0 (R components)"
 description: "Ένα σύγχρονο, ελαφρύ, cross-platform περιβάλλον χρήστη (GUI) για στατιστική ανάλυση, βασισμένο στην R. Στοχεύει να είναι **αντικαταστάτης του SPSS** (ίδιο workflow: drag-and-drop, πίνακες αποτελεσμάτων) αλλά δωρεάν, ανοιχτό, και με όμορφα γραφήματα (ggplot2). Παράγει αποτελέσματα σε πίνακες που μοιάζουν με APA style και υποστηρίζει live υπολογισμούς. Μπορείτε επίσης να γράψετε R code μέσα στο Jamovi (αν χρειάζεστε προηγμένες αναλύσεις)."
 featured: true

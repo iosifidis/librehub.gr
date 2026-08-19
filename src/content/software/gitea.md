@@ -3,7 +3,7 @@ title: "Gitea (Git with a cup of tea)"
 alternative_to: ["GitHub Enterprise (proprietary)", "GitLab (self-hosted, heavier)", "Bitbucket Data Center"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://about.gitea.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/gitea.png"
 license: "MIT"
 description: "Ελαφριά, εύκολη στην εγκατάσταση (binary package) υπηρεσία φιλοξενίας κώδικα Git, με web UI, issue tracking, pull requests, wiki, και CI/CD integration (Gitea Actions). Ιδανική για μικρές ομάδες, on-premise εγκατάσταση, και low-resource περιβάλλοντα (π.χ. Raspberry Pi)."
 featured: true

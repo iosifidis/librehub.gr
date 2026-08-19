@@ -3,7 +3,7 @@ title: "Forgejo (Soft Fork of Gitea)"
 alternative_to: ["GitHub (SaaS)", "GitLab (self-hosted)", "Gitea (less community governance)"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://forgejo.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/forgejo.png"
 license: "MIT"
 description: "Ανεξάρτητη, αποκεντρωμένη πλατφόρμα διαχείρισης κώδικα, fork του Gitea που ιδρύθηκε το 2022. Εστιάζει στην ελευθερία του λογισμικού, την καλή διακυβέρνηση (community-driven), τη διαλειτουργικότητα (ActivityPub federation) και τη χαμηλή κατανάλωση πόρων. Πλήρως συμβατή με Gitea (1.19+) και υποστηρίζει Forgejo Actions (CI/CD)."
 featured: false

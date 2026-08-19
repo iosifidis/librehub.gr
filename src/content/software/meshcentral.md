@@ -3,7 +3,7 @@ title: "MeshCentral (Remote Management)"
 alternative_to: ["TeamViewer (commercial)", "LogMeIn (commercial)", "AnyDesk (commercial)", "Splashtop (commercial)"]
 categories: ["Απομακρυσμένη Πρόσβαση", "Εργαλεία", "Δίκτυα"]
 website: "https://meshcentral.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/meshcentral.svg"
 license: "Apache-2.0"
 description: "Μια πλήρης, web-based πλατφόρμα ανοιχτού κώδικα για απομακρυσμένη διαχείριση και υποστήριξη υπολογιστών μέσω διαδικτύου (Remote Monitoring and Management - RMM). Σας επιτρέπει να ελέγχετε την επιφάνεια εργασίας (remote desktop), κονσόλα, μεταφορά αρχείων, τερματισμό λειτουργιών, και εκτέλεση εντολών, όλα μέσω browser. Υποστηρίζει πολλαπλούς χρήστες, 2FA, πύλες (relays), και ενσωμάτωση με Intel AMT (vPro). Ιδανική για MSPs (Managed Service Providers) και IT διαχειριστές."
 featured: true

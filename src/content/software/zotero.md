@@ -3,7 +3,7 @@ title: "Zotero (Reference Manager)"
 alternative_to: ["EndNote", "Mendeley", "Citavi"]
 categories: ["Εκπαίδευση", "Βιβλιογραφία", "Έρευνα"]
 website: "https://www.zotero.org"
-logo: "/images/placeholder.svg"
+logo: "/images/zotero.png"
 license: "AGPL-3.0"
 description: "Δωρεάν, ανοιχτού κώδικα εργαλείο διαχείρισης βιβλιογραφικών αναφορών και οργάνωσης έρευνας. Συλλέγει άρθρα, βιβλία, ιστοσελίδες, PDFs με ένα κλικ (από browser). Αποθηκεύει PDF, αποσπάσματα, σημειώσεις, ετικέτες. Παράγει αυτόματα βιβλιογραφικές παραπομπές και αναφορές (APA, Chicago, MLA, IEEE, +10.000 styles) σε Word, LibreOffice, Google Docs. Συγχρονίζει τη βιβλιοθήκη σας στο cloud και συνεργάζεται με άλλους ερευνητές (group libraries)."
 featured: true

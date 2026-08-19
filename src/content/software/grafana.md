@@ -3,7 +3,7 @@ title: "Grafana"
 alternative_to: ["Datadog", "Splunk", "New Relic"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Επιχειρήσεις"]
 website: "https://grafana.com/"
-logo: "/images/grafana.svg"
+logo: "/images/grafana.png"
 license: "AGPL-3.0"
 description: "Η κορυφαία πλατφόρμα οπτικοποίησης και monitoring ανοιχτού κώδικα. Δημιουργία dashboards από δεδομένα οποιαδήποτε πηγής (Prometheus, InfluxDB, PostgreSQL, Elasticsearch, CloudWatch κ.ά.) με εκατοντάδες τύπους γραφημάτων, alerting και annotation — χρησιμοποιείται από Netflix, Uber, Booking.com."
 featured: true

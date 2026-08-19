@@ -3,7 +3,7 @@ title: "Okular (PDF Reader for KDE)"
 alternative_to: ["Adobe Acrobat Reader", "Papers (GNOME)", "Evince (GNOME)"]
 categories: ["PDF", "Ανάγνωση", "Ημερήσια Χρήση"]
 website: "https://okular.kde.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/kpdf-daily.png"
 license: "GPL-2.0"
 description: "Ένας ελαφρύς, ταχύτατος και πλήρης αναγνώστης αρχείων PDF (και άλλων μορφών) για το περιβάλλον εργασίας KDE (αλλά λειτουργεί και σε GNOME, Windows, macOS). Υποστηρίζει PDF, EPUB, CHM, Comic Books (CBR/CBZ), DjVu, Markdown, κ.ά. Διαθέτει προηγμένες λειτουργίες σχολιασμού (highlight, underline, σημειώσεις, σχήματα, ελεύθερο σχέδιο), φόρμες, ψηφιακές υπογραφές, και επιλογή αντιγραφής κειμένου/εικόνων. Είναι πλουσιότερο από το Papers (GNOME) αλλά ελαφρύτερο από το Adobe Acrobat."
 featured: false

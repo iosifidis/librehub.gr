@@ -3,7 +3,7 @@ title: "PuTTY (SSH/Telnet Client)"
 alternative_to: ["OpenSSH (Linux/macOS built-in)", "MobaXterm (Windows, commercial features)", "Windows SSH (built-in, modern)"]
 categories: ["Απομακρυσμένη Πρόσβαση", "Εργαλεία", "Δίκτυα"]
 website: "https://www.chiark.greenend.org.uk/~sgtatham/putty/"
-logo: "/images/placeholder.svg"
+logo: "/images/putty.png"
 license: "MIT"
 description: "Ο κλασικός, ελαφρύς client για συνδέσεις SSH, Telnet, rlogin, και raw TCP (serial) για Windows. Διαθέτει επίσης `plink` (command-line SSH), `pscp` (SCP file transfer), `psftp` (SFTP), `pageant` (SSH agent), και `puttygen` (RSA/DSA/ECC key generation). Παρά το ότι τα σύγχρονα Windows έχουν built-in SSH (OpenSSH), το PuTTY παραμένει δημοφιλές για την απλότητα, το session management (saved sessions), και την υποστήριξη παλαιών συστημάτων."
 featured: false

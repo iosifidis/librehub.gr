@@ -3,7 +3,7 @@ title: "RStudio"
 alternative_to: ["SPSS", "SAS", "MATLAB"]
 categories: ["Ανάπτυξη Λογισμικού", "Επιστήμη Δεδομένων", "Εκπαίδευση"]
 website: "https://posit.co/products/open-source/rstudio/"
-logo: "/images/rstudio.svg"
+logo: "/images/rstudio.png"
 license: "AGPL-3.0"
 description: "Το πιο διαδεδομένο ανοιχτού κώδικα IDE για τη γλώσσα στατιστικής R — με ενσωματωμένο script editor, R console, environment viewer, plot viewer, package manager και Markdown/Quarto integration. Χρησιμοποιείται από επιστήμονες δεδομένων, στατιστικολόγους και ερευνητές παγκοσμίως."
 featured: true

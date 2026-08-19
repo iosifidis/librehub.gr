@@ -3,7 +3,7 @@ title: "MySQL"
 alternative_to: ["Microsoft SQL Server", "Oracle Database", "IBM Db2"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Βάσεις Δεδομένων"]
 website: "https://www.mysql.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/mysql.png"
 license: "GPL-2.0 (Community Edition), Commercial (Enterprise)"
 description: "Η πιο διαδεδομένη open-source σχεσιακή βάση δεδομένων (RDBMS) παγκοσμίως, γνωστή για την ταχύτητα, αξιοπιστία και ευκολία χρήσης. Χρησιμοποιείται από εκατομμύρια εφαρμογές, από μικρές ιστοσελίδες έως τεράστιες web πλατφόρμες (Facebook, Twitter, YouTube, Wikipedia). Υποστηρίζει SQL, transactions (ACID με InnoDB), replication, partitioning, και full-text search."
 featured: false

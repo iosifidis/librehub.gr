@@ -3,7 +3,7 @@ title: "Jupyter Notebook / JupyterLab"
 alternative_to: ["MATLAB (commercial)", "RStudio (for R)", "Zeppelin (for big data)", "Google Colab (cloud, partially open)"]
 categories: ["Ανάλυση Δεδομένων", "Εκπαίδευση", "Προγραμματισμός", "Επιστήμη Δεδομένων"]
 website: "https://jupyter.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/jupyter.png"
 license: "BSD-3-Clause"
 description: "Διαδραστικό υπολογιστικό περιβάλλον ανοιχτού κώδικα, που επιτρέπει στους επιστήμονες δεδομένων να δημιουργούν **notebooks** που συνδυάζουν ζωντανό κώδικα (Python, R, Julia, 40+ γλώσσες), εξισώσεις (LaTeX), οπτικοποιήσεις (matplotlib, plotly, ggplot2), και Markdown. Ιδανικό για exploratory data analysis (EDA), machine learning prototyping, εκπαίδευση, και αναπαραγώγιμη έρευνα."
 featured: true

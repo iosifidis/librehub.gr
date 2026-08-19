@@ -3,7 +3,7 @@ title: "Git (Distributed Version Control System)"
 alternative_to: ["Perforce (Helix Core)", "Mercurial (hg)", "Subversion (SVN - centralized)"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://git-scm.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/git.png"
 license: "GPL-2.0"
 description: "Το πιο δημοφιλές κατανεμημένο σύστημα ελέγχου εκδόσεων (DVCS) παγκοσμίως. Σχεδιάστηκε από τον Linus Torvalds για την ανάπτυξη του Linux kernel, και πλέον χρησιμοποιείται από εκατομμύρια projects (από solo developers έως megacorporations). Υποστηρίζει non-linear workflows, branching/merging, local commits, staging area, και πολλαπλά remote repositories."
 featured: true

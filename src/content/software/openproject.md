@@ -3,7 +3,7 @@ title: "OpenProject"
 alternative_to: ["Jira", "Asana", "Microsoft Project", "ClickUp"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Cloud"]
 website: "https://www.openproject.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/openproject.png"
 license: "GPL-3.0"
 description: "Η κορυφαία ανοιχτού κώδικα πλατφόρμα διαχείρισης έργων, που υποστηρίζει κλασικές, agile και υβριδικές μεθοδολογίες (Scrum, Kanban, Waterfall), με Gantt charts, boards, time tracking και on-premise εγκατάσταση."
 featured: true

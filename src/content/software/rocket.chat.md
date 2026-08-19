@@ -3,7 +3,7 @@ title: "Rocket.Chat"
 alternative_to: ["Slack", "Microsoft Teams", "WhatsApp Business"]
 categories: ["Επικοινωνία", "Παραγωγικότητα", "Cloud", "Ιδιωτικότητα"]
 website: "https://rocket.chat/"
-logo: "/images/placeholder.svg"
+logo: "/images/rocket.chat.png"
 license: "MIT"
 description: "Πλήρης πλατφόρμα επικοινωνίας ομάδας με ανοιχτό κώδικα, που δίνει έμφαση στην προστασία των δεδομένων των χρηστών και επιτρέπει την επικοινωνία με πελάτες μέσω live chat (Omnichannel)."
 featured: true

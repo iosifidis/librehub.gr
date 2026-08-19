@@ -3,7 +3,7 @@ title: "MariaDB"
 alternative_to: ["Microsoft SQL Server", "MySQL (commercial concerns)", "Oracle Database"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Βάσεις Δεδομένων"]
 website: "https://mariadb.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/mariadb.png"
 license: "GPL-2.0"
 description: "Η δεύτερη πιο διαδεδομένη open-source σχεσιακή βάση δεδομένων (RDBMS), που ξεκίνησε ως fork της MySQL το 2009, μετά την απόκτηση της MySQL από την Oracle. Στόχος της είναι να παραμείνει ελεύθερη (GPL), διατηρώντας συμβατότητα με MySQL (drop-in replacement), αλλά με προσθήκες: νέες μηχανές αποθήκευσης (Aria, ColumnStore), δυνατότερο query optimizer, και περισσότερες εκτεταμένες λειτουργίες."
 featured: true

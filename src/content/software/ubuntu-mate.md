@@ -3,7 +3,7 @@ title: "Ubuntu MATE"
 alternative_to: ["Microsoft Windows", "macOS"]
 categories: ["Λειτουργικά Συστήματα"]
 website: "https://ubuntu-mate.org/"
-logo: "/images/ubuntu-mate.svg"
+logo: "/images/ubuntu-mate.png"
 license: "GPL-2.0"
 description: "Επίσημη παραλλαγή του Ubuntu με γραφικό περιβάλλον MATE — μια σύγχρονη συνέχεια του κλασικού GNOME 2 desktop. Ελαφρύ, γρήγορο και άκρως οικείο για χρήστες παλαιότερων Windows — ιδανικό για αναζωογόνηση παλαιών υπολογιστών με λιγότερο από 2GB RAM."
 featured: false

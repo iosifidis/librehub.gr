@@ -3,7 +3,7 @@ title: "Plausible Analytics"
 alternative_to: ["Google Analytics (GA4)", "Matomo (heavyweight alternative)", "Fathom Analytics (commercial)"]
 categories: ["Ιδιωτικότητα", "Ανάλυση Ιστού"]
 website: "https://plausible.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/plausible.png"
 license: "AGPL-3.0 (self-hosted), proprietary cloud (optional)"
 description: "Ελαφρύ, privacy-first εργαλείο web analytics ανοιχτού κώδικα, χωρίς cookies, χωρίς ανίχνευση προσωπικών δεδομένων, και πλήρως συμμορφούμενο με GDPR, CCPA, PECR. Το script ζυγίζει <1 KB (αντίστοιχο GA 45 KB), και η self-hosted έκδοση δίνει πλήρη έλεγχο δεδομένων."
 featured: false

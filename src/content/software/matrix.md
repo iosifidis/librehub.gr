@@ -3,7 +3,7 @@ title: "Matrix Synapse"
 alternative_to: ["Slack", "Microsoft Teams"]
 categories: ["Επικοινωνία", "Cloud", "Ιδιωτικότητα"]
 website: "https://matrix.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/matrix.png"
 license: "Apache-2.0"
 description: "Ο επίσημος διακομιστής αναφοράς για το ανοιχτό, αποκεντρωμένο πρωτόκολλο Matrix. Επιτρέπει σε επιχειρήσεις και οργανισμούς να στήσουν τη δική τους ασφαλή υποδομή επικοινωνίας σε πραγματικό χρόνο."
 featured: true

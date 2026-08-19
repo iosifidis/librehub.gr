@@ -3,7 +3,7 @@ title: "LibreWolf"
 alternative_to: ["Google Chrome", "Microsoft Edge", "Safari", "Internet Explorer"]
 categories: ["Πλοήγηση", "Ιδιωτικότητα"]
 website: "https://librewolf.net/"
-logo: "/images/librewolf.svg"
+logo: "/images/librewolf.png"
 license: "MPL-2.0"
 description: "Παραλλαγή του Firefox ρυθμισμένη εξαρχής για μέγιστη προστασία ιδιωτικότητας και ασφάλεια. Αφαιρεί telemetry, DRM, και υπηρεσίες Mozilla που αποστέλλουν δεδομένα, ενσωματώνει uBlock Origin εξ ορισμού, και εφαρμόζει αυστηρές ρυθμίσεις ασφαλείας χωρίς να απαιτείται χειροκίνητη διαμόρφωση."
 featured: false

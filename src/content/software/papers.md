@@ -3,7 +3,7 @@ title: "Papers (PDF Reader for GNOME)"
 alternative_to: ["Adobe Acrobat Reader", "Evince (GNOME)", "Okular (KDE)"]
 categories: ["PDF", "Ανάγνωση", "Ημερήσια Χρήση"]
 website: "https://apps.gnome.org/el/Papers/"
-logo: "/images/placeholder.svg"
+logo: "/images/papers.png"
 license: "GPL-3.0"
 description: "Ένας ελαφρύς, γρήγορος και μοντέρνος αναγνώστης αρχείων PDF (και άλλων μορφών εγγράφων: PS, EPS, DJVU, TIFF, XPS) για το περιβάλλον επιφάνειας εργασίας GNOME. Αντικαθιστά τον παλαιότερο Evince (Document Viewer) με πιο σύγχρονη διεπαφή (GTK4, libadwaita). Υποστηρίζει αναζήτηση, markup (σημειώσεις, υπογραμμίσεις), φόρμες PDF, signatures, dark mode, και print (εκτύπωση). Είναι ειδικά σχεδιασμένο για desktop (όχι web)."
 featured: false

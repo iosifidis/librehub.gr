@@ -3,7 +3,7 @@ title: "Mattermost"
 alternative_to: ["Slack", "Microsoft Teams", "Discord"]
 categories: ["Επικοινωνία", "Παραγωγικότητα", "Cloud"]
 website: "https://mattermost.com"
-logo: "/images/placeholder.svg"
+logo: "/images/mattermost.png"
 license: "AGPL-3.0"
 description: "Ισχυρή, ανοιχτού κώδικα πλατφόρμα επικοινωνίας ομάδας (chat, τηλεδιάσκεψη, διαχείριση ροών εργασίας) που μπορεί να αυτο-φιλοξενηθεί, σχεδιασμένη ως εναλλακτική των Slack και Microsoft Teams."
 featured: true

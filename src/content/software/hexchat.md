@@ -3,7 +3,7 @@ title: "HexChat"
 alternative_to: ["mIRC"]
 categories: ["Επικοινωνία", "Εργαλεία"]
 website: "https://hexchat.github.io/"
-logo: "/images/hexchat.svg"
+logo: "/images/hexchat.png"
 license: "GPL-2.0"
 description: "Εύχρηστος και λειτουργικός IRC client βασισμένος στο XChat, ιδανικός για ομαδικές συζητήσεις σε IRC δίκτυα. Προσφέρει πολλαπλές καρτέλες, scripting, SASL authentication, DCC μεταφορές αρχείων και πλούσιο σύστημα plugins — αποτελώντας την κορυφαία ανοιχτού κώδικα εναλλακτική του mIRC."
 featured: false

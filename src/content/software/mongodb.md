@@ -3,7 +3,7 @@ title: "MongoDB"
 alternative_to: ["Amazon DocumentDB (compatible)", "Couchbase (commercial)", "Cassandra (wide-column)"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Βάσεις Δεδομένων"]
 website: "https://www.mongodb.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/mongodb.png"
 license: "SSPL (Server Side Public License) – controversial, not OSI approved"
 description: "Η πιο δημοφιλής NoSQL βάση δεδομένων εγγράφων (document-oriented), που αποθηκεύει δεδομένα σε μορφή BSON (JSON-like). Είναι σχεδιασμένη για high scalability, οριζόντια διαμερισμό (sharding), high availability (replica sets), και ευέλικτο schema (χωρίς προκαθορισμένες στήλες). Ιδανική για εφαρμογές με ημι-δομημένα δεδομένα (logs, content management, catalogs)."
 featured: true

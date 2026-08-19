@@ -3,7 +3,7 @@ title: "Tribler"
 alternative_to: ["uTorrent", "BitTorrent"]
 categories: ["Δίκτυα", "Ιδιωτικότητα"]
 website: "https://www.tribler.org/"
-logo: "/images/tribler.svg"
+logo: "/images/tribler.png"
 license: "LGPL-3.0"
 description: "Ανώνυμος BitTorrent client που δρομολογεί την κίνηση μέσω ενσωματωμένου onion routing δικτύου (παρόμοιο με Tor) για προστασία ιδιωτικότητας. Αναπτύσσεται ακαδημαϊκά από το TU Delft — δεν απαιτεί εξωτερικό Tor, έχει ενσωματωμένη αναζήτηση και decentralized marketplace."
 featured: false

@@ -3,7 +3,7 @@ title: "OpenFaaS (Functions as a Service)"
 alternative_to: ["AWS Lambda", "Google Cloud Functions", "Azure Functions", "Cloudflare Workers (self-hosted alternative)"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://www.openfaas.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/openfaas.png"
 license: "MIT"
 description: "Πλαίσιο ανοιχτού κώδικα για την εκτέλεση συναρτήσεων (functions) ως serverless υπηρεσίες πάνω από containers. Υποστηρίζει οποιαδήποτε γλώσσα (Python, Node.js, Go, Java, C#, κ.ά.) και μπορεί να τρέξει σε Kubernetes ή Docker Swarm."
 featured: false

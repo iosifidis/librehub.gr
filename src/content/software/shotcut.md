@@ -3,7 +3,7 @@ title: "Shotcut"
 alternative_to: ["Adobe Premiere Elements"]
 categories: ["Επεξεργασία Βίντεο", "Βίντεο"]
 website: "https://shotcut.org/"
-logo: "/images/shotcut.svg"
+logo: "/images/shotcut.png"
 license: "GPL-3.0"
 description: "Ισχυρός non-linear video editor με εκτεταμένη υποστήριξη formats (βασισμένος στο FFmpeg), timeline editing, εφέ βίντεο και ήχου, color grading, audio filters και GPU acceleration. Συνδυάζει προχωρημένες δυνατότητες με σχετικά προσβάσιμη διεπαφή — κατάλληλος για χρήστες που ξεπέρασαν το OpenShot αλλά δεν χρειάζονται την πολυπλοκότητα του Kdenlive."
 featured: false

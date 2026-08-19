@@ -3,7 +3,7 @@ title: "InfluxDB (Time-Series Database)"
 alternative_to: ["Kdb+ (commercial, high-performance)", "TimescaleDB (PostgreSQL-based)", "Prometheus (metrics & monitoring)"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Βάσεις Δεδομένων"]
 website: "https://www.influxdata.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/influxdb.png"
 license: "MIT (InfluxDB 2.x OSS), Commercial (Cloud, Enterprise)"
 description: "Εξειδικευμένη βάση δεδομένων χρονοσειρών (time-series database) βελτιστοποιημένη για αποθήκευση και ερώτηση μεγάλων όγκων δεδομένων με χρονική σήμανση (timestamps) – π.χ. μετρήσεις IoT, server metrics (CPU, μνήμη), δεδομένα από αισθητήρες, financial tick data. Υποστηρίζει SQL-like γλώσσα (InfluxQL) και Flux (scripting)."
 featured: false

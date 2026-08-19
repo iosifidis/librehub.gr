@@ -3,7 +3,7 @@ title: "Redash (Query & Visualization)"
 alternative_to: ["Metabase (lightweight alternative)", "Looker (commercial)", "Tableau (enterprise)"]
 categories: ["Ανάλυση Δεδομένων", "Εργαλεία", "Cloud"]
 website: "https://github.com/getredash/redash"
-logo: "/images/placeholder.svg"
+logo: "/images/redash.png"
 license: "BSD-2-Clause"
 description: "Εργαλείο ανοιχτού κώδικα για σύνδεση σε πηγές δεδομένων (40+), δημιουργία SQL ερωτημάτων, οπτικοποίηση αποτελεσμάτων (charts, pivot tables), και δημιουργία dashboards. Υποστηρίζει προγραμματισμένες αναφορές (scheduled refreshes), alerts, και embedding. Ιδανικό για data analysts που προτιμούν SQL αντί για no-code builders."
 featured: false

@@ -3,7 +3,7 @@ title: "Wire"
 alternative_to: ["WhatsApp", "Skype", "Microsoft Teams (Chat part)"]
 categories: ["Επικοινωνία", "Ιδιωτικότητα", "Παραγωγικότητα"]
 website: "https://wire.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/wire.png"
 license: "GPL-3.0 (client), AGPL-3.0 (server)"
 description: "Επαγγελματική πλατφόρμα επικοινωνίας με έμφαση στην ασφάλεια, προσφέροντας κρυπτογραφημένα μηνύματα, κλήσεις φωνής/βίντεο και διαμοιρασμό αρχείων, με δυνατότητα on-premise εγκατάστασης."
 featured: false

@@ -3,7 +3,7 @@ title: "Podman (Pod Manager)"
 alternative_to: ["Docker Desktop (commercial subscription)", "containerd + nerdctl", "CRI-O (for Kubernetes)"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://podman.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/podman.png"
 license: "Apache-2.0"
 description: "Εργαλείο διαχείρισης containers χωρίς κεντρικό daemon (daemonless), που μπορεί να τρέξει rootless (χωρίς δικαιώματα διαχειριστή). Πλήρως συμβατό με Docker CLI (alias docker=podman) και υποστηρίζει pods (ομάδες containers) μεσα στην ίδια γραμμή εντολών. Ιδανικό για production συστήματα που απαιτούν ασφάλεια και χαμηλό overhead."
 featured: true

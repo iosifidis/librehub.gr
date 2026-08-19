@@ -3,7 +3,7 @@ title: "Signal"
 alternative_to: ["WhatsApp", "Viber", "Facebook Messenger"]
 categories: ["Επικοινωνία", "Ιδιωτικότητα", "Ασφάλεια"]
 website: "https://signal.org/"
-logo: "/images/signal.svg"
+logo: "/images/signal.png"
 license: "AGPL-3.0"
 description: "Η πιο ασφαλής εφαρμογή κρυπτογραφημένης επικοινωνίας για μηνύματα, φωνητικές κλήσεις και βιντεοκλήσεις. Χρησιμοποιεί το Signal Protocol — τον χρυσό κανόνα κρυπτογράφησης που έχει υιοθετήσει ακόμα και το WhatsApp και το Messenger — αλλά σε αντίθεση με αυτά, δεν συλλέγει μεταδεδομένα, δεν ανήκει σε καμία πολυεθνική και ο κώδικάς της είναι πλήρως ανοιχτός."
 featured: true

@@ -3,7 +3,7 @@ title: "Kiwix (Offline Wikipedia)"
 alternative_to: ["Kortext (offline library)", "Kiwix is unique (open source)", "Offline educational content"]
 categories: ["Εκπαίδευση", "Ψηφιακές Βιβλιοθήκες", "Offline Πρόσβαση"]
 website: "https://www.kiwix.org"
-logo: "/images/placeholder.svg"
+logo: "/images/kiwix.png"
 license: "GPL-3.0"
 description: "Μια λύση για πρόσβαση σε ψηφιακό περιεχόμενο (ιστοσελίδες, βιβλιοθήκες) **χωρίς σύνδεση στο διαδίκτυο**. Σας επιτρέπει να κατεβάσετε ολόκληρη τη Wikipedia (και άλλες πηγές: Project Gutenberg, TED Talks, Stack Exchange, Khan Academy, ακόμα και YouTube) σε μορφή `.zim` (συμπιεσμένα αρχεία) και να τα διαβάσετε χρησιμοποιώντας δωρεάν λογισμικό (Kiwix Desktop, Kiwix JS, Kiwix Serve). Ιδανικό για σχολεία, βιβλιοθήκες, απομακρυσμένες περιοχές, πλοία, φυλακές, και χρήστες με περιορισμένη ή μηδενική πρόσβαση στο διαδίκτυο."
 featured: true

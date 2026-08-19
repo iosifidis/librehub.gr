@@ -3,7 +3,7 @@ title: "SecureDrop"
 alternative_to: ["Εξειδικευμένες Πλατφόρμες Καταγγελιών"]
 categories: ["Ασφάλεια", "Ιδιωτικότητα"]
 website: "https://securedrop.org/"
-logo: "/images/securedrop.svg"
+logo: "/images/securedrop.png"
 license: "AGPL-3.0"
 description: "Πλατφόρμα ασφαλούς και ανώνυμης υποβολής πληροφοριών για δημοσιογραφικούς οργανισμούς — αναπτυγμένη από το Freedom of the Press Foundation. Λειτουργεί αποκλειστικά μέσω Tor και απομονωμένων συστημάτων (air-gapped), αποτελώντας το industry standard για προστασία πηγών δημοσιογράφων."
 featured: false

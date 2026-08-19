@@ -3,7 +3,7 @@ title: "Telegram"
 alternative_to: ["WhatsApp", "Facebook Messenger", "Viber"]
 categories: ["Επικοινωνία", "Εργαλεία"]
 website: "https://telegram.org/"
-logo: "/images/telegram.svg"
+logo: "/images/telegram.png"
 license: "GPL-3.0"
 description: "Δημοφιλής εφαρμογή μηνυμάτων με ανοιχτού κώδικα clients (Android, iOS, desktop) που υποστηρίζει κρυπτογραφημένα μηνύματα, ομάδες έως 200.000 μέλη, channels, bots, αρχεία έως 2GB και Secret Chats με end-to-end κρυπτογράφηση. Ο server κώδικας παραμένει κλειστός."
 featured: false

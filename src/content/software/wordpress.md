@@ -3,7 +3,7 @@ title: "WordPress"
 alternative_to: ["Squarespace", "Wix", "Webflow"]
 categories: ["Δημιουργία Περιεχομένου", "Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://wordpress.org/"
-logo: "/images/wordpress.svg"
+logo: "/images/wordpress.png"
 license: "GPL-2.0"
 description: "Το πιο δημοφιλές Σύστημα Διαχείρισης Περιεχομένου (CMS) παγκοσμίως — τροφοδοτεί το 43% του internet. Δημιουργία ιστοτόπων, blogs, e-shops και web εφαρμογών με χιλιάδες themes και 60.000+ plugins. Πλήρως ανοιχτού κώδικα, self-hosted στο wordpress.org (διαφορετικό από το εμπορικό wordpress.com)."
 featured: true

@@ -3,7 +3,7 @@ title: "Chromium"
 alternative_to: ["Google Chrome", "Microsoft Edge"]
 categories: ["Πλοήγηση"]
 website: "https://www.chromium.org/Home"
-logo: "/images/chromium.svg"
+logo: "/images/chromium.png"
 license: "BSD"
 description: "Ο ανοιχτού κώδικα περιηγητής που αποτελεί τη βάση για τον Chrome, τον Edge, τον Brave και δεκάδες άλλους. Προσφέρει ταχύτητα και πλήρη συμβατότητα με τα σύγχρονα πρότυπα του ιστού, χωρίς τα κλειστά πρόσθετα, την παρακολούθηση και τα telemetry της Google."
 featured: false

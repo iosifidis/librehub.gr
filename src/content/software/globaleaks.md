@@ -3,7 +3,7 @@ title: "GlobaLeaks"
 alternative_to: ["Εξειδικευμένες Πλατφόρμες Καταγγελιών"]
 categories: ["Ασφάλεια", "Ιδιωτικότητα"]
 website: "https://www.globaleaks.org/"
-logo: "/images/globaleaks.svg"
+logo: "/images/globaleaks.png"
 license: "AGPL-3.0"
 description: "Ανοιχτού κώδικα πλατφόρμα ανώνυμων καταγγελιών (whistleblowing) για οργανισμούς, δημοσιογράφους και δημόσιες υπηρεσίες. Επιτρέπει ανώνυμη υποβολή πληροφοριών μέσω Tor, με κρυπτογράφηση, ελεγχόμενη επικοινωνία με την πηγή και compliance με GDPR."
 featured: false

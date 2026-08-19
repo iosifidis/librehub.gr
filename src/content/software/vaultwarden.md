@@ -3,7 +3,7 @@ title: "Vaultwarden"
 alternative_to: ["1Password Business", "LastPass Enterprise", "Dashlane"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Password Manager"]
 website: "https://github.com/dani-garcia/vaultwarden"
-logo: "/images/placeholder.svg"
+logo: "/images/vaultwarden.svg"
 license: "AGPL-3.0"
 description: "Μια ελαφριά, self-hosted υλοποίηση του Bitwarden API, γραμμένη σε Rust. Χρησιμοποιεί πολύ λιγότερους πόρους (RAM, CPU) από την επίσημη έκδοση Bitwarden (η οποία βασίζεται σε .NET και SQL Server), ενώ παραμένει πλήρως συμβατή με τους official Bitwarden clients (desktop, mobile, browser extensions). Ιδανική για προσωπική χρήση ή μικρές ομάδες."
 featured: true

@@ -3,7 +3,7 @@ title: "HTTPS Everywhere"
 alternative_to: ["In-browser Security Features"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Πλοήγηση"]
 website: "https://www.eff.org/https-everywhere"
-logo: "/images/https-everywhere.svg"
+logo: "/images/https-everywhere.png"
 license: "GPL-2.0"
 description: "Επέκταση περιηγητή του EFF (Electronic Frontier Foundation) που επιβάλλει αυτόματα κρυπτογραφημένη επικοινωνία HTTPS με ιστότοπους που την υποστηρίζουν, προστατεύοντας τα δεδομένα σας από υποκλοπές σε δημόσια δίκτυα Wi-Fi και man-in-the-middle επιθέσεις."
 featured: false

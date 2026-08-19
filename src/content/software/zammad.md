@@ -3,7 +3,7 @@ title: "Zammad (Helpdesk & Customer Support Platform)"
 alternative_to: ["Zendesk (commercial)", "Salesforce Service Cloud", "Freshdesk (commercial)", "Help Scout"]
 categories: ["Helpdesk", "Επικοινωνία"]
 website: "https://zammad.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/zammad.png"
 license: "AGPL-3.0"
 description: "Μια πανίσχυρη, σύγχρονη πλατφόρμα helpdesk και διαχείρισης επικοινωνίας πελατών, που συγκεντρώνει όλα τα κανάλια (email, chat, τηλέφωνο, Facebook, Twitter, Telegram, Signal, WhatsApp Business) σε ένα ενιαίο ταμπλό. Διαθέτει αυτοματισμούς (triggers, schedulers), SLA management, reporting, knowledge base, και AI-assisted replies (Zammad 7.0) . Σχεδιάστηκε για να αντικαταστήσει το Zendesk με πλήρη έλεγχο δεδομένων (self-hosted)."
 featured: true

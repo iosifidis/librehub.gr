@@ -3,7 +3,7 @@ title: "Neo4j (Graph Database)"
 alternative_to: ["Amazon Neptune (managed)", "ArangoDB (multi-model)", "JanusGraph (open source)"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Βάσεις Δεδομένων"]
 website: "https://neo4j.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/neo4j.png"
 license: "GPL-3.0 (Community Edition), Commercial (Enterprise)"
 description: "Η κορυφαία βάση δεδομένων γράφων (graph database) παγκοσμίως, που αποθηκεύει δεδομένα ως **κόμβους (nodes)** και **σχέσεις (relationships)** με ιδιότητες (properties) και κατεύθυνση. Χρησιμοποιεί **Cypher** (declarative query language, σαν SQL για γράφους) για εξαιρετικά γρήγορη πλοήγηση (traversal) σχέσεων (παρακάμπτει τα joins). Ιδανική για social networks, recommendation engines, fraud detection, master data management, knowledge graphs, network/IT operations."
 featured: true

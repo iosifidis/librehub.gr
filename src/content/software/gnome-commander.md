@@ -3,7 +3,7 @@ title: "GNOME Commander"
 alternative_to: ["Total Commander"]
 categories: ["Εργαλεία", "Λειτουργικά Συστήματα"]
 website: "https://gcmd.github.io/"
-logo: "/images/gnome-commander.svg"
+logo: "/images/gnome-commander.png"
 license: "GPL-2.0"
 description: "Εξελιγμένος two-panel file manager για GNOME/Linux, εμπνευσμένος από το Norton Commander και το Total Commander. Προσφέρει γρήγορη πλοήγηση με keyboard shortcuts, built-in viewer/editor, FTP/SFTP σύνδεση, quick search, plugins και advanced batch rename — ιδανικός για power users που προτιμούν keyboard-driven εργασία."
 featured: false

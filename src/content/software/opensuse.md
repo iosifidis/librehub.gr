@@ -3,7 +3,7 @@ title: "openSUSE"
 alternative_to: ["Microsoft Windows", "macOS"]
 categories: ["Λειτουργικά Συστήματα"]
 website: "https://www.opensuse.org/"
-logo: "/images/opensuse.svg"
+logo: "/images/opensuse.png"
 license: "GPL-2.0"
 description: "Σταθερή και ευέλικτη διανομή Linux με δύο εκδόσεις: Leap (σταθερή, βασισμένη σε SUSE Enterprise) και Tumbleweed (rolling release με τελευταίο λογισμικό). Περιλαμβάνει το YaST — ένα από τα ισχυρότερα εργαλεία διαχείρισης συστήματος — και Snapper για αυτόματα Btrfs snapshots."
 featured: false

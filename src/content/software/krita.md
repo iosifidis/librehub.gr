@@ -3,7 +3,7 @@ title: "Krita"
 alternative_to: ["Adobe Photoshop", "Corel Painter"]
 categories: ["Ψηφιακή Ζωγραφική", "Γραφικά", "Επεξεργασία Εικόνας"]
 website: "https://krita.org/"
-logo: "/images/krita.svg"
+logo: "/images/krita.png"
 license: "GPL-3.0"
 description: "Επαγγελματικό εργαλείο ψηφιακής ζωγραφικής αναπτυγμένο από καλλιτέχνες, για καλλιτέχνες. Ιδανικό για concept art, εικονογράφηση, comics και animation — με εξαιρετικό σύστημα πινέλων, υποστήριξη HDR, πλήρη διαχείριση χρώματος και ενσωματωμένο animator."
 featured: true

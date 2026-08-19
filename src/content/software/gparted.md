@@ -3,7 +3,7 @@ title: "GParted"
 alternative_to: ["Partition Magic", "MiniTool Partition Wizard"]
 categories: ["Εργαλεία", "Λειτουργικά Συστήματα"]
 website: "https://gparted.org/"
-logo: "/images/gparted.svg"
+logo: "/images/gparted.png"
 license: "GPL-2.0"
 description: "Η κορυφαία γραφική εφαρμογή διαχείρισης κατατμήσεων δίσκου για Linux. Δημιουργία, διαγραφή, αλλαγή μεγέθους, μεταφορά, έλεγχος και αντιγραφή κατατμήσεων για δεκάδες filesystems — χωρίς απώλεια δεδομένων. Διαθέσιμο ως Live CD για εργασία σε ανενεργούς δίσκους."
 featured: true

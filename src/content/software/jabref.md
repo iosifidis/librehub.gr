@@ -3,7 +3,7 @@ title: "JabRef (BibTeX Manager)"
 alternative_to: ["EndNote", "Zotero", "BibDesk"]
 categories: ["Εκπαίδευση", "Βιβλιογραφία", "Έρευνα", "LaTeX"]
 website: "https://www.jabref.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/jabref.png"
 license: "MIT"
 description: "Εξειδικευμένος διαχειριστής βιβλιογραφίας που χρησιμοποιεί το format **BibTeX** (και BibLaTeX), το standard για επιστημονική συγγραφή σε LaTeX. Επιτρέπει εισαγωγή από PDF, DOI, ISBN, PubMed, IEEEXplore, κλπ., αυτόματη εξαγωγή μεταδεδομένων, οργάνωση σε ομάδες (groups), search, deduplication, export σε .bib, και ενσωμάτωση με editors (TeXstudio, Overleaf). Είναι cross-platform (Java)."
 featured: false

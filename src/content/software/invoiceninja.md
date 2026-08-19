@@ -3,7 +3,7 @@ title: "InvoiceNinja"
 alternative_to: ["Zoho Invoice", "FreshBooks", "Wave Accounting", "QuickBooks (invoicing only)"]
 categories: ["Παραγωγικότητα", "Γραφείο", "ERP", "CRM", "Cloud"]
 website: "https://www.invoiceninja.com"
-logo: "/images/placeholder.svg"
+logo: "/images/invoiceninja.png"
 license: "AGPL-3.0"
 description: "Εξειδικευμένη πλατφόρμα τιμολόγησης, διαχείρισης πελατών και online πληρωμών, με δυνατότητα self-hosting (δωρεάν) ή cloud υπηρεσίας. Ιδανική για freelancers, μικρές επιχειρήσεις και λογιστικά γραφεία."
 featured: false

@@ -3,7 +3,7 @@ title: "WooCommerce"
 alternative_to: ["Shopify (SaaS)", "Magento (heavy enterprise)", "BigCommerce", "Wix Stores"]
 categories: ["Παραγωγικότητα", "Ηλεκτρονικό Εμπόριο"]
 website: "https://woocommerce.com"
-logo: "/images/placeholder.svg"
+logo: "/images/woocommerce.png"
 license: "GPL-3.0"
 description: "Η πιο δημοφιλής πλατφόρμα ηλεκτρονικού εμπορίου στον κόσμο, βασισμένη στο WordPress. Μετατρέπει οποιαδήποτε ιστοσελίδα WordPress σε πλήρες e-commerce κατάστημα (προϊόντα, καλάθι, checkout, πληρωμές, αποστολές). Ιδανική για επιχειρήσεις που ήδη χρησιμοποιούν WordPress."
 featured: true

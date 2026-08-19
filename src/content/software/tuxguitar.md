@@ -3,7 +3,7 @@ title: "TuxGuitar (Tablature Editor)"
 alternative_to: ["GuitarPro", "PowerTab", "MuseScore (with TAB support)"]
 categories: ["Εκπαίδευση", "Μουσική", "Σύνθεση", "Επεξεργασία Ήχου", "Πολυμέσα"]
 website: "https://www.tuxguitar.app/"
-logo: "/images/placeholder.svg"
+logo: "/images/tuxguitar.png"
 license: "LGPL-2.1"
 description: "Επεξεργαστής και αναπαραγωγέας tablature (TAB) και παρτιτούρας (standard notation) για έγχορδα όργανα (κιθάρα, ηλεκτρική κιθάρα, μπάσο, μαντολίνο, ουκουλέλε). Διαβάζει αρχεία GuitarPro (.gp3, .gp4, .gp5, .gpx), PowerTab (.ptb), και TablEdit (.tef). Υποστηρίζει MIDI playback (με SoundFonts), τεχνικές εκτέλεσης (bending, vibrato, slide, hammer-on, pull-off, tapping), στίχους, εκτύπωση, και εξαγωγή σε PDF/MIDI/ASCII."
 featured: false

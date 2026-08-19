@@ -3,7 +3,7 @@ title: "FreeRDP (Remote Desktop Protocol Client)"
 alternative_to: ["Microsoft Remote Desktop Client (proprietary)", "Remmina (based on FreeRDP)", "xfreerdp CLI"]
 categories: ["Απομακρυσμένη Πρόσβαση", "Εργαλεία", "Δίκτυα"]
 website: "https://www.freerdp.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/freerdp.png"
 license: "Apache-2.0"
 description: "Μια ελεύθερη υλοποίηση του πρωτοκόλλου Microsoft Remote Desktop Protocol (RDP). Παρέχει βιβλιοθήκη (libfreerdp) και εφαρμογές (xfreerdp, wlfreerdp) για σύνδεση σε Windows RDP servers (Windows Professional/Server), Windows Virtual Desktop, και άλλες υλοποιήσεις RDP. Υποστηρίζει πολλαπλές οθόνες, redirection (printer, drive, audio), και Network Level Authentication (NLA)."
 featured: false

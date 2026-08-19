@@ -3,7 +3,7 @@ title: "Rhythmbox"
 alternative_to: ["Apple iTunes", "Windows Media Player"]
 categories: ["Πολυμέσα", "Εργαλεία"]
 website: "https://wiki.gnome.org/Apps/Rhythmbox"
-logo: "/images/rhythmbox.svg"
+logo: "/images/rythmbox.svg"
 license: "GPL-2.0"
 description: "Ολοκληρωμένος αναπαραγωγέας μουσικής και podcast manager για το GNOME περιβάλλον. Οργανώνει μουσική βιβλιοθήκη, υποστηρίζει internet radio, Last.fm scrobbling, podcast management, iPod sync και Daap sharing — με καθαρή διεπαφή και εκτεταμένο σύστημα plugins."
 featured: false

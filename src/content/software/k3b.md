@@ -3,7 +3,7 @@ title: "K3b"
 alternative_to: ["Nero Burning ROM"]
 categories: ["Εργαλεία", "Πολυμέσα"]
 website: "https://userbase.kde.org/K3b"
-logo: "/images/k3b.svg"
+logo: "/images/k3b.png"
 license: "GPL-2.0"
 description: "Η πληρέστερη εφαρμογή εγγραφής CD, DVD και Blu-ray για Linux, με πλούσιο γραφικό περιβάλλον KDE. Υποστηρίζει εγγραφή δεδομένων, audio CD (με CDDB lookup), Video DVD, αντιγραφή δίσκων, δημιουργία/εγγραφή ISO images και ripping — σε ένα πλήρες, εύχρηστο εργαλείο."
 featured: false

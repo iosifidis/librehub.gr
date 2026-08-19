@@ -3,7 +3,7 @@ title: "Vikunja"
 alternative_to: ["Todoist", "Asana", "Trello", "ClickUp"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Cloud"]
 website: "https://vikunja.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/vikunja.svg"
 license: "GPL-3.0"
 description: "Ευέλικτη, self-hostable εφαρμογή διαχείρισης εργασιών (to-do), που επιτρέπει οργάνωση projects με λίστες, πίνακες Kanban, Gantt charts, ημερολόγια, και προβολή πίνακα (table view)."
 featured: false

@@ -3,7 +3,7 @@ title: "Apache NetBeans"
 alternative_to: ["IntelliJ IDEA (Ultimate)", "Eclipse IDE", "Microsoft Visual Studio (Java workloads)"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://netbeans.apache.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/netbeans.png"
 license: "Apache-2.0"
 description: "IDE ανοιχτού κώδικα για Java, PHP, JavaScript, C/C++, HTML5, και άλλες γλώσσες, με έμφαση στην ευκολία χρήσης, τον πλούσιο editor, και τα ενσωματωμένα εργαλεία (GUI builder, profiler)."
 featured: false

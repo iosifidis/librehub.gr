@@ -3,7 +3,7 @@ title: "gFTP"
 alternative_to: ["CuteFTP"]
 categories: ["Εργαλεία", "Δίκτυα"]
 website: "https://github.com/masneyb/gftp"
-logo: "/images/gftp.svg"
+logo: "/images/gftp.png"
 license: "GPL-2.0"
 description: "Ελαφρύ και πολυνηματικό (multithreaded) εργαλείο μεταφοράς αρχείων για Linux/Unix, με υποστήριξη FTP, FTPS, SFTP, HTTP και FSP. Προσφέρει dual-pane διεπαφή GTK, bookmarks, αναδρομική μεταφορά φακέλων, αυτόματη επανασύνδεση και logging."
 featured: false

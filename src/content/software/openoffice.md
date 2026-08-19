@@ -3,7 +3,7 @@ title: "Apache OpenOffice"
 alternative_to: ["Microsoft Office", "Word", "Excel", "PowerPoint"]
 categories: ["Γραφείο", "Παραγωγικότητα", "Ημερήσια Χρήση"]
 website: "https://www.openoffice.org/el/"
-logo: "/images/placeholder.svg"
+logo: "/images/openoffice.png"
 license: "Apache-2.0"
 description: "Μια ιστορική, ώριμη και αξιόπιστη σουίτα εφαρμογών γραφείου ανοιχτού κώδικα, πρόγονος του LibreOffice, κατάλληλη για χρήστες που αναζητούν σταθερότητα και απλότητα χωρίς συχνές αλλαγές. Περιλαμβάνει Writer (κείμενο), Calc (υπολογιστικά φύλλα), Impress (παρουσιάσεις), Draw (σχέδια), Base (βάσεις) και Math (εξισώσεις). Υποστηρίζει τη μορφή OpenDocument (ODF) ως native, και βασική (αλλά όχι τέλεια) συμβατότητα με Microsoft Office (DOC, XLS, PPT)."
 featured: false

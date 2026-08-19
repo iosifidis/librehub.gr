@@ -3,7 +3,7 @@ title: "WebSocket Pluggable Transport (Tor)"
 alternative_to: ["meek (HTTP camouflage)", "Snowflake (WebRTC)", "FTE (format-transforming)"]
 categories: ["Ιδιωτικότητα", "Δίκτυα", "Παράκαμψη Λογοκρισίας"]
 website: "https://gitweb.torproject.org/pluggable-transports/websocket.git"
-logo: "/images/placeholder.svg"
+logo: "/images/websocket-pluggable.svg"
 license: "BSD-3-Clause"
 description: "Ένα pluggable transport (PT) για το δίκτυο Tor που μεταμφιέζει την κίνηση Tor (TLS) σε WebSocket (WS) ή WebSocket Secure (WSS) traffic. Σκοπός του είναι να παρακάμπτει λογοκρισία (firewalls, deep packet inspection) που στοχεύει το πρωτόκολλο Tor. Ο client ανοίγει μια WebSocket σύνδεση με έναν bridge server, ο οποίος με τη σειρά του συνδέεται στο Tor network. Χρήσιμο σε χώρες που μπλοκάρουν το Tor (Κίνα, Ιράν, κλπ.)."
 featured: false

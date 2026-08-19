@@ -3,7 +3,7 @@ title: "Wiki-Go (Simple Knowledge Management)"
 alternative_to: ["Notion", "Obsidian", "TiddlyWiki", "DokuWiki"]
 categories: ["Εκπαίδευση", "Wiki", "Τεκμηρίωση"]
 website: "https://github.com/leomoon-studios/wiki-go"
-logo: "/images/placeholder.svg"
+logo: "/images/wiki-go.png"
 license: "MIT"
 description: "Ένα απλό, γρήγορο σύστημα διαχείρισης γνώσης (wiki) για τη δημιουργία εκπαιδευτικών wikis, σημειώσεων, μαθημάτων, και οργάνωση περιεχομένου. Γραμμένο σε Go, παραμένει ελαφρύ (single binary) και δεν απαιτεί database (χρησιμοποιεί αρχεία markdown). Υποστηρίζει αναζήτηση (full text), tags, users, ACL (access control), και dark mode."
 featured: false

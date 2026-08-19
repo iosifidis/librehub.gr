@@ -3,7 +3,7 @@ title: "uBlock Origin"
 alternative_to: ["AdBlock Plus"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Πλοήγηση"]
 website: "https://github.com/gorhill/uBlock"
-logo: "/images/ublock-origin.svg"
+logo: "/images/ublock-origin.png"
 license: "GPL-3.0"
 description: "Ο πιο αποτελεσματικός και ελαφρύς αποκλειστής περιεχομένου ευρέος φάσματος, που προστατεύει από διαφημίσεις, trackers, malware domains και popups με ελάχιστη κατανάλωση μνήμης και CPU. Θεωρείται το must-have εργαλείο ιδιωτικότητας για κάθε περιηγητή."
 featured: true

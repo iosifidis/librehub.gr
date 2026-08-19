@@ -3,7 +3,7 @@ title: "YOURLS (Your Own URL Shortener)"
 alternative_to: ["Bitly (free tier)", "Shlink (advanced features)", "Rebrandly"]
 categories: ["URL Shortener", "QR", "Εργαλεία", "Παραγωγικότητα"]
 website: "https://yourls.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/yourls.png"
 license: "MIT"
 description: "Σύνολο scripts σε PHP (με MySQL) που σας επιτρέπει να τρέχετε τον δικό σας self-hosted URL shortener, με custom domain (π.χ. `yourdomain.com/abc`). Περιλαμβάνει βασική analytics (clicks, referrers), API, plugins, και είναι εξαιρετικά ελαφρύ."
 featured: false

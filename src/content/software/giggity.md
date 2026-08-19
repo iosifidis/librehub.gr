@@ -3,7 +3,7 @@ title: "Giggity"
 alternative_to: ["Whova (attendee app)", "Guidebook", "Conference Compass"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Συνέδρια", "Εκδηλώσεις", "Πλοήγηση"]
 website: "https://wilmer.gaa.st/main.php/giggity.html"
-logo: "/images/placeholder.svg"
+logo: "/images/giggity.svg"
 license: "Apache-2.0 (open source)"
 description: "Ελαφριά εφαρμογή για Android που λειτουργεί ως πρόγραμμα-θεατής (schedule viewer) για συνέδρια και εκδηλώσεις. Φορτώνει αρχεία προγράμματος σε μορφές XML (Pentabarf, Frab, Pretalx) ή iCal και προσφέρει διάφορες προβολές (ημερολόγιο, λίστα, block schedule)."
 featured: false

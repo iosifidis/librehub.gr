@@ -3,7 +3,7 @@ title: "phpList"
 alternative_to: ["Mailchimp (SaaS)", "Sendinblue (Brevo)", "MailerLite"]
 categories: ["Παραγωγικότητα", "Email Marketing"]
 website: "https://www.phplist.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/phplist.png"
 license: "AGPL-3.0"
 description: "Ισχυρή, self-hosted πλατφόρμα για email marketing και διαχείριση ενημερωτικών δελτίων (newsletters). Υποστηρίζει αποστολή εκατομμυρίων emails, διαχείριση λιστών, bounce processing, A/B testing, analytics (open/click rates), και plugin system."
 featured: false

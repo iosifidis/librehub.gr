@@ -3,7 +3,7 @@ title: "TextEditor"
 alternative_to: ["Microsoft Notepad"]
 categories: ["Εργαλεία", "Ανάπτυξη Λογισμικού"]
 website: "https://apps.gnome.org/el/TextEditor/"
-logo: "/images/texteditor.svg"
+logo: "/images/texteditor.png"
 license: "GPL-3.0"
 description: "Απλός και λειτουργικός επεξεργαστής κειμένου, προεπιλεγμένος σε πολλά περιβάλλοντα Linux. Προσφέρει καθαρό περιβάλλον γραφής, syntax highlighting για βασικές γλώσσες, και άμεση ενσωμάτωση με το περιβάλλον GNOME."
 featured: false

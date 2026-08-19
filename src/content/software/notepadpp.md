@@ -3,7 +3,7 @@ title: "Notepad++"
 alternative_to: ["Microsoft Notepad"]
 categories: ["Εργαλεία", "Ανάπτυξη Λογισμικού", "Προγραμματισμός"]
 website: "https://notepad-plus-plus.org/"
-logo: "/images/notepad-plus-plus.svg"
+logo: "/images/notepadpp.png"
 license: "GPL-2.0"
 description: "Εξελιγμένος και ελαφρύς επεξεργαστής κειμένου για Windows, με υποστήριξη πολλαπλών καρτελών, syntax highlighting για 80+ γλώσσες προγραμματισμού, macro recording, και πλούσιο οικοσύστημα plugins. Ιδανικός τόσο για απλή επεξεργασία κειμένου όσο και για ανάπτυξη κώδικα."
 featured: true

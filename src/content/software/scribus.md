@@ -3,7 +3,7 @@ title: "Scribus"
 alternative_to: ["Adobe InDesign", "QuarkXPress", "Microsoft Publisher"]
 categories: ["Γραφικά", "Γραφείο", "Παραγωγικότητα"]
 website: "https://www.scribus.net/"
-logo: "/images/placeholder.svg"
+logo: "/images/scribus.png"
 license: "GPL-2.0"
 description: "Επαγγελματικό λογισμικό σελιδοποίησης (Desktop Publishing - DTP) ανοιχτού κώδικα, ιδανικό για τη δημιουργία αφισών, φυλλαδίων, περιοδικών, εφημερίδων, βιβλίων, ενημερωτικών δελτίων, και άλλων εκτυπώσιμων υλικών υψηλής ποιότητας. Υποστηρίζει διαχωρισμό χρωμάτων (CMYK), ICC color profiles, διαχείριση γραμματοσειρών (OpenType, TrueType), επαγγελματική προεκτύπωση (pre-press) με PDF/X-1a, PDF/X-3, και ενσωμάτωση (interactive PDF)."
 featured: true

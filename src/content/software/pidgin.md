@@ -3,7 +3,7 @@ title: "Pidgin"
 alternative_to: ["Facebook Messenger", "WhatsApp", "Telegram", "Google Hangouts"]
 categories: ["Επικοινωνία", "Παραγωγικότητα"]
 website: "https://www.pidgin.im/"
-logo: "/images/placeholder.svg"
+logo: "/images/pidgin.png"
 license: "GPL-2.0"
 description: "Ένας παλιός αλλά αξιόπιστος καθολικός πελάτης (client) άμεσης ανταλλαγής μηνυμάτων (instant messaging) που επιτρέπει στους χρήστες να συνδέονται ταυτόχρονα σε πολλαπλά δίκτυα και πρωτόκολλα από μία ενιαία διεπαφή."
 featured: false

@@ -3,7 +3,7 @@ title: "GNU Crypto (Java Cryptographic Library)"
 alternative_to: ["Bouncy Castle (commercial support available)", "Java Cryptography Extension (JCE) built-in"]
 categories: ["Ασφάλεια", "Ανάπτυξη Λογισμικού", "Κρυπτογραφία"]
 website: "https://www.gnu.org/software/gnu-crypto/"
-logo: "/images/placeholder.svg"
+logo: "/images/gnu-crypto.svg"
 license: "GPL-3.0 (with classpath exception?)"
 description: "Μια συλλογή από κρυπτογραφικούς αλγόριθμους, συναρτήσεις κατακερματισμού, ψηφιακές υπογραφές, και πρωτόκολλα (κρυπτογραφικά primitives) υλοποιημένα σε Java. Παρέχει υλοποιήσεις για AES, Blowfish, DES, TripleDES, RSA, DSA, SHA-1, SHA-256, MD5, HMAC, ASN.1, και άλλα. Είναι λιγότερο δημοφιλές από το Bouncy Castle, το οποίο έχει περισσότερους αλγόριθμους (ECC, PGP, PKIX)."
 featured: false

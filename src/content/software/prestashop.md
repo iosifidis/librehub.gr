@@ -3,7 +3,7 @@ title: "PrestaShop"
 alternative_to: ["Shopify (SaaS)", "Magento (Adobe Commerce)", "WooCommerce", "OpenCart"]
 categories: ["Παραγωγικότητα", "Ηλεκτρονικό Εμπόριο"]
 website: "https://www.prestashop.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/prestashop.png"
 license: "OSL-3.0 (Open Software License)"
 description: "Δημοφιλής, self-hosted πλατφόρμα ηλεκτρονικού εμπορίου ανοιχτού κώδικα, που χρησιμοποιείται από πάνω από 300.000 καταστήματα παγκοσμίως. Προσφέρει πλήρη έλεγχο δεδομένων, χιλιάδες modules/themes, multi-language, multi-currency, και δυνατότητα επεκτασιμότητας για μικρές έως μεγάλες επιχειρήσεις."
 featured: true

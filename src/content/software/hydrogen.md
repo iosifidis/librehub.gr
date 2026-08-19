@@ -3,7 +3,7 @@ title: "Hydrogen (Drum Machine)"
 alternative_to: ["DrumCore", "EZdrummer", "Superior Drummer"]
 categories: ["Εκπαίδευση", "Μουσική", "Επεξεργασία Ήχου"]
 website: "https://www.hydrogen-music.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/hydrogen.svg"
 license: "GPL-2.0"
 description: "Προηγμένη drum machine (sequencer) για μουσική παραγωγή, εστιασμένη στον προγραμματισμό drum patterns. Χρησιμοποιεί stackable layers, sample library (SFZ, WAV, AIFF), υποστήριξη MIDI, time-stretching, humanization (swing), effects (low/high-pass filters, sample rate reducer), και export σε WAV/FLAC. Ιδανικό για παραγωγούς hip-hop, electronica, rock demos."
 featured: false

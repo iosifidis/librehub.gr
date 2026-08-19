@@ -3,7 +3,7 @@ title: "GCC (GNU Compiler Collection)"
 alternative_to: ["Microsoft Visual C++ (MSVC)", "Clang (LLVM)", "Intel oneAPI DPC++/C++"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://gcc.gnu.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/gcc.png"
 license: "GPL-3.0 (with GCC Runtime Library Exception)"
 description: "Το βασικό σύστημα μεταγλωττιστών (compiler) του GNU Project, που υποστηρίζει C, C++, Fortran, Ada, Go, D, Modula-2, και άλλες γλώσσες. Αποτελεί τον προεπιλεγμένο compiler για τα περισσότερα συστήματα Linux, και είναι γνωστός για τη βελτιστοποίηση υψηλής απόδοσης και την υποστήριξη αρχιτεκτονικών (x86, ARM, RISC-V, PowerPC, κ.ά.)."
 featured: true

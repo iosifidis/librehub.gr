@@ -3,7 +3,7 @@ title: "VTiger CRM"
 alternative_to: ["Salesforce Sales Cloud", "HubSpot CRM (starter)", "Zoho CRM", "Pipedrive"]
 categories: ["Παραγωγικότητα", "Γραφείο", "CRM", "Cloud"]
 website: "https://www.vtiger.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/vtiger.png"
 license: "Vtiger Public License (open source, based on SugarCRM 4.5x)"
 description: "Πλήρες CRM ανοιχτού κώδικα για πωλήσεις, μάρκετινγκ και υποστήριξη πελατών, με δυνατότητα on-premise εγκατάστασης. Συνδυάζει features enterprise CRM με ευκολία χρήσης."
 featured: false

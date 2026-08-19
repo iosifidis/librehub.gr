@@ -3,7 +3,7 @@ title: "Wallabag"
 alternative_to: ["Pocket", "Instapaper"]
 categories: ["Εργαλεία", "Παραγωγικότητα", "Ανάγνωση"]
 website: "https://wallabag.org/"
-logo: "/images/wallabag.svg"
+logo: "/images/wallabang.svg"
 license: "MIT"
 description: "Δημοφιλής self-hosted εφαρμογή για αποθήκευση, αρχειοθέτηση και ανάγνωση άρθρων για αργότερα (read-it-later). Αποθηκεύει το πλήρες περιεχόμενο κάθε άρθρου χωρίς διαφημίσεις, προσφέρει καθαρό reader mode, εξαγωγή σε eBook και sync με εφαρμογές κινητών — χωρίς να εξαρτάστε από το Pocket (Mozilla/Firefox) ή το Instapaper."
 featured: true

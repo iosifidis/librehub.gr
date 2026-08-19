@@ -3,7 +3,7 @@ title: "PDFCreator"
 alternative_to: ["Adobe Acrobat Pro", "Nitro PDF Pro", "Foxit PhantomPDF"]
 categories: ["Γραφείο", "Παραγωγικότητα", "Γραφικά"]
 website: "https://sourceforge.net/projects/pdfcreator/"
-logo: "/images/placeholder.svg"
+logo: "/images/pdfcreator.svg"
 license: "AGPL-3.0"
 description: "Δημοφιλές εργαλείο ανοιχτού κώδικα για Windows που λειτουργεί ως εικονικός εκτυπωτής (virtual printer), επιτρέποντας τη δημιουργία αρχείων PDF, JPEG, PNG, TIFF και άλλων μορφών από οποιαδήποτε εφαρμογή εκτυπώνει."
 featured: false

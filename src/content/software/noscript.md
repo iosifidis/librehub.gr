@@ -3,7 +3,7 @@ title: "NoScript"
 alternative_to: ["In-browser Security Features"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Πλοήγηση"]
 website: "https://noscript.net/"
-logo: "/images/noscript.svg"
+logo: "/images/noscript.png"
 license: "GPL-3.0"
 description: "Επέκταση περιηγητή που επιτρέπει εκτέλεση JavaScript, Java, Flash και άλλων εκτελέσιμων μόνο από ιστότοπους που εμπιστεύεστε. Προστατεύει από XSS attacks, Clickjacking, Cross-Site Request Forgery και drive-by malware — αποτελεί βασική επέκταση του Tor Browser."
 featured: false

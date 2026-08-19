@@ -3,7 +3,7 @@ title: "Joplin (Note Taking App)"
 alternative_to: ["Evernote", "Microsoft OneNote", "Notion"]
 categories: ["Σημειώσεις", "Παραγωγικότητα", "Cloud"]
 website: "https://joplinapp.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/joplin.png"
 license: "MIT (core) / AGPL-3.0 (desktop)"
 description: "Μια εφαρμογή για αποθήκευση και συγχρονισμό σημειώσεων, με ασφάλεια (end-to-end encryption) και υποστήριξη όλων των συσκευών (Windows, macOS, Linux, Android, iOS). Υποστηρίζει Markdown (με ενσωματωμένο editor), οργάνωση σημειώσεων σε notebooks, tags, attachments (εικόνες, PDF, αρχεία), backlinks (σύνδεση σημειώσεων), πίνακες, Kanban boards, και web clipper (αποθήκευση ιστοσελίδων). Ο συγχρονισμός γίνεται μέσω Nextcloud, Dropbox, OneDrive, WebDAV, ή Joplin Cloud (πληρωμή)."
 featured: true

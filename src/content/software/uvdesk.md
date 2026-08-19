@@ -3,7 +3,7 @@ title: "UVDesk (Community Helpdesk)"
 alternative_to: ["Freshdesk (commercial)", "Zoho Desk (commercial)", "Zammad (different stack)"]
 categories: ["Helpdesk", "Παραγωγικότητα"]
 website: "https://www.uvdesk.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/uvdesk.png"
 license: "OSL-3.0 (Open Software License)"
 description: "Σύστημα υποστήριξης πελατών (helpdesk) ανοιχτού κώδικα, βασισμένο σε Symfony (PHP) and Backbone.js (JavaScript). Η έκδοση Community Edition (OSL-3.0) είναι self-hosted, με δυνατότητα αναβάθμισης σε Enterprise. Προσφέρει ticketing system (email & web forms), knowledge base, automation workflows, custom reports, multi-language, και integration με Shopify (plugin), Magento, WooCommerce, κλπ. . Ιδανικό για e-commerce επιχειρήσεις που χρειάζονται σύνδεση με online stores."
 featured: false

@@ -3,7 +3,7 @@ title: "OnionShare"
 alternative_to: ["WeTransfer (privacy-focused alternative)", "SendSafely", "Mega (anonymous sharing)"]
 categories: ["Ιδιωτικότητα", "Cloud", "Επικοινωνία"]
 website: "https://onionshare.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/onionshare.png"
 license: "GPL-3.0"
 description: "Εργαλείο ανοιχτού κώδικα για ασφαλή, ανώνυμη και αποκεντρωμένη κοινή χρήση αρχείων, φιλοξενία ιστοσελίδων και ανταλλαγή μηνυμάτων μέσω του δικτύου Tor."
 featured: false

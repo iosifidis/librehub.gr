@@ -3,7 +3,7 @@ title: "OWASP Maryam (OSINT Framework)"
 alternative_to: ["Maltego (commercial)", "theHarvester (OSINT)", "Recon-ng (OSINT)"]
 categories: ["Ασφάλεια", "Εργαλεία", "Παρακολούθηση"]
 website: "https://github.com/saeeddhqan/Maryam"
-logo: "/images/placeholder.svg"
+logo: "/images/maryam.svg"
 license: "GPL-3.0"
 description: "Ισχυρό, modular πλαίσιο OSINT (Open Source Intelligence) ανοιχτού κώδικα, βασισμένο στο OWASP project. Συλλέγει πληροφορίες από δημόσιες πηγές (search engines, social media, DNS records, whois, web archives, κλπ.) για έναν στόχο (domain, email, person). Χρησιμοποιείται από security researchers, penetration testers, και investigative journalists για την συλλογή ψηφιακών αποτυπωμάτων (digital footprints) χωρίς να καλεί APIs (όπου είναι δυνατόν)."
 featured: false

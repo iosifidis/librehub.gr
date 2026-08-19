@@ -3,7 +3,7 @@ title: "GNU Octave (Scientific Programming)"
 alternative_to: ["MATLAB", "Scilab (alternative syntax)", "Python (NumPy/SciPy)"]
 categories: ["Εκπαίδευση", "Μαθηματικά", "Επιστήμες"]
 website: "https://www.gnu.org/software/octave/"
-logo: "/images/placeholder.svg"
+logo: "/images/octave.png"
 license: "GPL-3.0"
 description: "Μια γλώσσα προγραμματισμού υψηλού επιπέδου (παρόμοια με MATLAB), κυρίως για αριθμητικούς υπολογισμούς, γραμμική άλγεβρα, γραφικά (2D/3D), και προσομοιώσεις. Είναι η πιο συμβατή open-source εναλλακτική του MATLAB (τα περισσότερα scripts MATLAB εκτελούνται στο Octave χωρίς αλλαγές). Παρέχει επίσης ένα περιβάλλον γραμμής εντολών (CLI) και γραφικό περιβάλλον (GUI) βασισμένο στο Qt. Χρησιμοποιείται ευρέως σε ακαδημαϊκή έρευνα και βιομηχανία."
 featured: true

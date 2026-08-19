@@ -3,7 +3,7 @@ title: "Kino"
 alternative_to: ["Adobe Premiere"]
 categories: ["Επεξεργασία Βίντεο", "Βίντεο"]
 website: "https://kinodv.org/"
-logo: "/images/kino.svg"
+logo: "/images/kino.png"
 license: "GPL-2.0"
 description: "Απλός και σταθερός επεξεργαστής ψηφιακού βίντεο DV για Linux, με εστίαση στην εισαγωγή υλικού από DV κάμερες μέσω FireWire (IEEE 1394), βασική επεξεργασία clips και εξαγωγή σε DV/MPEG format."
 featured: false

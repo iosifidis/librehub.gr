@@ -3,7 +3,7 @@ title: "VS Code"
 alternative_to: ["Visual Studio", "Sublime Text", "Notepad++"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://code.visualstudio.com"
-logo: "/images/vscode.svg"
+logo: "/images/vscode.png"
 license: "MIT"
 description: "Ελαφρύς αλλά ισχυρός επεξεργαστής κώδικα με εξαιρετική υποστήριξη για debugging, Git και χιλιάδες επεκτάσεις."
 featured: true

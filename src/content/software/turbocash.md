@@ -3,7 +3,7 @@ title: "TurboCash"
 alternative_to: ["Microsoft Money", "QuickBooks Pro", "Sage (basic version)"]
 categories: ["Γραφείο", "Παραγωγικότητα"]
 website: "https://www.turbocash.net/"
-logo: "/images/placeholder.svg"
+logo: "/images/turbocash.svg"
 license: "GPL-2.0"
 description: "Ολοκληρωμένο λογιστικό σύστημα (general ledger, AR/AP, inventory) για μικρές και μεσαίες επιχειρήσεις, με διπλογραφική λογιστική, invoicing, reporting, και υποστήριξη πολλαπλών νομισμάτων."
 featured: false

@@ -3,7 +3,7 @@ title: "RustDesk"
 alternative_to: ["TeamViewer", "AnyDesk", "Splashtop"]
 categories: ["Απομακρυσμένη Πρόσβαση", "Εργαλεία", "Δίκτυα"]
 website: "https://rustdesk.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/rustdesk.png"
 license: "AGPL-3.0 (server), GPL-3.0 (client)"
 description: "Μια σύγχρονη, γρήγορη (γραμμένη σε Rust) υποδομή απομακρυσμένης επιφάνειας εργασίας (remote desktop), με δυνατότητα αυτο-φιλοξενίας (self-hosted server). Προσφέρει κρυπτογράφηση (TLS), NAT traversal, file transfer, TCP tunneling, και πολλαπλές οθόνες. Σχεδιάστηκε ως εναλλακτική του TeamViewer, με απλό UI και cross-platform (Windows, macOS, Linux, Android, iOS)."
 featured: true

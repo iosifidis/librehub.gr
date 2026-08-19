@@ -3,7 +3,7 @@ title: "Linux Mint"
 alternative_to: ["Microsoft Windows", "macOS"]
 categories: ["Λειτουργικά Συστήματα"]
 website: "https://linuxmint.com/"
-logo: "/images/linux-mint.svg"
+logo: "/images/linux-mint.png"
 license: "GPL-2.0"
 description: "Η πιο φιλική διανομή Linux για χρήστες που μεταβαίνουν από Windows — οικείο περιβάλλον εργασίας (Cinnamon/MATE/Xfce), εξαιρετική σταθερότητα και out-of-the-box λειτουργικότητα. Βασισμένο στο Ubuntu LTS, με επιπλέον polish, καλύτερο update manager και ενσωματωμένα multimedia codecs."
 featured: true

@@ -3,7 +3,7 @@ title: "CamStudio (Screen Recorder)"
 alternative_to: ["TechSmith Camtasia (commercial, full video editor)", "ShareX (basic recording)"]
 categories: ["Πολυμέσα", "Βίντεο", "Εκπαίδευση"]
 website: "https://camstudio.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/camstudio.svg"
 license: "GPL-3.0"
 description: "Ελαφρύ λογισμικό καταγραφής οθόνης (screen recorder) για Windows, που παράγει βίντεο σε μορφή AVI (με διάφορους codec) ή SWF (Flash). Είναι κατάλληλο για δημιουργία εκπαιδευτικών βίντεο, demos, tutorials, με δυνατότητα καταγραφής ήχου (από μικρόφωνο ή ηχεία) και annotations."
 featured: false

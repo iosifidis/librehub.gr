@@ -3,7 +3,7 @@ title: "I2P"
 alternative_to: ["Tor", "VPN Services"]
 categories: ["Δίκτυα", "Ιδιωτικότητα", "Ασφάλεια"]
 website: "https://geti2p.net/"
-logo: "/images/i2p.svg"
+logo: "/images/ip2.png"
 license: "MIT"
 description: "Ανώνυμο overlay δίκτυο (Invisible Internet Project) για ανώνυμη επικοινωνία και υπηρεσίες. Σε αντίθεση με το Tor (που εστιάζει στην ανώνυμη πρόσβαση στο κανονικό internet), το I2P είναι σχεδιασμένο για εσωτερικές υπηρεσίες (hidden services) — email, web, torrents — αποκλειστικά μέσα στο I2P δίκτυο."
 featured: false

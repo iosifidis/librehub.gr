@@ -3,7 +3,7 @@ title: "FreeCAD (Parametric 3D CAD)"
 alternative_to: ["AutoCAD (2D/3D)", "SolidWorks (3D parametric)", "Fusion 360 (commercial, limited free tier)", "CATIA (enterprise)"]
 categories: ["Γραφικά", "3D Μοντελοποίηση", "CAD"]
 website: "https://www.freecad.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/freecad.png"
 license: "LGPL-2.1"
 description: "Πολυπαραμετρικός (parametric) 3D μοντελοποιητής CAD ανοιχτού κώδικα, σχεδιασμένος για μηχανολογική σχεδίαση (mechanical engineering), αρχιτεκτονική (Arch/BIM), 3D εκτύπωση, και γενική προϊοντική σχεδίαση. Βασίζεται στην ιστορική (history-based) παραμετρική μοντελοποίηση, επιτρέποντας επεξεργασία 2D sketches που μετατρέπονται σε 3D solids (extrude, revolve, loft, sweep)."
 featured: true

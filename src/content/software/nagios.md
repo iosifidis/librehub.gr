@@ -3,7 +3,7 @@ title: "Nagios Core"
 alternative_to: ["SolarWinds (commercial)", "Datadog (commercial)", "Zabbix (alternative)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Παρακολούθηση"]
 website: "https://www.nagios.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/nagios.svg"
 license: "GPL-2.0"
 description: "Το βιομηχανικό πρότυπο ανοιχτού κώδικα για παρακολούθηση IT υποδομών (monitoring). Παρακολουθεί servers, networks, applications, services, και συσκευές δικτύου (routers, switches). Χρησιμοποιεί plugins (5.000+ community addons) για να ελέγχει uptime, απόκριση (response time), disk usage, CPU load, memory, service status, κλπ. Ειδοποιεί μέσω email, SMS, Slack, κλπ. όταν ανιχνεύεται πρόβλημα."
 featured: true

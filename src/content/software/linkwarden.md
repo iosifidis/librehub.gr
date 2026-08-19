@@ -3,7 +3,7 @@ title: "Linkwarden"
 alternative_to: ["Pocket for Teams", "Raindrop.io (Pro)", "Bookmark Manager (Enterprise)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Cloud"]
 website: "https://linkwarden.app/"
-logo: "/images/placeholder.svg"
+logo: "/images/linkwarden.png"
 license: "MIT"
 description: "Ισχυρή εφαρμογή διαχείρισης σελιδοδεικτών (bookmarks) και αρχειοθέτησης ιστοσελίδων για ομάδες, με δυνατότητες λήψης στιγμιότυπων (screenshots), full-text search, και self-hosting."
 featured: false

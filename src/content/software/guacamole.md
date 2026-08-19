@@ -3,7 +3,7 @@ title: "Apache Guacamole (Clientless Remote Desktop Gateway)"
 alternative_to: ["Microsoft Remote Desktop Gateway (RD Gateway)", "Citrix Gateway (commercial)", "Cisco AnyConnect (VPN alternative)"]
 categories: ["Απομακρυσμένη Πρόσβαση", "Ασφάλεια"]
 website: "https://guacamole.apache.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/guacamole.svg"
 license: "Apache-2.0"
 description: "Μια πύλη απομακρυσμένης επιφάνειας εργασίας που σας επιτρέπει να συνδέεστε σε RDP, SSH, VNC, και Kubernetes (K8s) servers **χωρίς την εγκατάσταση client**. Απαιτεί μόνο ένα browser (HTML5, WebSocket). Ο Guacamole server δρα ως γέφυρα (proxy) μεταξύ του browser και των backend servers. Ιδανικό για οργανισμούς που θέλουν να προσφέρουν ασφαλή πρόσβαση σε εσωτερικές υποδομές μέσω internet χωρίς VPN."
 featured: false

@@ -3,7 +3,7 @@ title: "GPA (GNU Privacy Assistant)"
 alternative_to: ["PGP Desktop GUI"]
 categories: ["Κρυπτογραφία", "Ασφάλεια", "Ιδιωτικότητα"]
 website: "https://www.gnupg.org/gpa.html"
-logo: "/images/gpa.svg"
+logo: "/images/gpa.png"
 license: "GPL-3.0"
 description: "Γραφική διεπαφή (GUI) για τη διαχείριση κλειδιών GnuPG. Επιτρέπει τη δημιουργία, εισαγωγή, εξαγωγή και ανάκληση κλειδιών κρυπτογράφησης, καθώς και την κρυπτογράφηση και αποκρυπτογράφηση αρχείων, χωρίς να απαιτείται γνώση της γραμμής εντολών."
 featured: false

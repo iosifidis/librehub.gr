@@ -3,7 +3,7 @@ title: "Ghostscript (Interpreter for PostScript/PDF)"
 alternative_to: ["Adobe PostScript", "Adobe Acrobat (conversion)", "MuPDF (alternative)"]
 categories: ["PDF", "Επεξεργασία", "Εργαλεία Γραμμής Εντολών"]
 website: "https://ghostscript.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/ghostscript.png"
 license: "AGPL-3.0"
 description: "Ένα εργαλείο γραμμής εντολών (CLI) για την επεξεργασία, μετατροπή και προβολή αρχείων PostScript (PS) και PDF. Αποτελεί βασικό συστατικό (backend) για πολλά συστήματα εκτύπωσης (CUPS) και ραστεροποίησης (RIP). Μπορεί να μετατρέψει PS/PDF σε εικόνες (JPEG, PNG, TIFF), να συγχωνεύσει PDF, να εξαγάγει σελίδες, να επαναδιαστάσει (resize), να βελτιστοποιήσει (compress) PDF, και να κάνει downsampling εικόνων. Χρησιμοποιείται κυρίως από sysadmins και developers (όχι end-users)."
 featured: false

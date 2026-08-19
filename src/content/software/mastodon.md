@@ -3,7 +3,7 @@ title: "Mastodon"
 alternative_to: ["X (Twitter)"]
 categories: ["Κοινωνικά Δίκτυα", "Επικοινωνία", "Δημιουργία Περιεχομένου"]
 website: "https://joinmastodon.org"
-logo: "/images/mastodon.svg"
+logo: "/images/mastodon.png"
 license: "AGPL-3.0"
 description: "Το μεγαλύτερο αποκεντρωμένο δίκτυο microblogging, βασισμένο στο ανοιχτό πρότυπο ActivityPub. Αντί για έναν κεντρικό server (όπως το X/Twitter), αποτελείται από χιλιάδες ανεξάρτητες κοινότητες (instances) που επικοινωνούν μεταξύ τους — χωρίς αλγόριθμους, χωρίς διαφημίσεις, χωρίς εταιρικό έλεγχο."
 featured: true

@@ -3,7 +3,7 @@ title: "FoxyProxy (Proxy Management for Browsers)"
 alternative_to: ["SwitchyOmega (Proxy switcher)", "Manual proxy configuration (browser settings)"]
 categories: ["Ιδιωτικότητα", "Εργαλεία", "Πλοήγηση"]
 website: "https://getfoxyproxy.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/foxyproxy.png"
 license: "GPL-2.0"
 description: "Πρόσθετο για Firefox, Chrome, και Edge για προηγμένη διαχείριση proxy (SOCKS, HTTP, HTTPS, FTP). Σας επιτρέπει να ορίζετε πολλαπλούς proxy servers και να εναλλάσσεστε μεταξύ τους με ένα κλικ. Υποστηρίζει patterns (wildcards, regular expressions) για αυτόματη επιλογή proxy ανάλογα με το domain (pattern-based proxy switching). Ιδανικό για χρήστες Tor, VPNs, ή αποκλεισμένους ιστότοπους."
 featured: false

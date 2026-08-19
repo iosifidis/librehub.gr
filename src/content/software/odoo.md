@@ -3,7 +3,7 @@ title: "Odoo"
 alternative_to: ["SAP", "QuickBooks", "Microsoft Dynamics", "NetSuite"]
 categories: ["Γραφείο", "Παραγωγικότητα", "ERP", "CRM", "Cloud"]
 website: "https://www.odoo.com"
-logo: "/images/placeholder.svg"
+logo: "/images/odoo.png"
 license: "LGPL-3.0 (Community Edition)"
 description: "Ολοκληρωμένο, modular σύστημα ERP και CRM ανοιχτού κώδικα, με πάνω από 70 επαγγελματικές εφαρμογές (λογιστική, αποθήκη, πωλήσεις, HR, μάρκετινγκ, e-commerce) και 4 εκατομμύρια χρήστες παγκοσμίως."
 featured: true

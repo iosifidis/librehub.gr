@@ -3,7 +3,7 @@ title: "Kate / KEdit"
 alternative_to: ["Microsoft Notepad"]
 categories: ["Εργαλεία", "Ανάπτυξη Λογισμικού", "Προγραμματισμός"]
 website: "https://kate-editor.org/"
-logo: "/images/kate.svg"
+logo: "/images/kate.png"
 license: "LGPL-2.0"
 description: "Προηγμένος επεξεργαστής κειμένου του περιβάλλοντος KDE που συνδυάζει την απλότητα ενός σημειωματάριου με ισχυρές δυνατότητες επεξεργασίας κώδικα. Υποστηρίζει πολλαπλά έγγραφα, ενσωματωμένο terminal, LSP (Language Server Protocol), και Git integration — χωρίς να γίνεται βαρύ IDE."
 featured: false

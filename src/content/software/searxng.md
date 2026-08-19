@@ -3,7 +3,7 @@ title: "SearXNG"
 alternative_to: ["Google Search", "Bing"]
 categories: ["Πλοήγηση", "Ιδιωτικότητα"]
 website: "https://searxng.org/"
-logo: "/images/searxng.svg"
+logo: "/images/searxng.png"
 license: "AGPL-3.0"
 description: "Ανοιχτού κώδικα μηχανή μετα-αναζήτησης που συγκεντρώνει αποτελέσματα από δεκάδες πηγές (Google, Bing, DuckDuckGo, Wikipedia κ.ά.) χωρίς να αποθηκεύει δεδομένα χρήστη. Self-hosted ή μέσω δημόσιων instances — μηδενική παρακολούθηση, μηδενικό profiling."
 featured: false

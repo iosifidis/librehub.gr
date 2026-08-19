@@ -3,7 +3,7 @@ title: "GeoGebra"
 alternative_to: ["Wolfram Mathematica", "MATLAB", "Maple", "Geometer's Sketchpad", "Desmos"]
 categories: ["Εκπαίδευση", "Μαθηματικά", "Επιστήμες"]
 website: "https://www.geogebra.org"
-logo: "/images/geogebra.svg"
+logo: "/images/geogebra.png"
 license: "GPL-3.0"
 description: "Δυναμικό, διαδραστικό λογισμικό μαθηματικών για όλες τις βαθμίδες εκπαίδευσης. Συνδυάζει **γεωμετρία**, **άλγεβρα**, **λογισμό**, **στατιστική** και **3D γραφικά** σε μια ενιαία πλατφόρμα. Χρησιμοποιείται για μαθήματα (δευτεροβάθμια & τριτοβάθμια εκπαίδευση), εργαστήρια, και online μάθηση. Διαθέτει web app (GeoGebra Classic), tablet apps, και λογισμικό για υπολογιστή."
 featured: true

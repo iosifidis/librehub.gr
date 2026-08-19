@@ -3,7 +3,7 @@ title: "Mono Project"
 alternative_to: [".NET Framework (proprietary, Windows-only)", "Modern .NET (cross-platform, open-source)"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://www.mono-project.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/mono.png"
 license: "MIT (runtime), GPL-2.0 (tools)"
 description: "Open-source υλοποίηση του .NET Framework (ECMA standards), που επιτρέπει σε εφαρμογές C# και .NET να τρέχουν σε Linux, macOS, Windows, and embedded devices. Ιστορικά σημαντική για την ανάπτυξη Xamarin (iOS/Android) και Unity. Σήμερα, η Microsoft έχει μεταφέρει το μεγαλύτερο μέρος της τεχνολογίας στο .NET 6/8 (cross-platform)."
 featured: false

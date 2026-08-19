@@ -3,7 +3,7 @@ title: "Jami"
 alternative_to: ["Skype", "Zoom", "WhatsApp", "Signal"]
 categories: ["Επικοινωνία", "Ιδιωτικότητα", "Πολυμέσα"]
 website: "https://jami.net/"
-logo: "/images/placeholder.svg"
+logo: "/images/jami.png"
 license: "GPL-3.0"
 description: "Μια πλήρως κατανεμημένη (distributed) και κρυπτογραφημένη πλατφόρμα επικοινωνίας που λειτουργεί χωρίς κεντρικούς διακομιστές, σέβεται απόλυτα την ιδιωτικότητα και ανήκει στο GNU Project."
 featured: false

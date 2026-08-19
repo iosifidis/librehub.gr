@@ -3,7 +3,7 @@ title: "Scilab (Numerical Computation)"
 alternative_to: ["MATLAB", "GNU Octave (alternative)", "Julia (language)"]
 categories: ["Εκπαίδευση", "Μαθηματικά", "Επιστήμες"]
 website: "https://www.scilab.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/scilab.png"
 license: "GPL-2.0 (Scilab Open Source Edition), Commercial (Scilab Enterprise)"
 description: "Μια πλατφόρμα υψηλού επιπέδου για αριθμητικούς υπολογισμούς και προσομοιώσεις, παρόμοια με το MATLAB. Παρέχει μια διερμηνευμένη γλώσσα (Scilab language, παρόμοια με MATLAB), χιλιάδες built-in συναρτήσεις (γραμμική άλγεβρα, στατιστική, γραφικά), και εργαλεία (Xcos) για μοντελοποίηση και προσομοίωση υβριδικών δυναμικών συστημάτων (block-diagram). Είναι μια εξαιρετική ελεύθερη εναλλακτική του MATLAB για επιστήμονες και μηχανικούς."
 featured: false

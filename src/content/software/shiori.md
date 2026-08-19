@@ -3,7 +3,7 @@ title: "Shiori"
 alternative_to: ["Pocket", "Raindrop.io"]
 categories: ["Εργαλεία", "Παραγωγικότητα"]
 website: "https://github.com/go-shiori/shiori"
-logo: "/images/shiori.svg"
+logo: "/images/shiori.png"
 license: "MIT"
 description: "Απλός και γρήγορος self-hosted διαχειριστής σελιδοδεικτών γραμμένος σε Go, με ενσωματωμένο αναγνώστη άρθρων. Αποθηκεύει αντίγραφο κάθε σελίδας τοπικά (σε HTML και eBook μορφή), επιτρέποντας ανάγνωση ακόμα και offline — χωρίς να εξαρτάστε από εξωτερικές υπηρεσίες."
 featured: false

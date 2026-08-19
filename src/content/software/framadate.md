@@ -3,7 +3,7 @@ title: "Framadate"
 alternative_to: ["Doodle", "When2meet", "Calendly (polling feature only)"]
 categories: ["Παραγωγικότητα", "Γραφείο", "Cloud"]
 website: "https://framadate.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/framadate.png"
 license: "GPL-3.0 (Pollaris engine)"
 description: "Εύχρηστη, δωρεάν και χωρίς διαφημίσεις υπηρεσία δημιουργίας δημοσκοπήσεων (polls) για τον προγραμματισμό συναντήσεων και τη λήψη ομαδικών αποφάσεων, με σεβασμό στην ιδιωτικότητα."
 featured: false

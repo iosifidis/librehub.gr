@@ -3,7 +3,7 @@ title: "StartPage"
 alternative_to: ["Google Search", "Bing"]
 categories: ["Πλοήγηση", "Ιδιωτικότητα"]
 website: "https://www.startpage.com/"
-logo: "/images/startpage.svg"
+logo: "/images/startpage.png"
 license: "Proprietary (Privacy-focused)"
 description: "Μηχανή αναζήτησης με έμφαση στην ιδιωτικότητα που χρησιμοποιεί αποτελέσματα Google χωρίς να μεταδίδει στην Google τα δεδομένα του χρήστη. Λειτουργεί ως ανώνυμος μεσολαβητής — λαμβάνετε τα αποτελέσματα της Google χωρίς να σας παρακολουθεί η ίδια."
 featured: false

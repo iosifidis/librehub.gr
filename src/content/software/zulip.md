@@ -3,7 +3,7 @@ title: "Zulip"
 alternative_to: ["Slack", "Microsoft Teams", "Discord"]
 categories: ["Επικοινωνία", "Παραγωγικότητα"]
 website: "https://zulip.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/zulip.png"
 license: "Apache-2.0"
 description: "Η μοναδική πλατφόρμα επικοινωνίας ανοιχτού κώδικα που οργανώνει τις συζητήσεις μέσω νημάτων (threads), προσφέροντας απαράμιλλη αποτελεσματικότητα για παραγωγικές ομαδικές συζητήσεις."
 featured: false

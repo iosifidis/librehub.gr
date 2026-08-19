@@ -3,7 +3,7 @@ title: "OBS Studio"
 alternative_to: ["Camtasia", "Bandicam", "XSplit", "Wirecast", "Streamlabs Desktop"]
 categories: ["Επεξεργασία Βίντεο", "Streaming", "Πολυμέσα", "Βίντεο", "Εγγραφή Οθόνης", "Δημιουργία Περιεχομένου"]
 website: "https://obsproject.com"
-logo: "/images/obs.svg"
+logo: "/images/obs.png"
 license: "GPL-2.0"
 description: "Η κορυφαία, ελεύθερη και ανοιχτού κώδικα εφαρμογή για εγγραφή βίντεο και live streaming σε πλατφόρμες (Twitch, YouTube, Facebook Live, κ.ά.). Υποστηρίζει σύνθετες σκηνές με πολλαπλές πηγές (παράθυρο, οθόνη, κάμερα, κάρτα захвата, browser, κείμενο, εικόνα, εικόνα σε εικόνα), mixing ήχου (filters, VST plugins), και προσαρμογή μέσω plugins (Lua/Python)."
 featured: false

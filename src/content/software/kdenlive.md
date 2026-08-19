@@ -3,7 +3,7 @@ title: "Kdenlive"
 alternative_to: ["Adobe Premiere Pro", "Final Cut Pro", "DaVinci Resolve"]
 categories: ["Επεξεργασία Βίντεο", "Πολυμέσα", "Βίντεο", "Δημιουργία Περιεχομένου"]
 website: "https://kdenlive.org"
-logo: "/images/kdenlive.svg"
+logo: "/images/kdenlive.png"
 license: "GPL-2.0"
 description: "Επαγγελματικός non-linear video editor με πλήρες timeline, εκατοντάδες εφέ και φίλτρα, υποστήριξη για σχεδόν κάθε format βίντεο, multi-track editing και proxy clips για ομαλή επεξεργασία υλικού υψηλής ανάλυσης. Αναπτύσσεται από την κοινότητα KDE και αποτελεί την πιο ώριμη ανοιχτού κώδικα εναλλακτική του Adobe Premiere Pro."
 featured: false

@@ -3,7 +3,7 @@ title: "Stellarium (Planetarium Software)"
 alternative_to: ["Starry Night", "SkySafari", "WorldWide Telescope (Microsoft, discontinued)"]
 categories: ["Εκπαίδευση", "Αστρονομία", "Επιστήμες"]
 website: "https://stellarium.org"
-logo: "/images/placeholder.svg"
+logo: "/images/stellarium.png"
 license: "GPL-2.0"
 description: "Δωρεάν, open-source λογισμικό πλανητάριο που προβάλλει τον ουρανό (τρισδιάστατα) σε πραγματικό χρόνο για οποιαδήποτε ημερομηνία, ώρα και γεωγραφική τοποθεσία. Περιέχει πάνω από 600.000 αστέρια (τον κατάλογο Hipparcos), deep-sky objects (γαλαξίες, νεφελώματα), αστερισμούς, πλανήτες, δορυφόρους, κομήτες, και μετεωρικές βροχές. Ιδανικό για μαθήματα αστρονομίας, για εκπαιδευτικούς, και για ερασιτέχνες αστρονόμους. Διαθέτει προσομοίωση ατμόσφαιρας, φαινόμενο σύρεσης (drifting), και ρεαλιστικές εικόνες (OpenGL)."
 featured: true

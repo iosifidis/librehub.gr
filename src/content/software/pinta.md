@@ -3,7 +3,7 @@ title: "Pinta"
 alternative_to: ["MS Paint", "Paint.NET"]
 categories: ["Γραφικά", "Επεξεργασία Εικόνας", "Ψηφιακή Ζωγραφική"]
 website: "https://pinta-project.com/"
-logo: "/images/pinta.svg"
+logo: "/images/pinta.png"
 license: "MIT"
 description: "Απλό και εύχρηστο πρόγραμμα ζωγραφικής και βασικής επεξεργασίας εικόνων, εμπνευσμένο από το Paint.NET. Προσφέρει layers, επιλογές σχημάτων, εφέ φίλτρων και εργαλεία επιλογής σε μια καθαρή διεπαφή — ιδανικό για γρήγορες επεξεργασίες και απλές ψηφιακές ζωγραφιές χωρίς καμπύλη εκμάθησης."
 featured: false

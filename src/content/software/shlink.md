@@ -3,7 +3,7 @@ title: "Shlink (URL Shortener)"
 alternative_to: ["Bitly (Enterprise)", "Rebrandly (Pro)", "YOURLS (less modern)"]
 categories: ["URL Shortener", "QR", "Εργαλεία", "Παραγωγικότητα", "Ανάλυση Ιστού"]
 website: "https://shlink.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/shlink.svg"
 license: "MIT"
 description: "Σύγχρονος, self-hosted URL shortener (συντομευτής συνδέσμων) γραμμένος σε PHP (Mezzio/Doctrine). Προσφέρει REST API, web interface, QR codes generation, detailed statistics (geolocation, referrers, browsers, devices), tag management, και built-in support for GDPR (anon IP)."
 featured: false

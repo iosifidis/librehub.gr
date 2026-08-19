@@ -3,7 +3,7 @@ title: "SageMath (Mathematics Software)"
 alternative_to: ["Mathematica", "Magma", "Maple", "MATLAB"]
 categories: ["Εκπαίδευση", "Μαθηματικά", "Επιστήμες", "Προγραμματισμός"]
 website: "https://www.sagemath.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/sage.png"
 license: "GPL-3.0"
 description: "Ένα ισχυρό, ολοκληρωμένο μαθηματικό σύστημα ανοιχτού κώδικα που ενοποιεί πάνω από 100 open-source πακέτα (NumPy, SciPy, Matplotlib, SymPy, Maxima, GAP, PARI/GP, R, κ.ά.) σε μια ενιαία διεπαφή, χρησιμοποιώντας **Python** ως κύρια γλώσσα. Προσφέρει συμβολικούς υπολογισμούς (Computer Algebra), αριθμητική ανάλυση, γραμμική άλγεβρα, κρυπτογραφία, θεωρία γράφων, αριθμοθεωρία, γραφικά 2D/3D και παρουσιάσεις. Είναι η κορυφαία open-source εναλλακτική του Mathematica και του Maple."
 featured: true

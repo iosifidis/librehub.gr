@@ -3,7 +3,7 @@ title: "GCompris (Educational Games)"
 alternative_to: ["ABCmouse (commercial)", "Khan Academy Kids (freemium)", "Starfall (commercial)"]
 categories: ["Εκπαίδευση", "Παιδική Ηλικία", "Πλατφόρμες Μάθησης"]
 website: "https://gcompris.net"
-logo: "/images/placeholder.svg"
+logo: "/images/gcompris.png"
 license: "GPL-3.0"
 description: "Μια υψηλής ποιότητας σουίτα εκπαιδευτικών παιχνιδιών για παιδιά ηλικίας **2 έως 10 ετών**, με πάνω από 100 δραστηριότητες. Καλύπτει γνωστικά αντικείμενα: εξερεύνηση υπολογιστή (πληκτρολόγιο, ποντίκι), ανάγνωση (γράμματα, λέξεις), αριθμητική (βασικές πράξεις, πίνακες), επιστήμες (πύλη κλειδιών, κύκλος του νερού), γεωγραφία (χώρες, πολιτισμούς), στρατηγικές (σκάκι, τρίλιζα) και άλλα. Αναπτύσσεται από την KDE community."
 featured: true

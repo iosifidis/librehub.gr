@@ -3,7 +3,7 @@ title: "Kubernetes (K8s)"
 alternative_to: ["VMware Tanzu", "Red Hat OpenShift (proprietary features)", "Docker Swarm", "Apache Mesos"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://kubernetes.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/kubernetes.png"
 license: "Apache-2.0"
 description: "Πανίσχυρο, ανοιχτού κώδικα σύστημα orchestration για containers. Αυτοματοποιεί την ανάπτυξη (deployment), κλιμάκωση (scaling), και διαχείριση εφαρμογών σε clusters. Εξελίχθηκε από το Google Borg και αποτελεί το de facto standard για cloud-native υποδομές."
 featured: true

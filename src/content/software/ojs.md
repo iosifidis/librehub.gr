@@ -3,7 +3,7 @@ title: "Open Journal Systems (OJS)"
 alternative_to: ["ScholarOne", "Editorial Manager", "Janeway (open source alternative)"]
 categories: ["Εκπαίδευση", "Επιστημονική Δημοσίευση", "Πλατφόρμες Μάθησης"]
 website: "https://pkp.sfu.ca/ojs/"
-logo: "/images/placeholder.svg"
+logo: "/images/ojs.png"
 license: "GPL-3.0"
 description: "Η πιο διαδεδομένη open-source πλατφόρμα για τη διαχείριση, δημοσίευση, και διάθεση επιστημονικών περιοδικών (peer-reviewed journals). Υποστηρίζει όλη τη ροή εργασίας: υποβολή άρθρων, αξιολόγηση από κριτές, επιμέλεια, δημιουργία PDF, δημοσίευση, ευρετηρίαση (DOI, CrossRef), και αναζήτηση. Χρησιμοποιείται από χιλιάδες περιοδικά παγκοσμίως (Hindawi, PLoS, κλπ.)."
 featured: true

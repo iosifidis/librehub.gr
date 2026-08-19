@@ -3,7 +3,7 @@ title: "Gatus (Health Dashboard)"
 alternative_to: ["Uptime Kuma (UI-focused)", "Better Stack (commercial)", "Prometheus + Blackbox Exporter (heavy stack)", "Pingdom (commercial)"]
 categories: ["Παρακολούθηση", "Εργαλεία", "Cloud"]
 website: "https://github.com/TwiN/gatus"
-logo: "/images/placeholder.svg"
+logo: "/images/gatus.svg"
 license: "Apache-2.0"
 description: "Ένα ελαφρύ, εξαιρετικά παραμετροποιήσιμο εργαλείο υγείας και παρακολούθησης (health dashboard) σχεδιασμένο για developers. Χρησιμοποιεί YAML configuration για δηλωτική παρακολούθηση (GitOps) και υποστηρίζει advanced health checks (HTTP, ICMP, TCP, DNS, gRPC, WebSocket, SSH) με custom conditions (JSON path, certificate expiry, response time). Διαθέτει built-in status page, alerts (Slack, Discord, PagerDuty, Teams, Webhook, κ.ά.), και μηδενική εξάρτηση από database (SQLite)."
 featured: true

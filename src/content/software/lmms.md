@@ -3,7 +3,7 @@ title: "LMMS"
 alternative_to: ["FL Studio", "Apple Logic Pro"]
 categories: ["Επεξεργασία Ήχου", "Πολυμέσα", "Δημιουργία Περιεχομένου"]
 website: "https://lmms.io/"
-logo: "/images/lmms.svg"
+logo: "/images/lmms.png"
 license: "GPL-2.0"
 description: "Ολοκληρωμένη πλατφόρμα μουσικής παραγωγής (DAW) για δημιουργία beats, μελωδιών και ολοκληρωμένων κομματιών. Περιλαμβάνει beat+bassline editor, piano roll, synthesizers (ZynAddSubFX, BitInvader κ.ά.), sampler, mixer και υποστήριξη VST plugins — ιδανικό για electronic music production."
 featured: true

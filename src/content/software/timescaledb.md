@@ -3,7 +3,7 @@ title: "TimescaleDB (Time-Series on PostgreSQL)"
 alternative_to: ["InfluxDB (pure time-series)", "Prometheus (for metrics)", "Kdb+ (commercial high-performance)"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Βάσεις Δεδομένων"]
 website: "https://www.timescale.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/timescaledb.png"
 license: "Apache-2.0 (Community Edition), Commercial (Timescale Cloud, Enterprise)"
 description: "Μια βάση δεδομένων χρονοσειρών (time-series) που χτίζεται πάνω στην PostgreSQL (ως extension). Συνδυάζει την πλήρη συναρτησιακότητα της PostgreSQL (SQL, ACID, joins, transactions) με βελτιστοποιήσεις για time-series (hypertables, continuous aggregates, data retention policies, compression). Ιδανική για εφαρμογές που χρειάζονται both relational και time-series δεδομένα."
 featured: false

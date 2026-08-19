@@ -3,7 +3,7 @@ title: "Inkscape"
 alternative_to: ["Adobe Illustrator", "CorelDRAW", "Affinity Designer (commercial)"]
 categories: ["Γραφικά", "Διανυσματικά", "Σχεδίαση"]
 website: "https://inkscape.org"
-logo: "/images/inkscape.svg"
+logo: "/images/inkscape.png"
 license: "GPL-3.0"
 description: "Επαγγελματικό λογισμικό διανυσματικής σχεδίασης (vector graphics editor) ανοιχτού κώδικα, εναλλακτικό του Adobe Illustrator. Υποστηρίζει σχήματα, μονοπάτια (paths), κείμενο (ελληνικά, advanced typography), layers, masks, filters, κλωνοποίηση, και βασική υποστήριξη SVG (native format), EPS, PDF, AI (εισαγωγή)."
 featured: false

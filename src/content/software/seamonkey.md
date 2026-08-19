@@ -3,7 +3,7 @@ title: "SeaMonkey"
 alternative_to: ["Microsoft Internet Explorer", "Safari"]
 categories: ["Πλοήγηση", "Email", "Επικοινωνία"]
 website: "https://www.seamonkey-project.org/"
-logo: "/images/seamonkey.svg"
+logo: "/images/seamonkey.png"
 license: "MPL-2.0"
 description: "Ολοκληρωμένη σουίτα διαδικτύου που ενσωματώνει σε μία εφαρμογή περιηγητή, email client (MailNews), newsgroup reader, IRC chat και επεξεργαστή HTML (Composer). Συνεχίζει την παράδοση του Netscape Communicator και απευθύνεται σε χρήστες που προτιμούν ένα ενοποιημένο διαδικτυακό περιβάλλον."
 featured: false

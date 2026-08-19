@@ -3,7 +3,7 @@ title: "Ubuntu"
 alternative_to: ["Microsoft Windows", "macOS"]
 categories: ["Λειτουργικά Συστήματα"]
 website: "https://ubuntu.com/"
-logo: "/images/ubuntu.svg"
+logo: "/images/ubuntu.png"
 license: "GPL-2.0"
 description: "Η πιο δημοφιλής διανομή Linux για desktop χρήση — πλήρες, δωρεάν και ασφαλές λειτουργικό σύστημα που συνδυάζει ευχρηστία, μεγάλη κοινότητα και μακροπρόθεσμη υποστήριξη (LTS). Ιδανικό για χρήστες που θέλουν να αντικαταστήσουν τα Windows ή να δώσουν νέα ζωή σε παλαιές συσκευές."
 featured: true

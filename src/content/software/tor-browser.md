@@ -3,7 +3,7 @@ title: "Tor Browser"
 alternative_to: ["VPN Services", "Incognito Mode"]
 categories: ["Πλοήγηση", "Ιδιωτικότητα", "Ασφάλεια", "Παράκαμψη Λογοκρισίας"]
 website: "https://www.torproject.org/"
-logo: "/images/tor-browser.svg"
+logo: "/images/tor-browser.png"
 license: "BSD"
 description: "Περιηγητής που δρομολογεί την κίνηση δεδομένων μέσω του κρυπτογραφημένου δικτύου Tor (πολλαπλά relays σε όλον τον κόσμο), συγκαλύπτοντας πλήρως την πραγματική IP και τοποθεσία του χρήστη. Το μοναδικό εργαλείο που προσφέρει αληθινή ανωνυμία στο διαδίκτυο χωρίς να απαιτεί εμπιστοσύνη σε τρίτο πάροχο."
 featured: true

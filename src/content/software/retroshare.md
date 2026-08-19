@@ -3,7 +3,7 @@ title: "Retroshare (P2P Communication & File Sharing)"
 alternative_to: ["Private peer-to-peer networks", "Freenet (anonymity)", "Tox (chat)", "GNUnet (decentralized)"]
 categories: ["Cloud", "Επικοινωνία", "Ιδιωτικότητα"]
 website: "https://retroshare.cc/"
-logo: "/images/placeholder.svg"
+logo: "/images/retroshare.png"
 license: "GPL-2.0"
 description: "Πλατφόρμα επικοινωνίας και διαμοιρασμού αρχείων **peer-to-peer (P2P)** που τρέχει σε Windows, macOS, Linux, Android, iOS. Δημιουργεί ένα κρυπτογραφημένο δίκτυο (TLS) μεταξύ φίλων (friends) χωρίς κεντρικούς διακομιστές. Υποστηρίζει chat (κείμενο, voice, video), forums (πίνακες συζητήσεων), channels (αποθήκευση περιεχομένου), file sharing (με αναζήτηση), και mail (ασφαλή μηνύματα). Η ταυτότητα βασίζεται σε πιστοποιητικά (certificates) που ανταλλάσσονται out-of-band (π.χ. email, USB). Ιδανικό για μικρές ομάδες (οικογένεια, φίλοι, κοινότητες) που θέλουν ασφαλή επικοινωνία χωρίς να εμπιστεύονται τρίτους."
 featured: false

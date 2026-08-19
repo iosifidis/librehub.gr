@@ -3,7 +3,7 @@ title: "Shotwell"
 alternative_to: ["ACDSee"]
 categories: ["Φωτογραφία", "Γραφικά"]
 website: "https://shotwell-project.org/"
-logo: "/images/shotwell.svg"
+logo: "/images/shotwell.png"
 license: "LGPL-2.1"
 description: "Ολοκληρωμένη εφαρμογή οργάνωσης και βασικής επεξεργασίας φωτογραφιών για GNOME/Linux. Εισάγει αυτόματα φωτογραφίες από κάμερες και κάρτες μνήμης, οργανώνει με events και tags, προσφέρει βασική επεξεργασία (crop, red-eye, color correction) και εξαγωγή σε υπηρεσίες κοινοποίησης."
 featured: false

@@ -3,7 +3,7 @@ title: "n8n (Workflow Automation)"
 alternative_to: ["Zapier (commercial SaaS)", "Make (commercial)", "Microsoft Power Automate", "IFTTT (consumer-focused)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Ανάπτυξη Λογισμικού", "Αυτοματισμός"]
 website: "https://n8n.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/n8n.svg"
 license: "Sustainable Use License (fair-code), source available"
 description: "Η πιο δημοφιλής open-source (fair-code) πλατφόρμα αυτοματισμού ροών εργασίας. Επιτρέπει τη σύνδεση εφαρμογών, υπηρεσιών και APIs μέσω ενός visual node-based editor. Υποστηρίζει 400+ integrations (nodes), custom JavaScript/Python, webhooks, scheduling, error handling, και AI workflows (LangChain). Μπορεί να self-hosted (πλήρης έλεγχος δεδομένων) ή cloud. Ιδανική για developers και τεχνικές ομάδες που θέλουν εναλλακτική του Zapier χωρίς vendor lock-in."
 featured: true

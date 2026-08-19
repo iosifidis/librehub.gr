@@ -3,7 +3,7 @@ title: "Twinkle"
 alternative_to: ["Skype", "VoIP Clients"]
 categories: ["Επικοινωνία", "Εργαλεία"]
 website: "https://github.com/LubosD/twinkle"
-logo: "/images/twinkle.svg"
+logo: "/images/twinkle.png"
 license: "GPL-2.0"
 description: "Λογισμικό VoIP για Linux με πλήρη υποστήριξη SIP πρωτοκόλλου — φωνητικές κλήσεις, βιντεοκλήσεις, instant messaging και presence μέσω τυπικών SIP/SIMPLE πρωτοκόλλων. Ιδανικό για σύνδεση με IP PBX συστήματα και VoIP παρόχους."
 featured: false

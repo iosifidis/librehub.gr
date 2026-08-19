@@ -3,7 +3,7 @@ title: "Wireshark (Network Protocol Analyzer)"
 alternative_to: ["Microsoft Message Analyzer (discontinued)", "tcpdump (CLI-only)", "TShark (CLI version of Wireshark)"]
 categories: ["Ασφάλεια", "Εργαλεία", "Ανάλυση Δικτύου"]
 website: "https://www.wireshark.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/wireshark.png"
 license: "GPL-2.0"
 description: "Το κορυφαίο open-source εργαλείο ανάλυσης πρωτοκόλλων δικτύου (packet analyzer) παγκοσμίως. Συλλαμβάνει (capture) πακέτα σε πραγματικό χρόνο και τα εμφανίζει σε μια φιλική προς τον χρήστη διεπαφή (GUI). Υποστηρίζει **deep inspection** εκατοντάδων πρωτοκόλλων (TCP/IP, HTTP, DNS, TLS, SMB, SMTP, κλπ.), φιλτράρισμα, χρωματισμό πακέτων, ανακατασκευή ροών (Follow TCP Stream), εξαγωγή αντικειμένων (HTTP objects), VoIP ανάλυση, κλπ. Ιδανικό για debugging δικτύου, ανάλυση ασφαλείας (επιθέσεις, malware traffic), και εκπαίδευση."
 featured: true

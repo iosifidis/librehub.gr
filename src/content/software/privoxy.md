@@ -3,7 +3,7 @@ title: "Privoxy"
 alternative_to: ["Ad-blocking Proxy Servers"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Δίκτυα"]
 website: "https://www.privoxy.org/"
-logo: "/images/privoxy.svg"
+logo: "/images/privoxy.png"
 license: "GPL-2.0"
 description: "Non-caching web proxy με προηγμένες δυνατότητες φιλτραρίσματος για την προστασία ιδιωτικότητας σε επίπεδο δικτύου. Τροποποιεί HTTP/HTTPS αιτήματα και αποκρίσεις, αφαιρεί διαφημίσεις και trackers, διαχειρίζεται cookies και headers, και μπορεί να συνδυαστεί με Tor για ανώνυμη περιήγηση. Λειτουργεί ανεξάρτητα από τον περιηγητή — καλύπτει ολόκληρο το σύστημα."
 featured: false

@@ -3,7 +3,7 @@ title: "VLC Media Player"
 alternative_to: ["Windows Media Player", "iTunes", "QuickTime"]
 categories: ["Πολυμέσα", "Βίντεο"]
 website: "https://www.videolan.org/vlc/"
-logo: "/images/vlc.svg"
+logo: "/images/vlc.png"
 license: "GPL-2.0"
 description: "Ο πιο δημοφιλής media player παγκοσμίως — αναπαράγει σχεδόν κάθε format βίντεο και ήχου χωρίς επιπλέον codecs. Υποστηρίζει δικτυακές ροές (RTSP, HLS, IPTV), κρυπτογραφημένα DVD, subtitles, video filters, audio equalizer και μετατροπή αρχείων — όλα σε ένα ελαφρύ, cross-platform πρόγραμμα."
 featured: true

@@ -3,7 +3,7 @@ title: "ONLYOFFICE"
 alternative_to: ["Microsoft Office", "Google Workspace", "Word", "Excel", "PowerPoint"]
 categories: ["Γραφείο", "Παραγωγικότητα", "Cloud"]
 website: "https://www.onlyoffice.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/onlyoffice.png"
 license: "AGPL-3.0 (Community Edition), Commercial (Enterprise/Cloud)"
 description: "Μια εξαιρετικά γρήγορη, ελαφριά (lightweight) σουίτα γραφείου, ιδανική για παλιούς υπολογιστές (low resource usage), με απόλυτη συμβατότητα σε έγγραφα, υπολογιστικά φύλλα και παρουσιάσεις. Διατίθεται τόσο ως επιτραπέζια εφαρμογή (desktop) όσο και ως online πλατφόρμα συνεργασίας (self-hosted ή cloud). Η μεγαλύτερη δύναμή της είναι η σχεδόν τέλεια συμβατότητα με αρχεία Microsoft Office (DOCX, XLSX, PPTX), καθώς χρησιμοποιεί την ίδια μηχανή απόδοσης (core rendering engine)."
 featured: true

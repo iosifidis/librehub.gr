@@ -3,7 +3,7 @@ title: "Firefox"
 alternative_to: ["Google Chrome", "Microsoft Edge", "Safari", "Internet Explorer"]
 categories: ["Πλοήγηση", "Ιδιωτικότητα"]
 website: "https://www.mozilla.org/el/firefox/"
-logo: "/images/firefox.svg"
+logo: "/images/firefox.png"
 license: "MPL-2.0"
 description: "Ο μοναδικός δημοφιλής περιηγητής που ανήκει σε μη κερδοσκοπικό ίδρυμα (Mozilla Foundation). Προσφέρει υψηλές επιδόσεις, πλούσιο οικοσύστημα επεκτάσεων, ισχυρές ρυθμίσεις ιδιωτικότητας, και αποτελεί το μοναδικό σοβαρό αντίβαρο στα μονοπώλια των πολυεθνικών τεχνολογικών εταιρειών στον χώρο των περιηγητών."
 featured: true

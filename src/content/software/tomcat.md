@@ -3,7 +3,7 @@ title: "Apache Tomcat"
 alternative_to: ["Oracle WebLogic Server (lightweight applications)", "Eclipse Jetty (similar)", "IBM WebSphere (traditional web apps)"]
 categories: ["Cloud", "Server", "Ανάπτυξη Λογισμικού"]
 website: "https://tomcat.apache.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/tomcat.png"
 license: "Apache-2.0"
 description: "Ανοιχτού κώδικα implementation των Jakarta Servlet, Jakarta Server Pages (JSP), Jakarta Expression Language, Jakarta WebSocket, Jakarta Annotations και Jakarta Authentication specifications. Ιδανικός για web εφαρμογές Java (WAR files) χωρίς πλήρη Java EE container."
 featured: true

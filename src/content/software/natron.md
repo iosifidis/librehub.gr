@@ -3,7 +3,7 @@ title: "Natron"
 alternative_to: ["Blackmagic DaVinci Resolve", "Adobe After Effects"]
 categories: ["Επεξεργασία Βίντεο", "Βίντεο", "Γραφικά"]
 website: "https://natrongithub.github.io/"
-logo: "/images/natron.svg"
+logo: "/images/natron.png"
 license: "GPL-2.0"
 description: "Επαγγελματικό compositing και visual effects εργαλείο με node-based workflow, εμπνευσμένο από το Nuke. Υποστηρίζει OpenFX plugins, GPU acceleration, 32-bit float processing, motion tracking, keying και roto — ιδανικό για post-production και VFX εργασίες."
 featured: false

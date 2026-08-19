@@ -3,7 +3,7 @@ title: "GNU IceCat"
 alternative_to: ["Google Chrome", "Microsoft Edge"]
 categories: ["Πλοήγηση", "Ιδιωτικότητα"]
 website: "https://www.gnu.org/software/gnuzilla/"
-logo: "/images/icecat.svg"
+logo: "/images/gnuicecat.png"
 license: "GPL-3.0"
 description: "Η επίσημη GNU έκδοση του Firefox — αφαιρεί κάθε μη-ελεύθερο στοιχείο του Firefox (DRM, telemetry, proprietary codecs) και προσθέτει προεγκατεστημένα εργαλεία ιδιωτικότητας. Αποτελεί μέρος του GNU project και αναπτύσσεται με αυστηρή τήρηση των αρχών ελεύθερου λογισμικού."
 featured: false

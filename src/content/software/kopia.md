@@ -3,7 +3,7 @@ title: "Kopia"
 alternative_to: ["Acronis True Image", "Carbonite"]
 categories: ["Εργαλεία", "Ασφάλεια"]
 website: "https://kopia.io/"
-logo: "/images/kopia.svg"
+logo: "/images/kopia.png"
 license: "Apache-2.0"
 description: "Γρήγορο και ασφαλές εργαλείο δημιουργίας κρυπτογραφημένων αντιγράφων ασφαλείας (snapshots) με deduplication και compression. Αποθηκεύει σε τοπικά μέσα, NAS, SFTP ή cloud (S3, B2, Azure, GCS) — με end-to-end κρυπτογράφηση που διασφαλίζει ότι ακόμα και ο πάροχος cloud δεν μπορεί να διαβάσει τα δεδομένα σας."
 featured: false

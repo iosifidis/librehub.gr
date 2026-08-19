@@ -3,7 +3,7 @@ title: "Syncthing"
 alternative_to: ["Resilio Sync", "Dropbox", "Google Drive", "Nextcloud (for sync only)"]
 categories: ["Cloud", "Παραγωγικότητα", "Ιδιωτικότητα"]
 website: "https://syncthing.net/"
-logo: "/images/placeholder.svg"
+logo: "/images/syncthing.png"
 license: "MPL-2.0"
 description: "Σύγχρονο, ασφαλές και αποκεντρωμένο (P2P) λογισμικό συνεχούς συγχρονισμού αρχείων μεταξύ συσκευών, χωρίς κεντρικό διακομιστή (serverless)."
 featured: true

@@ -3,7 +3,7 @@ title: "OpenVAS (Greenbone Vulnerability Manager)"
 alternative_to: ["Tenable Nessus (commercial)", "Qualys (commercial)", "Rapid7 Nexpose (commercial)"]
 categories: ["Ασφάλεια", "Εργαλεία", "Παρακολούθηση"]
 website: "https://www.openvas.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/openvas.png"
 license: "GPL-2.0"
 description: "Το κορυφαίο open-source πλαίσιο ανίχνευσης ευπαθειών για δίκτυα, servers, web applications, και συσκευές. Αποτελεί τον πυρήνα της λύσης Greenbone Vulnerability Management (GVM). Εκτελεί πάνω από 50.000 δοκιμές ευπαθειών (NVT - Network Vulnerability Tests), βασισμένες σε βάση δεδομένων που ενημερώνεται συχνά. Χρησιμοποιείται για compliance (PCI DSS, GDPR) και προληπτική ασφάλεια."
 featured: true

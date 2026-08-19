@@ -3,7 +3,7 @@ title: "Huginn (Agent-based Automation)"
 alternative_to: ["Zapier (commercial)", "IFTTT (consumer)", "n8n (workflow-based)", "Node-RED"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Ανάπτυξη Λογισμικού", "Αυτοματισμός"]
 website: "https://github.com/huginn/huginn"
-logo: "/images/placeholder.svg"
+logo: "/images/huginn.png"
 license: "MIT"
 description: "Ένα σύστημα για τη δημιουργία αυτοματοποιημένων **πρακτόρων (agents)** που εκτελούν εργασίες online. Σε αντίθεση με τα workflow-based εργαλεία (n8n, Zapier), το Huginn χρησιμοποιεί ένα μοντέλο **directed graph** όπου agents (κόμβοι) δημιουργούν και καταναλώνουν events (γεγονότα). Σχεδιάστηκε ως 'hackable version of IFTTT/Zapier on your own server'. Ιδανικό για scraping, monitoring (twitter, weather, RSS), digest emails, και custom webhooks."
 featured: false

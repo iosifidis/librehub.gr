@@ -3,7 +3,7 @@ title: "TightVNC (Remote Desktop - VNC)"
 alternative_to: ["RealVNC (commercial)", "TeamViewer (commercial)", "UltraVNC (Windows only)"]
 categories: ["Απομακρυσμένη Πρόσβαση", "Εργαλεία", "Δίκτυα"]
 website: "https://www.tightvnc.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/tightvnc.png"
 license: "GPL-2.0"
 description: "Εργαλείο απομακρυσμένης διαχείρισης επιφάνειας εργασίας (remote desktop) που βασίζεται στο πρωτόκολλο VNC (Virtual Network Computing). Περιλαμβάνει server (tightvncserver) και viewer (tightvncviewer). Είναι ελαφρύ, γρήγορο, και ιδανικό για LAN environments. Υποστηρίζει compression (Tight encoding) και file transfers. Λιγότερο ασφαλές από RDP (χωρίς κρυπτογράφηση εξ' ορισμού), μπορεί να χρησιμοποιηθεί με SSH tunneling."
 featured: false

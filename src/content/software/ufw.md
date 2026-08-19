@@ -3,7 +3,7 @@ title: "UFW (Uncomplicated Firewall)"
 alternative_to: ["Windows Firewall", "Hardware Firewalls"]
 categories: ["Ασφάλεια", "Δίκτυα", "Λειτουργικά Συστήματα"]
 website: "https://launchpad.net/ufw"
-logo: "/images/ufw.svg"
+logo: "/images/ufw.png"
 license: "GPL-3.0"
 description: "Απλοποιημένο frontend για τη ρύθμιση του iptables firewall σε Linux. Σχεδιασμένο για χρήση από αρχάριους και προχωρημένους χρήστες — απλές εντολές αντικαθιστούν σύνθετους κανόνες iptables. Προεγκατεστημένο στο Ubuntu και ιδανικό για γρήγορη ασφάλιση Linux servers."
 featured: false

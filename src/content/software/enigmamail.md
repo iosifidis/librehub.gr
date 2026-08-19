@@ -3,7 +3,7 @@ title: "Enigmail"
 alternative_to: ["PGP Email Encryption"]
 categories: ["Email", "Κρυπτογραφία", "Ιδιωτικότητα"]
 website: "https://enigmail.net/"
-logo: "/images/enigmail.svg"
+logo: "/images/enigmamail.png"
 license: "MPL-2.0"
 description: "Πρόσθετο κρυπτογράφησης OpenPGP για το Mozilla Thunderbird που έφερε την κρυπτογραφία email στις μάζες. Από την έκδοση Thunderbird 78 (2020), η λειτουργικότητα του Enigmail ενσωματώθηκε πλήρως στον Thunderbird — το Enigmail δεν απαιτείται πλέον ως ξεχωριστό plugin."
 featured: false

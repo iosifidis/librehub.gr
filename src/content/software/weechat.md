@@ -3,7 +3,7 @@ title: "WeeChat"
 alternative_to: ["mIRC", "Slack"]
 categories: ["Επικοινωνία", "Εργαλεία"]
 website: "https://weechat.org/"
-logo: "/images/weechat.svg"
+logo: "/images/weechat.png"
 license: "GPL-3.0"
 description: "Προηγμένος, επεκτάσιμος IRC client για terminal με υποστήριξη πολλαπλών πρωτοκόλλων μέσω plugins. Υποστηρίζει IRC, Matrix, Slack, XMPP και άλλα μέσω plugins — με πλούσια scripting API (Python, Perl, Ruby, Lua, Tcl) και δυνατότητα απομακρυσμένης χρήσης μέσω relay."
 featured: false

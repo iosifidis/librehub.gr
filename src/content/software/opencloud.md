@@ -3,7 +3,7 @@ title: "OpenCloud"
 alternative_to: ["Google Workspace", "Microsoft 365", "Dropbox Business", "Box"]
 categories: ["Cloud", "Παραγωγικότητα", "Γραφείο"]
 website: "https://opencloud.eu/en"
-logo: "/images/placeholder.svg"
+logo: "/images/opencloud.png"
 license: "AGPL-3.0"
 description: "Ευρωπαϊκή λύση διαμοιρασμού αρχείων και συνεργασίας ανοιχτού κώδικα (fork του ownCloud), που εστιάζει σε **έξυπνη διαχείριση αρχείων** (automated tagging, full-text search), συμμόρφωση με GDPR (πλήρης έλεγχος δεδομένων), και φιλική προς το χρήστη εμπειρία. Προσφέρει file sync (desktop/mobile), sharing (με κωδικό, ημερομηνία λήξης), online office (ενσωμάτωση με Collabora Online και ONLYOFFICE), WebDAV, προηγμένη αναζήτηση (tags, full-text), auditing (λεπτομερή logs), δύο παραγόντων έλεγχο (2FA), και versioning (αντιστροφή ransomware). Απευθύνεται σε επιχειρήσεις και δημόσιους οργανισμούς που απαιτούν ψηφιακή κυριαρχία (data sovereignty). Αναπτύσσεται από την Heinlein Group (Βερολίνο)."
 featured: false

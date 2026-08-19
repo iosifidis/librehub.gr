@@ -3,7 +3,7 @@ title: "QuestDB (High-Performance Time-Series)"
 alternative_to: ["InfluxDB (performance focused)", "ClickHouse (analytics)", "Kdb+ (commercial, low-latency)"]
 categories: ["Cloud", "Ανάπτυξη Λογισμικού", "Βάσεις Δεδομένων"]
 website: "https://questdb.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/questdb.png"
 license: "Apache-2.0"
 description: "Υπερ-γρήγορη (high-performance) βάση δεδομένων χρονοσειρών (time-series) γραμμένη σε Java και C++ (μηδενικές garbage collection pauses). Χρησιμοποιεί columnar storage, SIMD instructions (vectorized execution), και υποστήριξη SQL (PostgreSQL wire protocol) για ingestion και queries. Ιδανική για real-time analytics, market data (tick data), IoT sensor data, και application monitoring, όπου απαιτείται sub-second latency σε μεγάλους όγκους."
 featured: false

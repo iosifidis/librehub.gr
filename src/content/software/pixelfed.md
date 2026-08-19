@@ -3,7 +3,7 @@ title: "Pixelfed"
 alternative_to: ["Instagram"]
 categories: ["Φωτογραφία", "Κοινωνικά Δίκτυα", "Ιδιωτικότητα"]
 website: "https://pixelfed.org/"
-logo: "/images/pixelfed.svg"
+logo: "/images/pixelfed.png"
 license: "AGPL-3.0"
 description: "Αποκεντρωμένη πλατφόρμα διαμοιρασμού φωτογραφιών, βασισμένη στο πρότυπο ActivityPub. Όπως το Instagram, αλλά χωρίς αλγόριθμους, χωρίς διαφημίσεις, χωρίς παρακολούθηση — και με δυνατότητα self-hosting. Ενσωματώνεται πλήρως με το Mastodon και το υπόλοιπο fediverse."
 featured: true

@@ -3,7 +3,7 @@ title: "Nextcloud"
 alternative_to: ["Google Workspace", "Microsoft 365", "Dropbox Business", "Box"]
 categories: ["Cloud", "Παραγωγικότητα", "Γραφείο", "Επικοινωνία"]
 website: "https://nextcloud.com"
-logo: "/images/nextcloud.svg"
+logo: "/images/nextcloud.png"
 license: "AGPL-3.0"
 description: "Ολοκληρωμένη λύση γραφείου, αποθήκευσης cloud, συγχρονισμού αρχείων, συνεργασίας και επικοινωνίας (self-hosted). Σας επιτρέπει να εγκαταστήσετε τον δικό σας cloud server (πλήρης έλεγχος δεδομένων) και να συγχρονίζετε αρχεία μεταξύ συσκευών (desktop, mobile). Περιλαμβάνει file sharing (με κωδικούς, ημερομηνία λήξης), online office (Nextcloud Office, ONLYOFFICE integration), chat (Talk), ημερολόγιο (CalDAV), επαφές (CardDAV), video calls, email (Mail), kanban boards (Deck), και πολλά plugins (300+)."
 featured: true

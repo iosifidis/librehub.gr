@@ -3,7 +3,7 @@ title: "Uptime Kuma (Self-hosted Uptime Monitoring)"
 alternative_to: ["UptimeRobot (SaaS)", "Pingdom (commercial)", "Better Uptime (commercial)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Παρακολούθηση"]
 website: "https://uptimekuma.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/uptime-kuma.svg"
 license: "MIT"
 description: "Εύχρηστο, self-hosted εργαλείο παρακολούθησης χρόνου λειτουργίας (uptime monitoring) για HTTP(s), TCP, Ping, DNS, Push, Steam Game Server, κλπ. Υποστηρίζει ειδοποιήσεις (notifications) μέσω Telegram, Discord, Slack, Email, Pushover, 90+ providers. Διαθέτει ένα όμορφο, responsive dashboard (status page) που δείχνει την τρέχουσα διαθεσιμότητα και ιστορικό (uptime history)."
 featured: true

@@ -3,7 +3,7 @@ title: "iptables (Linux Firewall)"
 alternative_to: ["firewalld (dynamic, frontend)", "Cisco ASA (hardware)", "pf (BSD)"]
 categories: ["Ασφάλεια", "Δίκτυα", "Λειτουργικά Συστήματα"]
 website: "https://netfilter.org/projects/iptables/"
-logo: "/images/placeholder.svg"
+logo: "/images/iptables.svg"
 license: "GPL-2.0"
 description: "Το κλασικό, πανίσχυρο εργαλείο διαμόρφωσης του τείχους προστασίας (firewall) στον πυρήνα του Linux (Netfilter). Επιτρέπει την δημιουργία κανόνων (rules) για το φιλτράρισμα πακέτων (filter), NAT, και mangle. Υποστηρίζει IPv4 (iptables) και IPv6 (ip6tables). Είναι η θεμελιώδης τεχνολογία πίσω από πολλά frontends (UFW, firewalld). Σταδιακά αντικαθίσταται από το nftables (Linux kernel 3.13+), αλλά παραμένει ευρέως χρησιμοποιούμενο."
 featured: false

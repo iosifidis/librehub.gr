@@ -3,7 +3,7 @@ title: "Open Workbench"
 alternative_to: ["Microsoft Project", "ProjectLibre"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Γραφείο"]
 website: "https://www.openworkbench.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/open_workbench.png"
 license: "GPL-3.0"
 description: "Εφαρμογή διαχείρισης έργων και χρονοπρογραμματισμού (scheduling) για επιτραπέζιους υπολογιστές (Windows), με έμφαση στη λειτουργία 'what-if' analysis, ανάλυση κρίσιμης διαδρομής (CPM), και ισορροπία πόρων (resource leveling)."
 featured: false

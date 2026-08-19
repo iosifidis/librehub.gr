@@ -3,7 +3,7 @@ title: "openITCOCKPIT"
 alternative_to: ["Nagios XI (commercial)", "Checkmk Enterprise"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Παρακολούθηση"]
 website: "https://openitcockpit.io/"
-logo: "/images/placeholder.svg"
+logo: "/images/openitcockpit.png"
 license: "GPL-3.0"
 description: "Πλατφόρμα παρακολούθησης υποδομών ανοιχτού κώδικα που συνδυάζει διάφορα εργαλεία (Nagios, Prometheus, Graphite, InfluxDB) σε μια ενιαία, σύγχρονη web διεπαφή (dashboard, reporting, maps). Χρησιμοποιεί ως backend Nagios (engine) ή Prometheus (μέσω Grafana). Παρέχει configuration management (CMDB), SLA reports, και distributed monitoring."
 featured: false

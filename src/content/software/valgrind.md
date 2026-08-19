@@ -3,7 +3,7 @@ title: "Valgrind"
 alternative_to: ["IBM Rational Purify (deprecated)", "AddressSanitizer (ASan)", "Intel Inspector (commercial)"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Προγραμματισμός"]
 website: "https://valgrind.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/valgrind.svg"
 license: "GPL-2.0"
 description: "Εργαλείο αποσφαλμάτωσης και ανάλυσης κώδικα (instrumentation framework) για εφαρμογές C, C++, και (εν μέρει) Rust. Ανιχνεύει memory leaks, invalid memory accesses, race conditions, cache misses, και performance bottlenecks, χρησιμοποιώντας μια εικονική μηχανή (VM) που προσομοιώνει τον επεξεργαστή."
 featured: false

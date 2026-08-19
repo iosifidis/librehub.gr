@@ -3,7 +3,7 @@ title: "Zabbix"
 alternative_to: ["SolarWinds (commercial)", "Datadog (commercial)", "Nagios Core (traditional)", "PRTG (commercial)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Παρακολούθηση"]
 website: "https://www.zabbix.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/zabbix.png"
 license: "GPL-2.0"
 description: "Enterprise-grade, open-source λύση παρακολούθησης για δίκτυα, διακομιστές (Linux, Windows, Unix), εφαρμογές, cloud υπηρεσίες (AWS, Azure), βάσεις δεδομένων, containers, και IoT συσκευές. Παρέχει αυτόματη ανακάλυψη, προηγμένες αναφορές, distributed monitoring (Zabbix proxy), web UI, και ισχυρό σύστημα ειδοποιήσεων."
 featured: true

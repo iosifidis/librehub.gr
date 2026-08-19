@@ -3,7 +3,7 @@ title: "WildFly (formerly JBoss AS)"
 alternative_to: ["Oracle WebLogic Server", "IBM WebSphere", "Payara Server (GlassFish)"]
 categories: ["Cloud", "Server", "Ανάπτυξη Λογισμικού"]
 website: "https://www.wildfly.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/jboss.png"
 license: "LGPL-2.1"
 description: "Ευέλικτος, modular, και lightweight application server για εφαρμογές Java Enterprise (Jakarta EE), πρώην γνωστός ως JBoss Application Server. Υλοποιεί Jakarta EE 8/10/11 profiles και MicroProfile."
 featured: false

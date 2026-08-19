@@ -3,7 +3,7 @@ title: "Pretalx"
 alternative_to: ["Sessionize", "Call for Papers (CFP) platforms", "EasyChair (conference track)"]
 categories: ["Εργαλεία", "Παραγωγικότητα", "Συνέδρια", "Εκδηλώσεις", "Cloud"]
 website: "https://pretalx.com/"
-logo: "/images/placeholder.svg"
+logo: "/images/pretalx.png"
 license: "Apache-2.0"
 description: "Εξειδικευμένο λογισμικό ανοιχτού κώδικα για τη διαχείριση συνεδρίων – από την υποβολή προτάσεων (Call for Papers) και την αξιολόγηση από κριτές, έως τον προγραμματισμό ομιλιών και τη δημοσίευση του προγράμματος."
 featured: false

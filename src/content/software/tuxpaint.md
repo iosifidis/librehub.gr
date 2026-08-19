@@ -3,7 +3,7 @@ title: "Tux Paint (Drawing Software for Kids)"
 alternative_to: ["Kid Pix (commercial)", "MS Paint (basic)", "GIMP (too advanced for children)"]
 categories: ["Εκπαίδευση", "Γραφικά", "Παιδική Ηλικία"]
 website: "http://www.tuxpaint.org/"
-logo: "/images/placeholder.svg"
+logo: "/images/tuxpaint.png"
 license: "GPL-2.0"
 description: "Δωρεάν, βραβευμένο πρόγραμμα ζωγραφικής για παιδιά ηλικίας **3 έως 12 ετών**, με απλή, εύχρηστη διεπαφή (με μεγάλα εικονίδια και ήχους). Διαθέτει ένα εικονικό 'μαγικό εργαλείο' για εφέ: ουράνιο τόξο, θολούρα, στάμπες, κείμενο, ζωγραφική με μοτίβο. Υποστηρίζει slides για δημιουργία ιστοριών (storytelling). Ο Tux (ο πιγκουίνος Linux) καθοδηγεί το παιδί."
 featured: true

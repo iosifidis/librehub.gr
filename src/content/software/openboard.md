@@ -3,7 +3,7 @@ title: "OpenBoard (Interactive Whiteboard)"
 alternative_to: ["SMART Notebook (commercial)", "Promethean ActivInspire (commercial)"]
 categories: ["Εκπαίδευση", "Εργαλεία", "Διδασκαλία"]
 website: "https://openboard.ch"
-logo: "/images/placeholder.svg"
+logo: "/images/openboard.png"
 license: "GPL-3.0"
 description: "Δωρεάν, cross-platform λογισμικό για διαδραστικούς πίνακες (IWB) και παρουσιάσεις στην τάξη. Προσφέρει εργαλεία για σχεδίαση, εισαγωγή εικόνων, PDF, video, κείμενο, καθώς και δυνατότητα αποθήκευσης μαθημάτων σε μορφή SVG/PDF. Ιδανικό αντικατάσταση του SMART Notebook, χωρίς περιορισμούς αδειών. Αναπτύχθηκε από το Πανεπιστήμιο της Γενεύης."
 featured: false

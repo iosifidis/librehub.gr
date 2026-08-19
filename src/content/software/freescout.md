@@ -3,7 +3,7 @@ title: "FreeScout (Help Desk & Shared Inbox)"
 alternative_to: ["Help Scout (commercial)", "Zendesk (heavy alternative)", "Zammad (feature-rich)"]
 categories: ["Helpdesk", "Παραγωγικότητα"]
 website: "https://freescout.net/"
-logo: "/images/placeholder.svg"
+logo: "/images/freescout.png"
 license: "AGPL-3.0 (self-hosted)"
 description: "Μια εξαιρετικά ελαφριά, ισχυρή λύση helpdesk και κοινόχρηστων εισερχομένων (shared mailbox) ανοιχτού κώδικα. Built with PHP (Laravel) and MySQL, σχεδιασμένη ως open-source εναλλακτική του Help Scout. Παρέχει όλες τις βασικές λειτουργίες: ομαδικά εισερχόμενα (mailbox), tickets (conversations), collision detection, internal notes, auto-reply, templates, push notifications, mobile-friendly interface, και API. Απεριόριστοι χρήστες, tickets, mailboxes. Μπορεί να τρέξει ακόμα και σε shared hosting ."
 featured: true

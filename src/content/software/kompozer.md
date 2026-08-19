@@ -3,7 +3,7 @@ title: "KompoZer"
 alternative_to: ["Adobe Dreamweaver (visual editor)", "Microsoft Expression Web (discontinued)", "BlueGriffon"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία", "Πλοήγηση"]
 website: "https://sourceforge.net/projects/kompozer/"
-logo: "/images/placeholder.svg"
+logo: "/images/kompozer.png"
 license: "MPL-1.1 / GPL-2.0 / LGPL-2.1 (tri-license)"
 description: "Πλήρες σύστημα δημιουργίας ιστοσελίδων (WYSIWYG web authoring system), fork του Nvu. Επιτρέπει οπτική επεξεργασία HTML (drag-and-drop) χωρίς γνώση κώδικα, κατάλληλο για αρχάριους και μη-προγραμματιστές. Αν και η ανάπτυξη σταμάτησε το ~2010, λειτουργεί ακόμα σε παλαιά Windows."
 featured: false

@@ -3,7 +3,7 @@ title: "Mycroft"
 alternative_to: ["Amazon Alexa", "Google Assistant", "Apple Siri"]
 categories: ["Εργαλεία", "Αυτοματισμός", "Ιδιωτικότητα"]
 website: "https://mycroft.ai/"
-logo: "/images/mycroft.svg"
+logo: "/images/mycroft.png"
 license: "Apache-2.0"
 description: "Ανοιχτού κώδικα φωνητικός εικονικός βοηθός που σέβεται την ιδιωτικότητα — εναλλακτική λύση στο Amazon Alexa και Google Assistant. Τρέχει σε Linux, Raspberry Pi και Mark II dedicated device, με ανοιχτά voice models, skills ecosystem και δυνατότητα πλήρους local execution."
 featured: false

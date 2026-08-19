@@ -3,7 +3,7 @@ title: "Jitsi Meet"
 alternative_to: ["Zoom", "Google Meet", "Microsoft Teams", "Webex"]
 categories: ["Επικοινωνία", "Πολυμέσα", "Ιδιωτικότητα", "Cloud"]
 website: "https://jitsi.org/jitsi-meet/"
-logo: "/images/placeholder.svg"
+logo: "/images/jitsi.png"
 license: "Apache-2.0"
 description: "Πλήρως κρυπτογραφημένη πλατφόρμα βιντεοδιάσκεψης (WebRTC) ανοιχτού κώδικα, που λειτουργεί απευθείας στον browser χωρίς λογαριασμό, εγκατάσταση ή εξωτερικές εξαρτήσεις."
 featured: true
