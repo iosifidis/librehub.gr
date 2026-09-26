@@ -3,7 +3,7 @@ title: "QtParted"
 alternative_to: ["Partition Magic"]
 categories: ["Εργαλεία", "Λειτουργικά Συστήματα"]
 website: "https://qtparted.sourceforge.net/"
-logo: "/images/qtparted.svg"
+logo: "/images/qtparted.png"
 license: "GPL-2.0"
 description: "Γραφική εφαρμογή Qt για διαχείριση κατατμήσεων δίσκου σε Linux, εμπνευσμένη από το PartitionMagic. Παρέχει οπτική αναπαράσταση κατατμήσεων και βασικές λειτουργίες δημιουργίας, διαγραφής και αλλαγής μεγέθους."
 featured: false
