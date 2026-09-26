@@ -6,7 +6,7 @@ website: "https://tomcat.apache.org/"
 logo: "/images/tomcat.png"
 license: "Apache-2.0"
 description: "Ανοιχτού κώδικα implementation των Jakarta Servlet, Jakarta Server Pages (JSP), Jakarta Expression Language, Jakarta WebSocket, Jakarta Annotations και Jakarta Authentication specifications. Ιδανικός για web εφαρμογές Java (WAR files) χωρίς πλήρη Java EE container."
-featured: true
+featured: false
 ---
 
 Ο Apache Tomcat είναι ο πιο δημοφιλής servlet container / web server για εφαρμογές Java. Δεν είναι πλήρης application server (δεν περιλαμβάνει EJB, JTA, JMS, κ.λπ.), αλλά παρέχει την υλοποίηση των κρίσιμων Jakarta EE specs που χρειάζονται οι περισσότερες web εφαρμογές: Servlets, JSP, WebSockets, Expression Language, Authentication. Είναι ελαφρύς, γρήγορος, και συνήθως λειτουργεί πίσω από έναν reverse proxy (Apache ή Nginx) για static files.

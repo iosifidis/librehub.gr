@@ -6,7 +6,7 @@ website: "https://erpnext.com"
 logo: "/images/erpnext.png"
 license: "GPL-3.0"
 description: "Πλήρες ERP ανοιχτού κώδικα για μικρές και μεσαίες επιχειρήσεις (SMEs), με έντονη εστίαση στη διαχείριση αποθήκης, παραγωγής, εφοδιαστικής αλυσίδας και λογιστικών."
-featured: true
+featured: false
 ---
 
 Το ERPNext (από την Frappe Technologies) είναι ένα ολοκληρωμένο σύστημα ERP, CRM, και HRMS, γραμμένο σε Python/JavaScript (Frappe framework). Σε αντίθεση με τα παραδοσιακά ERP, το ERPNext είναι σχεδιασμένο για απλότητα, ταχύτητα εγκατάστασης και low-code customization. Χρησιμοποιείται από πάνω από 10.000 εταιρείες σε 150+ χώρες.

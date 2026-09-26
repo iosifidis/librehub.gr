@@ -6,7 +6,7 @@ website: "https://superset.apache.org/"
 logo: "/images/superset.png"
 license: "Apache-2.0"
 description: "Σύγχρονη, enterprise-grade πλατφόρμα εξερεύνησης και οπτικοποίησης δεδομένων (Data Visualization & BI) ανοιχτού κώδικα. Ικανή να διαχειριστεί δεδομένα σε κλίμακα petabyte (μέσω υποστήριξης 60+ databases, από PostgreSQL, ClickHouse, Druid, Snowflake, BigQuery, Redshift, έως Presto/Trino). Διαθέτει πλούσιο dashboard builder, no-code explore interface, SQL IDE, semantic layer, και extensible architecture (Python)."
-featured: true
+featured: false
 ---
 
 Το Apache Superset (πρώην AirBnB's internal tool) είναι μια ισχυρή, cloud-native πλατφόρμα BI που προορίζεται για αναλυτές δεδομένων (data analysts) και μηχανικούς δεδομένων, αλλά μπορεί να προσφέρει dashboards και σε μη-τεχνικούς χρήστες. Σε αντίθεση με το Metabase (απλό), το Superset έχει μεγαλύτερη καμπύλη μάθησης, αλλά είναι **πολύ πιο ισχυρό** (προηγμένα charts, virtual datasets, SQL Lab).

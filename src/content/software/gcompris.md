@@ -1,5 +1,5 @@
 ---
-title: "GCompris (Educational Games)"
+title: "GCompris"
 alternative_to: ["ABCmouse (commercial)", "Khan Academy Kids (freemium)", "Starfall (commercial)"]
 categories: ["Εκπαίδευση", "Παιδική Ηλικία", "Πλατφόρμες Μάθησης"]
 website: "https://gcompris.net"

@@ -6,7 +6,7 @@ website: "https://glpi-project.org/"
 logo: "/images/glpi.svg"
 license: "GPL-3.0"
 description: "Μια ολοκληρωμένη λύση ανοιχτού κώδικα για Διαχείριση Περιουσιακών Στοιχείων Πληροφορικής (IT Asset Management) και Helpdesk (ITIL Service Desk). Διαχειρίζεται inventory υπολογιστών, περιφερειακών, software licenses, συμβόλαια, incidents, requests, problems, changes, knowledge base, και reserves. Υποστηρίζει αυτόματο inventory μέσω FusionInventory/OCS Inventory, DCIM, και είναι επεκτάσιμο με plugins. Στα ακρωνύμια: GLPI (Gestionnaire Libre de Parc Informatique) ."
-featured: true
+featured: false
 ---
 
 Το GLPI είναι μια ώριμη (πρώτη έκδοση 2003) πλατφόρμα ITSM (IT Service Management) και ITAM, γραμμένη σε PHP. Χρησιμοποιείται ευρέως στον δημόσιο τομέα, σε μεγάλες επιχειρήσεις, και σε παρόχους υπηρεσιών διαχείρισης πληροφορικής.

@@ -6,7 +6,7 @@ website: "https://www.metabase.com"
 logo: "/images/metabase.png"
 license: "AGPL-3.0"
 description: "Εξαιρετικά εύχρηστη, open-source πλατφόρμα Business Intelligence (BI) και οπτικοποίησης δεδομένων. Επιτρέπει σε μη-τεχνικούς χρήστες (αναλυτές, managers) να δημιουργούν ερωτήματα (queries), dashboards, και να εξερευνούν δεδομένα μέσω visual query builder ή natural language (AI). Υποστηρίζει 20+ βάσεις δεδομένων (PostgreSQL, MySQL, MongoDB, Snowflake, κ.ά.)."
-featured: true
+featured: false
 ---
 
 Το Metabase είναι η πιο δημοφιλής open-source εναλλακτική των Tableau/Power BI, εστιάζοντας στην απλότητα χρήσης (self-serve analytics). Μπορείτε να το εγκαταστήσετε σε 5 λεπτά (Docker) και να αρχίσετε να κάνετε ερωτήσεις χωρίς να γράφετε SQL (αν και υποστηρίζει και raw SQL). Χρησιμοποιείται από 90.000+ εταιρείες (π.χ. GitLab, Reddit, Cloudflare, Docker).

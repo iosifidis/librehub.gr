@@ -6,7 +6,7 @@ website: "https://libretranslate.com/"
 logo: "/images/libretranslate.png"
 license: "AGPL-3.0"
 description: "Ανοιχτού κώδικα, πλήρως self-hosted API μηχανικής μετάφρασης (machine translation), χωρίς περιορισμούς όγκου δεδομένων, χωρίς tracking, και με δυνατότητα offline λειτουργίας."
-featured: true
+featured: false
 ---
 
 Το LibreTranslate είναι ένα ελαφρύ, αυτόνομο API μετάφρασης βασισμένο στο Argos Translate (OpenNMT). Σχεδιάστηκε ως εναλλακτική των εμπορικών cloud APIs (Google Translate, DeepL), προσφέροντας απόλυτο έλεγχο στα δεδομένα σας: μπορείτε να το εγκαταστήσετε στον δικό σας server, χωρίς να στέλνετε κείμενα σε τρίτους, και χωρίς όρια λέξεων.

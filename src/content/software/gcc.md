@@ -6,7 +6,7 @@ website: "https://gcc.gnu.org/"
 logo: "/images/gcc.png"
 license: "GPL-3.0 (with GCC Runtime Library Exception)"
 description: "Το βασικό σύστημα μεταγλωττιστών (compiler) του GNU Project, που υποστηρίζει C, C++, Fortran, Ada, Go, D, Modula-2, και άλλες γλώσσες. Αποτελεί τον προεπιλεγμένο compiler για τα περισσότερα συστήματα Linux, και είναι γνωστός για τη βελτιστοποίηση υψηλής απόδοσης και την υποστήριξη αρχιτεκτονικών (x86, ARM, RISC-V, PowerPC, κ.ά.)."
-featured: true
+featured: false
 ---
 
 Το GCC (GNU Compiler Collection) είναι μια συλλογή μεταγλωττιστών που αναπτύχθηκε από το GNU Project για το λειτουργικό σύστημα GNU, και πλέον χρησιμοποιείται ως ο επίσημος compiler για το Linux kernel και τα περισσότερα Linux distributions. Υποστηρίζει πάνω από 50 γλώσσες (μέσω front-ends), με κορυφαίες: C, C++, Fortran, Ada (GNAT), Go (gccgo), D (gdc).

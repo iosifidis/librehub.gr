@@ -6,7 +6,7 @@ website: "https://excalidraw.com/"
 logo: "/images/excalidraw.png"
 license: "MIT"
 description: "Ένα εργαλείο εικονικού πίνακα (virtual whiteboard) για τη δημιουργία χειρόγραφων σχεδίων, διαγραμμάτων ροής, wireframes, mind maps, και οπτικών σημειώσεων, με μια μοναδική αισθητική (hand-drawn style). Είναι web-based, λειτουργεί offline, υποστηρίζει real-time collaboration, και αποθηκεύει τα σχέδια τοπικά (localStorage) ή στο cloud (Excalidraw+). Δεν απαιτεί λογαριασμό. Τα σχέδια εξάγονται ως PNG, SVG, ή JSON. Ιδανικό για brainstorming, concept design, και quick sketches."
-featured: true
+featured: false
 ---
 
 Το Excalidraw είναι ένα φανταστικό εργαλείο για γρήγορα, χειρόγραφα σκίτσα (hand-drawn look). Δεν είναι τόσο πλούσιο όσο το Miro (δεν έχει templates, sticky notes, frameworks), αλλά είναι απλό, ελαφρύ, και ανοιχτό.

@@ -1,5 +1,5 @@
 ---
-title: "Git (Distributed Version Control System)"
+title: "Git"
 alternative_to: ["Perforce (Helix Core)", "Mercurial (hg)", "Subversion (SVN - centralized)"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://git-scm.com/"

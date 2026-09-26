@@ -1,17 +1,17 @@
 ---
-title: "Gitea (Git with a cup of tea)"
+title: "Gitea"
 alternative_to: ["GitHub Enterprise (proprietary)", "GitLab (self-hosted, heavier)", "Bitbucket Data Center"]
 categories: ["Ανάπτυξη Λογισμικού", "Εργαλεία"]
 website: "https://about.gitea.com/"
 logo: "/images/gitea.png"
 license: "MIT"
 description: "Ελαφριά, εύκολη στην εγκατάσταση (binary package) υπηρεσία φιλοξενίας κώδικα Git, με web UI, issue tracking, pull requests, wiki, και CI/CD integration (Gitea Actions). Ιδανική για μικρές ομάδες, on-premise εγκατάσταση, και low-resource περιβάλλοντα (π.χ. Raspberry Pi)."
-featured: true
+featured: false
 ---
 
 Το Gitea είναι ένα fork του Gogs (Go Git Service) που αποσκοπεί στην παροχή μιας ελαφριάς, self-hosted εναλλακτικής του GitHub/GitLab. Είναι γραμμένο σε Go (single binary), άρα τρέχει ακόμα και σε Raspberry Pi με <1GB RAM. Περιλαμβάνει όλες τις βασικές λειτουργίες για διαχείριση Git repositories (code hosting) και ομαδική συνεργασία. Αποτελεί την πιο δημοφιλή λύση για μικρές εταιρείες που θέλουν on-premise Git hosting.
 
-**Βασικές Λειτουργίες (Core Features):**
+**Βασικές Λειτουργίες:**
 
 - **Git Repository hosting:** Δημόσια ή ιδιωτικά repos, protect branches, tags, releases, clone over HTTP/SSH.
 - **Collaboration:** Pull requests (with diff, comments, approval workflows), issue tracking (labels, milestones, assignees), wiki (per repository).
