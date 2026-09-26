@@ -3,7 +3,7 @@ title: "Twister"
 alternative_to: ["X (Twitter)"]
 categories: ["Κοινωνικά Δίκτυα", "Ιδιωτικότητα"]
 website: "http://twister.net.co/"
-logo: "/images/twister.svg"
+logo: "/images/twister.png"
 license: "MIT"
 description: "Πλήρως αποκεντρωμένη P2P πλατφόρμα microblogging που συνδυάζει την τεχνολογία blockchain του Bitcoin (για εγγραφή χρηστών) και το BitTorrent (για διανομή μηνυμάτων). Δεν υπάρχουν servers, δεν υπάρχουν κεντρικά δεδομένα — κάθε χρήστης είναι ισότιμος κόμβος του δικτύου."
 featured: false
