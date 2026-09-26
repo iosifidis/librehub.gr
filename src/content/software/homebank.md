@@ -3,7 +3,7 @@ title: "HomeBank"
 alternative_to: ["Microsoft Money", "Quicken (basic features)", "GnuCash (lightweight alternative)"]
 categories: ["Γραφείο", "Παραγωγικότητα"]
 website: "https://www.gethomebank.org/en/index.php"
-logo: "/images/homebank.svg"
+logo: "/images/homebank.png"
 license: "GPL-2.0"
 description: "Ελαφρύ, διαισθητικό λογισμικό προσωπικής οικονομικής διαχείρισης (personal finance) για desktop, με εστίαση σε λογαριασμούς τραπέζης, προϋπολογισμούς, αναφορές, και εισαγωγή από QIF/OFX/CSV."
 featured: false
