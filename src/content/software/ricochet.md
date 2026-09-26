@@ -3,7 +3,7 @@ title: "Ricochet Refresh"
 alternative_to: ["Incognito Chat Apps"]
 categories: ["Επικοινωνία", "Ιδιωτικότητα", "Ασφάλεια"]
 website: "https://www.ricochetrefresh.net/"
-logo: "/images/ricochet.svg"
+logo: "/images/ricochetrefresh.png"
 license: "BSD-3-Clause"
 description: "Αποκεντρωμένο instant messaging που δρομολογεί όλη την κίνηση μέσω του δικτύου Tor (.onion services), παρέχοντας μέγιστη ανωνυμία. Δεν υπάρχουν servers, δεν καταγράφονται μεταδεδομένα, δεν αποκαλύπτεται η IP — η ταυτότητα των χρηστών είναι αδύνατο να αποκαλυφθεί ακόμα και από ισχυρούς αντιπάλους."
 featured: false
