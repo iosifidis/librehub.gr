@@ -3,7 +3,7 @@ title: "Qtractor"
 alternative_to: ["Adobe Audition", "Apple Logic Pro", "FL Studio"]
 categories: ["Επεξεργασία Ήχου", "Πολυμέσα"]
 website: "https://qtractor.org/"
-logo: "/images/qtractor.svg"
+logo: "/images/qtractor.png"
 license: "GPL-2.0"
 description: "Επαγγελματικός Digital Audio Workstation (DAW) για Linux βασισμένος στο Qt, με multi-track audio/MIDI recording, editing και mixing. Υποστηρίζει JACK audio, LV2/LADSPA/VST plugins, MIDI sequencing, non-destructive editing και ισχυρό automation — ιδανικός για μουσική παραγωγή σε Linux."
 featured: false

@@ -3,7 +3,7 @@ title: "Lynis"
 alternative_to: ["McAfee VirusScan", "Vulnerability Scanners"]
 categories: ["Ασφάλεια", "Λειτουργικά Συστήματα", "Εργαλεία"]
 website: "https://cisofy.com/lynis/"
-logo: "/images/lynis.svg"
+logo: "/images/lynis.png"
 license: "GPL-3.0"
 description: "Εξελιγμένο εργαλείο ελέγχου ασφαλείας (security audit) και σκλήρυνσης (hardening) για Linux, macOS και Unix συστήματα. Εκτελεί εκατοντάδες αυτοματοποιημένους ελέγχους — από ρυθμίσεις kernel και SSH μέχρι δικαιώματα αρχείων και εγκατεστημένα packages — και παράγει λεπτομερή αναφορά με προτεραιοποιημένες συστάσεις βελτίωσης."
 featured: false
