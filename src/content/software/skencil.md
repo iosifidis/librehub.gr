@@ -3,7 +3,7 @@ title: "Skencil"
 alternative_to: ["Adobe Illustrator"]
 categories: ["Γραφικά", "Διανυσματικά", "Σχεδίαση"]
 website: "https://www.skencil.org/"
-logo: "/images/skencil.svg"
+logo: "/images/skencil.png"
 license: "LGPL-2.0"
 description: "Εφαρμογή σχεδίασης διανυσματικών γραφικών για Linux/X Window, χτισμένη με Python. Προσφέρει βασικά εργαλεία δημιουργίας και επεξεργασίας διανυσματικών σχημάτων, Bezier καμπύλες, εργαλεία κειμένου και υποστήριξη PostScript — αποτελώντας μια ελαφριά εναλλακτική για απλές διανυσματικές εργασίες σε Linux."
 featured: false
