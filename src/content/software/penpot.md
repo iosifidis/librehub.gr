@@ -6,7 +6,7 @@ website: "https://penpot.app/"
 logo: "/images/penpot.png"
 license: "MPL-2.0"
 description: "Η κορυφαία open-source πλατφόρμα σχεδιασμού και πρωτοτυποποίησης (UI/UX design), για τη δημιουργία διαδραστικών πρωτοτύπων, wireframes, mockups, και design systems. Επιτρέπει την άψογη συνεργασία (real-time) μεταξύ σχεδιαστών και προγραμματιστών (με export CSS, SVG, JSON). Είναι web-based (HTML/CSS/JS) και μπορεί να self-hosted (Docker). Ιδανική αντικατάσταση του Figma (που δεν είναι open source)."
-featured: true
+featured: false
 ---
 
 Το Penpot (από την Kaleidos) είναι η ελπίδα για open-source UI/UX design.
