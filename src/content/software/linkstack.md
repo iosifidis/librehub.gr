@@ -3,7 +3,7 @@ title: "LinkStack"
 alternative_to: ["Linktree"]
 categories: ["Δημιουργία Περιεχομένου", "Εργαλεία"]
 website: "https://linkstack.org/"
-logo: "/images/linkstack.svg"
+logo: "/images/linkstack.png"
 license: "AGPL-3.0"
 description: "Self-hosted εναλλακτική του Linktree για τη συγκέντρωση όλων των συνδέσμων σας σε μία προσωπική σελίδα. Πλήρης έλεγχος εμφάνισης, δεδομένων και analytics — χωρίς συνδρομή, χωρίς branding τρίτων, χωρίς περιορισμούς στον αριθμό συνδέσμων."
 featured: false
