@@ -1,0 +1,102 @@
+name: "Πρόταση Νέου Λογισμικού"
+description: "Προτείνετε ένα λογισμικό ανοιχτού κώδικα (ΕΛ/ΛΑΚ) για προσθήκη στον κατάλογο του LibreHub."
+title: "Πρόταση: [Όνομα Λογισμικού]"
+labels: ["software-suggestion", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Ευχαριστούμε για την πρότασή σας! 🎉
+        Βεβαιωθείτε ότι το λογισμικό πληροί τα βασικά κριτήρια του LibreHub:
+        - Διαθέτει αναγνωρισμένη ανοιχτή άδεια (OSI ή FSF).
+        - Είναι ενεργά αναπτυσσόμενο ή σε συντήρηση.
+        - Αποτελεί ουσιαστικό εναλλακτικό ιδιόκτητου λογισμικού.
+
+  - type: input
+    id: software_name
+    attributes:
+      label: "Όνομα Λογισμικού"
+      description: "Το επίσημο όνομα του ανοιχτού λογισμικού."
+      placeholder: "π.χ. Inkscape, Joplin, Nextcloud, Krita"
+    validations:
+      required: true
+
+  - type: input
+    id: alternative_to
+    attributes:
+      label: "Εναλλακτικό ιδιόκτητου λογισμικού"
+      description: "Ποιο γνωστό κλειστό/εμπορικό λογισμικό μπορεί να αντικαταστήσει;"
+      placeholder: "π.χ. Adobe Photoshop, Microsoft Office, Slack, Notion"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Κύρια Κατηγορία"
+      description: "Επιλέξτε την κατηγορία στην οποία ανήκει το λογισμικό."
+      options:
+        - "Γραφείο"
+        - "Παραγωγικότητα"
+        - "Γραφικά"
+        - "Επεξεργασία Εικόνας"
+        - "Διανυσματικά"
+        - "Ψηφιακή Ζωγραφική"
+        - "Πολυμέσα"
+        - "Βίντεο"
+        - "Επεξεργασία Βίντεο"
+        - "Streaming"
+        - "Επεξεργασία Ήχου"
+        - "3D Μοντελοποίηση"
+        - "Ανάπτυξη Λογισμικού"
+        - "Εργαλεία"
+        - "Εκπαίδευση"
+        - "Μαθηματικά"
+        - "Πλατφόρμες Μάθησης"
+        - "Προγραμματισμός"
+        - "Cloud"
+        - "Email"
+        - "Επικοινωνία"
+        - "Ιδιωτικότητα"
+        - "Πλοήγηση"
+        - "Λειτουργικά Συστήματα"
+        - "Άλλο"
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: "Επίσημη Ιστοσελίδα ή Αποθετήριο Κώδικα"
+      description: "Σύνδεσμος προς την επίσημη ιστοσελίδα ή το GitHub/GitLab repository."
+      placeholder: "https://example.org"
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: "Άδεια Χρήσης"
+      description: "Η άδεια ανοιχτού κώδικα του λογισμικού (π.χ. GPL-3.0, MIT, Apache-2.0, AGPL-3.0)."
+      placeholder: "π.χ. GPL-3.0"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Σχόλια / Γιατί αξίζει να προστεθεί"
+      description: "Σύντομη περιγραφή των δυνατοτήτων του και γιατί είναι χρήσιμο στους χρήστες."
+      placeholder: "Περιγράψτε τα βασικά πλεονεκτήματα του λογισμικού..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Έλεγχος προϋποθέσεων"
+      options:
+        - label: "Έλεγξα ότι το λογισμικό δεν υπάρχει ήδη καταχωρημένο στο LibreHub"
+          required: true
+        - label: "Το λογισμικό είναι ελεύθερο / ανοιχτού κώδικα (FOSS)"
+          required: true
