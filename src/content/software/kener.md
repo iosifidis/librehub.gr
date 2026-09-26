@@ -3,7 +3,7 @@ title: "Kener (Status Page)"
 alternative_to: ["Statuspage.io (commercial)", "Cachet (older)", "CState (static)"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Παρακολούθηση"]
 website: "https://github.com/rajnandan1/kener"
-logo: "/images/kener.svg"
+logo: "/images/kener.png"
 license: "MIT"
 description: "Σύγχρονη, responsive σελίδα κατάστασης (status page) ανοιχτού κώδικα, σχεδιασμένη για να ενημερώνει τους χρήστες σχετικά με την διαθεσιμότητα των υπηρεσιών σας. Υποστηρίζει monitoring (HTTP, ping, port) – αλλά βασικό. Η κύρια λειτουργία του είναι η παρουσίαση (UI) και το ιστορικό uptime (προσαρμοσμένη περίοδος). Μπορείτε να συνδέσετε τα monitors σας (μέσω API) ή να ενημερώνετε χειροκίνητα (status updates)."
 featured: false

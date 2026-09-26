@@ -3,7 +3,7 @@ title: "Krut Computer Recorder"
 alternative_to: ["Camtasia"]
 categories: ["Εγγραφή Οθόνης", "Βίντεο", "Εκπαίδευση"]
 website: "https://krut.sourceforge.net/"
-logo: "/images/krut.svg"
+logo: "/images/krut.png"
 license: "GPL-2.0"
 description: "Εργαλείο καταγραφής οθόνης γραμμένο σε Java, ιδανικό για δημιουργία εκπαιδευτικών βίντεο και παρουσιάσεων με ταυτόχρονη εγγραφή ήχου. Λειτουργεί σε κάθε λειτουργικό σύστημα που υποστηρίζει Java και προσφέρει επιλογή περιοχής εγγραφής, μικτή εγγραφή οθόνης/κάμερας και εξαγωγή σε QuickTime format."
 featured: false
