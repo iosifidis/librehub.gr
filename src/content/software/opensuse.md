@@ -6,7 +6,7 @@ website: "https://www.opensuse.org/"
 logo: "/images/opensuse.png"
 license: "GPL-2.0"
 description: "Σταθερή και ευέλικτη διανομή Linux με δύο εκδόσεις: Leap (σταθερή, βασισμένη σε SUSE Enterprise) και Tumbleweed (rolling release με τελευταίο λογισμικό). Περιλαμβάνει το YaST — ένα από τα ισχυρότερα εργαλεία διαχείρισης συστήματος — και Snapper για αυτόματα Btrfs snapshots."
-featured: false
+featured: true
 ---
 Το openSUSE προσφέρει δύο εντελώς διαφορετικές εμπειρίες: το **Leap** για χρήστες που θέλουν σταθερότητα επαγγελματικού επιπέδου, και το **Tumbleweed** για όσους θέλουν πάντα το τελευταίο λογισμικό σε rolling release μοντέλο. Και τα δύο κοινοποιούν ένα από τα καλύτερα εργαλεία διαχείρισης Linux: το YaST.
 
