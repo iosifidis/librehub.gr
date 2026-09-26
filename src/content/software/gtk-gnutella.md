@@ -3,7 +3,7 @@ title: "gtk-gnutella"
 alternative_to: ["eMule"]
 categories: ["Δίκτυα", "Εργαλεία"]
 website: "https://gtk-gnutella.sourceforge.io/"
-logo: "/images/gtk-gnutella.svg"
+logo: "/images/gtk-gnutella.png"
 license: "GPL-2.0"
 description: "Client για το αποκεντρωμένο Gnutella P2P δίκτυο — ανταλλαγή αρχείων χωρίς κεντρικούς servers ή trackers. Υποστηρίζει αναζήτηση, λήψη με partial file sharing, DHT, GUESS και ασφαλείς μεταφορές — αποτελώντας μια από τις παλαιότερες και πιο αξιόπιστες υλοποιήσεις Gnutella client."
 featured: false
