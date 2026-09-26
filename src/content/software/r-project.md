@@ -1,12 +1,12 @@
 ---
-title: "R Project (Statistical Computing)"
+title: "R Project"
 alternative_to: ["SPSS", "SAS", "MPlus", "Stata"]
 categories: ["Εκπαίδευση", "Στατιστική", "Επιστήμες", "Προγραμματισμός"]
 website: "https://www.r-project.org"
 logo: "/images/r-project.png"
 license: "GPL-2.0"
 description: "Η de facto γλώσσα και περιβάλλον για **στατιστική ανάλυση**, **εξόρυξη δεδομένων** και **οπτικοποίηση δεδομένων** στον ακαδημαϊκό χώρο (και όχι μόνο). Διαθέτει πάνω από 20.000 πακέτα (packages) στο CRAN που καλύπτουν κάθε στατιστική μέθοδο: γραμμικά μοντέλα (regression), χρονοσειρές (ARIMA), clustering, classification (random forest, SVM), Bayesian inference, spatial analysis, ψυχομετρία, genomics, κλπ. Είναι το αντίστοιχο των SAS/SPSS στον κόσμο της ανοιχτής έρευνας."
-featured: true
+featured: false
 ---
 
 Η R (όχι "R Project") είναι η γλώσσα της στατιστικής. Αποτελεί πρότυπο σε μεταπτυχιακά προγράμματα και ερευνητικά εργαστήρια.

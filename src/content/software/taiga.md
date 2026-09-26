@@ -3,10 +3,10 @@ title: "Taiga"
 alternative_to: ["Jira Software", "Linear", "Pivotal Tracker"]
 categories: ["Παραγωγικότητα", "Εργαλεία", "Ανάπτυξη Λογισμικού"]
 website: "https://taiga.io/"
-logo: "/images/taiga.svg"
+logo: "/images/taiga.png"
 license: "MPL-2.0"
 description: "Εξειδικευμένο, όμορφο και εύχρηστο εργαλείο διαχείρισης έργων για Agile/Scrum ομάδες (ειδικά development teams), με πίνακες Kanban, backlog, sprint planning, και ενσωμάτωση με Git."
-featured: true
+featured: false
 ---
 
 Το Taiga είναι μια πλατφόρμα project management σχεδιασμένη ειδικά για ομάδες ανάπτυξης λογισμικού που χρησιμοποιούν Agile μεθοδολογίες (Scrum, Kanban). Ξεχωρίζει για την εξαιρετικά διαισθητική, μοντέρνα διεπαφή χρήστη και την εστίασή της στην εμπειρία της ομάδας, σε αντίθεση με τα περίπλοκα εργαλεία όπως το Jira.

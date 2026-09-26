@@ -3,7 +3,7 @@ title: "PartImage"
 alternative_to: ["Norton Ghost"]
 categories: ["Εργαλεία", "Λειτουργικά Συστήματα"]
 website: "https://www.partimage.org/"
-logo: "/images/partimage.svg"
+logo: "/images/partimage.png"
 license: "GPL-2.0"
 description: "Εργαλείο δημιουργίας αντιγράφων ασφαλείας κατατμήσεων δίσκου και ανάκτησης δεδομένων για Linux. Αποθηκεύει μόνο τα χρησιμοποιούμενα blocks (όχι ολόκληρο τον δίσκο), με compression και δυνατότητα αποθήκευσης σε τοπικό δίσκο, NFS ή SMB share."
 featured: false

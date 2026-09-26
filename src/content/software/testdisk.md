@@ -3,10 +3,10 @@ title: "TestDisk / PhotoRec"
 alternative_to: ["Εξειδικευμένο λογισμικό ανάκτησης δεδομένων"]
 categories: ["Εργαλεία", "Ασφάλεια", "Λειτουργικά Συστήματα"]
 website: "https://www.cgsecurity.org/"
-logo: "/images/testdisk.svg"
+logo: "/images/testdisk.png"
 license: "GPL-2.0"
 description: "Δύο ισχυρά εργαλεία ανάκτησης δεδομένων: το TestDisk επιδιορθώνει κατεστραμμένους πίνακες κατατμήσεων και ανακτά χαμένα αρχεία από filesystems, ενώ το PhotoRec ανακτά φωτογραφίες, βίντεο και έγγραφα από κατεστραμμένα ή φορμαρισμένα μέσα — ανεξάρτητα από filesystem."
-featured: true
+featured: false
 ---
 Το TestDisk και το PhotoRec είναι τα εργαλεία που φτάνουν στα χέρια τεχνικών όταν «δεν υπάρχει ελπίδα». Αναπτύχθηκαν από τον Christophe Grenier και συμπεριλαμβάνονται σε κάθε σοβαρό Linux rescue environment.
 
