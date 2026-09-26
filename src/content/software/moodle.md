@@ -1,5 +1,5 @@
 ---
-title: "Moodle (LMS - Learning Management System)"
+title: "Moodle"
 alternative_to: ["Blackboard", "Canvas LMS", "Google Classroom", "Schoology"]
 categories: ["Εκπαίδευση", "Πλατφόρμες Μάθησης"]
 website: "https://moodle.org"

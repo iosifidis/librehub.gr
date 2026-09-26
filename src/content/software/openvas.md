@@ -6,7 +6,7 @@ website: "https://www.openvas.org/"
 logo: "/images/openvas.png"
 license: "GPL-2.0"
 description: "Το κορυφαίο open-source πλαίσιο ανίχνευσης ευπαθειών για δίκτυα, servers, web applications, και συσκευές. Αποτελεί τον πυρήνα της λύσης Greenbone Vulnerability Management (GVM). Εκτελεί πάνω από 50.000 δοκιμές ευπαθειών (NVT - Network Vulnerability Tests), βασισμένες σε βάση δεδομένων που ενημερώνεται συχνά. Χρησιμοποιείται για compliance (PCI DSS, GDPR) και προληπτική ασφάλεια."
-featured: true
+featured: false
 ---
 
 Το OpenVAS (Open Vulnerability Assessment System) είναι η δημοφιλέστερη open-source εναλλακτική του Nessus (Tenable). Σαρώνει δίκτυα και hosts για γνωστά vulnerabilities (CVE), λανθασμένες ρυθμίσεις (misconfigurations), αδύναμους κωδικούς (weak passwords), outdated software, κλπ. Η μηχανή του OpenVAS έχει πάνω από 50.000 δοκιμές, που ενημερώνονται τακτικά (μέσω Greenbone Community Feed, ελεύθερο, με 24-48h καθυστέρηση έναντι commercial).
