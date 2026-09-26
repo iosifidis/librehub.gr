@@ -6,7 +6,7 @@ website: "https://wallabag.org/"
 logo: "/images/wallabang.svg"
 license: "MIT"
 description: "Δημοφιλής self-hosted εφαρμογή για αποθήκευση, αρχειοθέτηση και ανάγνωση άρθρων για αργότερα (read-it-later). Αποθηκεύει το πλήρες περιεχόμενο κάθε άρθρου χωρίς διαφημίσεις, προσφέρει καθαρό reader mode, εξαγωγή σε eBook και sync με εφαρμογές κινητών — χωρίς να εξαρτάστε από το Pocket (Mozilla/Firefox) ή το Instapaper."
-featured: true
+featured: false
 ---
 Το Wallabag (γαλλικά: «valise» = βαλίτσα) είναι η ώριμη, feature-complete εναλλακτική του Pocket για self-hosting. Χρησιμοποιείται από εκατοντάδες χιλιάδες χρήστες που θέλουν να διαβάζουν άρθρα αργότερα — αλλά χωρίς να στέλνουν το ιστορικό ανάγνωσής τους στη Mozilla ή σε διαφημιστές.
 

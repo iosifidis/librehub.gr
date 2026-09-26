@@ -6,7 +6,7 @@ website: "https://thingsboard.io/"
 logo: "/images/thingsboard.png"
 license: "Apache-2.0 (Community Edition), Commercial (Professional Edition)"
 description: "Η κορυφαία open-source πλατφόρμα IoT για συλλογή, επεξεργασία, οπτικοποίηση δεδομένων (telemetry), διαχείριση συσκευών (device management), και κανόνες (rule engine). Υποστηρίζει MQTT, CoAP, HTTP, LwM2M, SNMP, και IoT Gateway (Modbus, BACnet, CAN, OPC-UA). Ιδανική για smart energy, fleet management, industrial IoT, smart farming, and environmental monitoring. Τρέχει on-premise ή στο cloud, με δυνατότητα scaling σε εκατομμύρια συσκευές."
-featured: true
+featured: false
 ---
 
 Το ThingsBoard είναι μια πλήρης, enterprise-grade πλατφόρμα IoT ανοιχτού κώδικα. Σχεδιάστηκε για να γεφυρώσει το χάσμα μεταξύ πρωτοτύπου (prototype) και παραγωγής (production), δίνοντας λύσεις για device connectivity, data processing, visualization, και alarm management. Σε αντίθεση με λύσεις hyperscaler (AWS IoT, Azure IoT), το ThingsBoard μπορεί να τρέξει on-premise (πλήρης έλεγχος δεδομένων) χωρίς vendor lock-in.
