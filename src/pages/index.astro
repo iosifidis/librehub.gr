@@ -55,7 +55,7 @@ const allCategories = [...new Set(allSoftware.flatMap((s) => s.data.categories))
           και θα το εξετάσουμε για προσθήκη.
         </p>
         <a
-          href="/suggest"
+          href={`${import.meta.env.BASE_URL}suggest`}
           class="mt-6 inline-flex items-center gap-2 rounded-xl bg-white text-green-700 hover:bg-green-50 px-6 py-3 text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-200"
           id="cta-suggest-link"
           aria-label="Προτείνετε Λογισμικό για προσθήκη στον κατάλογο"

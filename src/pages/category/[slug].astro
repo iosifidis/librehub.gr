@@ -33,7 +33,7 @@ const { category, entries } = Astro.props;
   <Header />
   <main id="main-content" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
     <nav class="mb-8 flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400" aria-label="Breadcrumb">
-      <a href="/" class="hover:text-green-600 dark:hover:text-green-400 transition-colors">Αρχική</a>
+      <a href={import.meta.env.BASE_URL} class="hover:text-green-600 dark:hover:text-green-400 transition-colors">Αρχική</a>
       <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
         <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
       </svg>

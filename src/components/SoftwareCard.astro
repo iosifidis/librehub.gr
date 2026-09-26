@@ -33,7 +33,7 @@ const searchText = [title, ...alternative_to, ...categories, description].join('
           loading="lazy"
           width="56"
           height="56"
-          onerror="this.onerror=null; this.src='/images/placeholder.svg';"
+          onerror={`this.onerror=null; this.src='${import.meta.env.BASE_URL}images/placeholder.svg';`}
         />
       </div>
       <div class="flex-1 min-w-0">
@@ -104,7 +104,7 @@ const searchText = [title, ...alternative_to, ...categories, description].join('
         </svg>
       </a>
       <a
-        href={`/software/${slug}`}
+        href={`${import.meta.env.BASE_URL}software/${slug}`}
         class="flex items-center justify-center rounded-xl border border-gray-200 dark:border-gray-700 px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200"
         aria-label={`Λεπτομέρειες για ${title}`}
       >
