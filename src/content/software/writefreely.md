@@ -3,7 +3,7 @@ title: "WriteFreely"
 alternative_to: ["Medium"]
 categories: ["Δημιουργία Περιεχομένου", "Εργαλεία"]
 website: "https://writefreely.org/"
-logo: "/images/writefreely.svg"
+logo: "/images/writefreely.png"
 license: "AGPL-3.0"
 description: "Μινιμαλιστική πλατφόρμα δημοσίευσης κειμένων για συγγραφείς που θέλουν να εστιάσουν αποκλειστικά στο περιεχόμενο. Self-hosted, με καθαρή διεπαφή χωρίς περισπασμούς, υποστήριξη Markdown, ανώνυμη δημοσίευση και federation μέσω ActivityPub — τα κείμενά σας εμφανίζονται αυτόματα στο fediverse."
 featured: false

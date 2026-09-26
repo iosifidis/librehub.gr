@@ -3,7 +3,7 @@ title: "uMatrix"
 alternative_to: ["Advanced Privacy Firewalls"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Πλοήγηση"]
 website: "https://addons.mozilla.org/en-US/firefox/addon/umatrix/"
-logo: "/images/umatrix.svg"
+logo: "/images/umatrix.png"
 license: "GPL-3.0"
 description: "Τείχος προστασίας (firewall) για τον περιηγητή που δίνει πλήρη έλεγχο σε matrix μορφή για κάθε τύπο αιτήματος (scripts, iframes, CSS, images, XHR, ads) ανά domain. Απευθύνεται σε προχωρημένους χρήστες που θέλουν να γνωρίζουν και να ελέγχουν ακριβώς τι φορτώνει κάθε ιστοσελίδα."
 featured: false

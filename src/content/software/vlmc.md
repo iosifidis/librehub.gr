@@ -3,7 +3,7 @@ title: "VideoLAN Movie Creator (VLMC)"
 alternative_to: ["Adobe Premiere"]
 categories: ["Επεξεργασία Βίντεο", "Βίντεο"]
 website: "https://www.videolan.org/vlmc/"
-logo: "/images/vlmc.svg"
+logo: "/images/vlmc.png"
 license: "GPL-2.0"
 description: "Non-linear video editor βασισμένος στη βιβλιοθήκη LibVLC (του VLC Media Player), με έμφαση στην ευκολία χρήσης και την απόδοση. Αναπτύσσεται από την ομάδα VideoLAN και υποστηρίζει την εκτεταμένη λίστα formats του VLC για εισαγωγή υλικού."
 featured: false
