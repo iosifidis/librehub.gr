@@ -3,7 +3,7 @@ title: "MediaGoblin"
 alternative_to: ["YouTube", "Flickr", "SoundCloud"]
 categories: ["Δημιουργία Περιεχομένου", "Κοινωνικά Δίκτυα"]
 website: "https://mediagoblin.org/"
-logo: "/images/mediagoblin.svg"
+logo: "/images/mediagoblin.png"
 license: "AGPL-3.0"
 description: "Self-hosted πλατφόρμα διαμοιρασμού ψηφιακών πολυμέσων — φωτογραφίες, βίντεο, ήχος, 3D μοντέλα, PDF, ASCII art. Ανεπτυγμένη από το GNU project, υποστηρίζει federation μέσω ActivityPub και αποτελεί εναλλακτική σε κεντρικές πλατφόρμες που ελέγχουν το περιεχόμενό σας."
 featured: false
