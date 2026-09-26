@@ -3,7 +3,7 @@ title: "GNU Bayonne"
 alternative_to: ["Proprietary IVR Systems", "Cisco Unified IP IVR", "Avaya IVR"]
 categories: ["Επικοινωνία", "Τηλεφωνία"]
 website: "https://www.gnu.org/software/bayonne/"
-logo: "/images/gnu_bayonne.svg"
+logo: "/images/bayonne.jpg"
 license: "GPL-3.0"
 description: "Ο ελεύθερος εξυπηρετητής τηλεφωνίας (telephony server) του GNU Project, σχεδιασμένος για τη δημιουργία προηγμένων υπηρεσιών φωνητικής απόκρισης (IVR), αυτοματοποιημένων τηλεφωνικών κέντρων (call centers) και αλληλεπίδραση με βάσεις δεδομένων."
 featured: false
