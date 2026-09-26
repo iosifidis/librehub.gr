@@ -3,7 +3,7 @@ title: "Privacy Badger"
 alternative_to: ["AdBlockers (Privacy focused)"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Πλοήγηση"]
 website: "https://www.eff.org/privacybadger"
-logo: "/images/privacy-badger.svg"
+logo: "/images/privacybadger.svg"
 license: "GPL-3.0"
 description: "Επέκταση περιηγητή του EFF που μαθαίνει αυτόματα να ανιχνεύει και να μπλοκάρει αόρατους ιχνηλάτες (trackers) κατά την περιήγηση. Δεν χρησιμοποιεί λίστες αποκλεισμού — αντίθετα, παρατηρεί τη συμπεριφορά κάθε domain και αποφασίζει αυτόνομα αν παρακολουθεί τον χρήστη."
 featured: false

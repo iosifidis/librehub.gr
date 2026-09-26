@@ -3,7 +3,7 @@ title: "Location Guard"
 alternative_to: ["VPN Services", "Proxy Services"]
 categories: ["Ιδιωτικότητα", "Ασφάλεια", "Πλοήγηση"]
 website: "https://github.com/chatziko/location-guard"
-logo: "/images/location-guard.svg"
+logo: "/images/location-guard.png"
 license: "GPL-3.0"
 description: "Επέκταση περιηγητή που προστατεύει τη γεωγραφική σας θέση από ιστότοπους που ζητούν πρόσβαση στο GPS/location API. Αντί να αρνείται την τοποθεσία εντελώς, προσθέτει ελεγχόμενο «θόρυβο» για να παρέχει μια εικονική τοποθεσία κοντά (αλλά όχι ακριβώς) στη δική σας."
 featured: false
