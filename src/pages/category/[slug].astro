@@ -49,9 +49,13 @@ const { category, entries } = Astro.props;
       {entries.map((entry) => (
         <article class="flex flex-col rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden p-5" aria-label={entry.data.title}>
           <div class="flex items-start gap-4 mb-4">
-            <img src={entry.data.logo} alt={`${entry.data.title} logo`} class="h-14 w-14 rounded-xl object-contain p-1 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700" loading="lazy" width="56" height="56" onerror="this.src='/images/placeholder.svg'" />
+            <img src={entry.data.logo} alt={`${entry.data.title} logo`} class="h-14 w-14 rounded-xl object-contain p-1 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700" loading="lazy" width="56" height="56" onerror={`this.onerror=null; this.src='${import.meta.env.BASE_URL}images/placeholder.svg';`} />
             <div class="flex-1 min-w-0">
-              <h2 class="text-lg font-bold text-gray-900 dark:text-white leading-tight">{entry.data.title}</h2>
+              <h2 class="text-lg font-bold text-gray-900 dark:text-white leading-tight">
+                <a href={`${import.meta.env.BASE_URL}software/${entry.id.replace(/\.md$/, '')}`} class="hover:text-green-600 dark:hover:text-green-400 transition-colors">
+                  {entry.data.title}
+                </a>
+              </h2>
               <span class="text-xs font-mono text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 rounded px-1.5 py-0.5">{entry.data.license}</span>
             </div>
           </div>
@@ -59,11 +63,23 @@ const { category, entries } = Astro.props;
             <span class="text-xs font-medium truncate" style="color: var(--accent-text);">Εναλλακτικό του: <strong>{entry.data.alternative_to.join(', ')}</strong></span>
           </div>
           <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-3 flex-1 mb-4">{entry.data.description}</p>
-          <a href={entry.data.website} target="_blank" rel="noopener noreferrer"
-             aria-label={`Επίσκεψη ιστοσελίδας ${entry.data.title} (ανοίγει σε νέα καρτέλα)`}
-             class="flex items-center justify-center gap-2 rounded-xl bg-green-600 hover:bg-green-700 px-3 py-2 text-sm font-medium text-white transition-all duration-200">
-            Επίσκεψη Ιστοσελίδας
-          </a>
+          <div class="flex items-center gap-2 mt-auto pt-3 border-t border-gray-100 dark:border-gray-800">
+            <a href={entry.data.website} target="_blank" rel="noopener noreferrer"
+               aria-label={`Επίσκεψη ιστοσελίδας ${entry.data.title} (ανοίγει σε νέα καρτέλα)`}
+               class="flex-1 flex items-center justify-center gap-2 rounded-xl bg-green-600 hover:bg-green-700 px-3 py-2 text-sm font-medium text-white transition-all duration-200 shadow-sm hover:shadow-md">
+              Επίσκεψη Ιστοσελίδας
+              <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/>
+              </svg>
+            </a>
+            <a
+              href={`${import.meta.env.BASE_URL}software/${entry.id.replace(/\.md$/, '')}`}
+              class="flex items-center justify-center rounded-xl border border-gray-200 dark:border-gray-700 px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200"
+              aria-label={`Λεπτομέρειες για ${entry.data.title}`}
+            >
+              Λεπτομέρειες
+            </a>
+          </div>
         </article>
       ))}
     </div>

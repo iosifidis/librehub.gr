@@ -7,7 +7,7 @@ const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
 
 export default defineConfig({
   site: isGitHubPages ? 'https://iosifidis.github.io' : 'https://librehub.netlify.app',
-  base: isGitHubPages ? '/librehub.gr' : '/',
+  base: isGitHubPages ? '/librehub.gr/' : '/',
   output: 'static',
   vite: {
     plugins: [tailwindcss()],
