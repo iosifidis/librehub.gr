@@ -1,4 +1,5 @@
 ---
+import { resolvePath } from '../utils/paths';
 ---
 
 <header
@@ -7,9 +8,9 @@
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-16 items-center justify-between">
       <!-- Logo & Brand -->
-      <a href={import.meta.env.BASE_URL} class="flex items-center gap-3 group" id="header-logo-link">
+      <a href={resolvePath('/')} class="flex items-center gap-3 group" id="header-logo-link">
         <img
-          src={`${import.meta.env.BASE_URL}librehub_logo.png`}
+          src={resolvePath('/librehub_logo.png')}
           alt="LibreHub logo"
           class="h-9 w-auto object-contain"
           width="36"
@@ -24,19 +25,19 @@
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center gap-1" aria-label="Κύρια πλοήγηση">
         <a
-          href={import.meta.env.BASE_URL}
+          href={resolvePath('/')}
           class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 hover:bg-green-50 dark:hover:bg-green-950 rounded-lg transition-all duration-200"
         >
           Αρχική
         </a>
         <a
-          href={`${import.meta.env.BASE_URL}#categories`}
+          href={resolvePath('/#categories')}
           class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 hover:bg-green-50 dark:hover:bg-green-950 rounded-lg transition-all duration-200"
         >
           Κατηγορίες
         </a>
         <a
-          href={`${import.meta.env.BASE_URL}suggest`}
+          href={resolvePath('/suggest')}
           class="px-4 py-2 text-sm font-medium text-white bg-green-600 hover:bg-green-700 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
           id="suggest-nav-link"
         >
@@ -92,13 +93,13 @@
 
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 dark:border-gray-800 py-3 space-y-1">
-      <a href={import.meta.env.BASE_URL} class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-green-50 dark:hover:bg-green-950 hover:text-green-600 dark:hover:text-green-400 rounded-lg transition-colors">
+      <a href={resolvePath('/')} class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-green-50 dark:hover:bg-green-950 hover:text-green-600 dark:hover:text-green-400 rounded-lg transition-colors">
         Αρχική
       </a>
-      <a href={`${import.meta.env.BASE_URL}#categories`} class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-green-50 dark:hover:bg-green-950 hover:text-green-600 dark:hover:text-green-400 rounded-lg transition-colors">
+      <a href={resolvePath('/#categories')} class="block px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:bg-green-50 dark:hover:bg-green-950 hover:text-green-600 dark:hover:text-green-400 rounded-lg transition-colors">
         Κατηγορίες
       </a>
-      <a href={`${import.meta.env.BASE_URL}suggest`} class="block px-3 py-2 text-sm font-medium text-white bg-green-600 hover:bg-green-700 rounded-lg transition-colors text-center">
+      <a href={resolvePath('/suggest')} class="block px-3 py-2 text-sm font-medium text-white bg-green-600 hover:bg-green-700 rounded-lg transition-colors text-center">
         Προτείνετε Λογισμικό
       </a>
     </div>

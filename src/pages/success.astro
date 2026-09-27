@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { resolvePath } from '../utils/paths';
 ---
 
 <BaseLayout title="Η Πρότασή σας Ελήφθη" description="Ευχαριστούμε για την πρότασή σας.">
@@ -19,7 +20,7 @@ import Footer from '../components/Footer.astro';
       Η πρότασή σας ελήφθη με επιτυχία. Θα την εξετάσουμε και αν πληροί τα κριτήριά μας, θα την προσθέσουμε στον κατάλογο.
     </p>
     <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
-      <a href={import.meta.env.BASE_URL} class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-green-600 hover:bg-green-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:shadow transition-all duration-200">
+      <a href={resolvePath('/')} class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-green-600 hover:bg-green-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:shadow transition-all duration-200">
         Επιστροφή στην Αρχική
       </a>
       <a

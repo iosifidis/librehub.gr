@@ -1,4 +1,6 @@
 ---
+import { resolvePath } from '../utils/paths';
+
 interface Props {
   title: string;
   alternative_to: string[];
@@ -27,13 +29,13 @@ const searchText = [title, ...alternative_to, ...categories, description].join('
     <div class="flex items-start gap-4 mb-4">
       <div class="flex-shrink-0 h-14 w-14 rounded-xl overflow-hidden bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm">
         <img
-          src={logo}
+          src={resolvePath(logo)}
           alt={`${title} logo`}
           class="h-full w-full object-contain p-1"
           loading="lazy"
           width="56"
           height="56"
-          onerror={`this.onerror=null; this.src='${import.meta.env.BASE_URL}images/placeholder.svg';`}
+          onerror={`this.onerror=null; this.src='${resolvePath('/images/placeholder.svg')}';`}
         />
       </div>
       <div class="flex-1 min-w-0">
@@ -104,7 +106,7 @@ const searchText = [title, ...alternative_to, ...categories, description].join('
         </svg>
       </a>
       <a
-        href={`${import.meta.env.BASE_URL}software/${slug}`}
+        href={resolvePath(`/software/${slug}`)}
         class="flex items-center justify-center rounded-xl border border-gray-200 dark:border-gray-700 px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200"
         aria-label={`Λεπτομέρειες για ${title}`}
       >

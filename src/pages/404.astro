@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { resolvePath } from '../utils/paths';
 ---
 
 <BaseLayout
@@ -28,7 +29,7 @@ import Footer from '../components/Footer.astro';
 
     <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
       <a
-        href={import.meta.env.BASE_URL}
+        href={resolvePath('/')}
         class="inline-flex items-center gap-2 rounded-xl bg-green-600 hover:bg-green-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:shadow-md transition-all duration-200"
       >
         <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
@@ -37,7 +38,7 @@ import Footer from '../components/Footer.astro';
         Αρχική Σελίδα
       </a>
       <a
-        href={`${import.meta.env.BASE_URL}#categories`}
+        href={resolvePath('/#categories')}
         class="inline-flex items-center gap-2 rounded-xl border border-gray-200 dark:border-gray-700 px-5 py-2.5 text-sm font-semibold text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-200"
       >
         Κατηγορίες Λογισμικού

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { resolvePath } from '../utils/paths';
 
 interface Props {
   title: string;
@@ -21,9 +22,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
-    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}librehub_logo.png`} sizes="200x200" />
-    <link rel="apple-touch-icon" href={`${import.meta.env.BASE_URL}librehub_logo.png`} />
+    <link rel="icon" type="image/x-icon" href={resolvePath('/favicon.ico')} />
+    <link rel="icon" type="image/png" href={resolvePath('/librehub_logo.png')} sizes="200x200" />
+    <link rel="apple-touch-icon" href={resolvePath('/librehub_logo.png')} />
     <meta name="generator" content={Astro.generator} />
 
     <!-- SEO -->
@@ -36,7 +37,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={`${title} | Μάθε για το ΕΛ/ΛΑΚ`} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
+    <meta property="og:image" content={image.startsWith('http') ? image : new URL(resolvePath(image), Astro.site).href} />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

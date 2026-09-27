@@ -4,6 +4,7 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getCollection, render } from 'astro:content';
 import { categoryToSlug } from '../../utils/slugify';
+import { resolvePath } from '../../utils/paths';
 
 export async function getStaticPaths() {
   const allSoftware = await getCollection('software');
@@ -23,7 +24,7 @@ const { title, alternative_to, categories, logo, license, description, website }
   <main id="main-content" class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
     <!-- Breadcrumb -->
     <nav class="mb-8 flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400" aria-label="Breadcrumb">
-      <a href={import.meta.env.BASE_URL} class="hover:text-green-600 dark:hover:text-green-400 transition-colors">Αρχική</a>
+      <a href={resolvePath('/')} class="hover:text-green-600 dark:hover:text-green-400 transition-colors">Αρχική</a>
       <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
         <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
       </svg>
@@ -34,19 +35,19 @@ const { title, alternative_to, categories, logo, license, description, website }
     <div class="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 sm:p-8 shadow-sm mb-8">
       <div class="flex items-start gap-6 mb-6">
         <img
-          src={logo}
+          src={resolvePath(logo)}
           alt={`${title} logo`}
           class="h-20 w-20 rounded-2xl object-contain p-2 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm flex-shrink-0"
           width="80"
           height="80"
-          onerror={`this.src='${import.meta.env.BASE_URL}images/placeholder.svg'`}
+          onerror={`this.src='${resolvePath('/images/placeholder.svg')}'`}
         />
         <div class="flex-1 min-w-0">
           <h1 class="text-2xl font-bold text-gray-900 dark:text-white">{title}</h1>
           <div class="mt-2 flex flex-wrap gap-2">
             <span class="rounded-md bg-gray-100 dark:bg-gray-800 px-2 py-0.5 text-xs font-mono text-gray-500 dark:text-gray-400">{license}</span>
             {categories.map(cat => (
-              <a href={`${import.meta.env.BASE_URL}category/${categoryToSlug(cat)}`}
+              <a href={resolvePath(`/category/${categoryToSlug(cat)}`)}
                 class="rounded-full bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300 border border-green-200 dark:border-green-800 px-2.5 py-0.5 text-xs font-medium hover:bg-green-100 transition-colors">
                 {cat}
               </a>
