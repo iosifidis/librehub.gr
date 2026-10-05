@@ -26,7 +26,7 @@ const getSiteUrl = () => {
     return `https://${cname}`;
   }
   if (process.env.GITHUB_ACTIONS === 'true') return 'https://iosifidis.github.io';
-  return 'https://librehub.netlify.app';
+  return 'https://librehub.gr';
 };
 
 export default defineConfig({

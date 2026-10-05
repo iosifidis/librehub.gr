@@ -1,6 +1,6 @@
 # LibreHub — Κατάλογος Ελεύθερου Λογισμικού
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-librehub.netlify.app-35b9ab?style=for-the-badge)](https://librehub.netlify.app/)
+[![Website](https://img.shields.io/badge/Website-librehub.gr-16a34a?style=for-the-badge)](https://librehub.gr/)
 
 
 Ένας σύγχρονος, γρήγορος κατάλογος ελεύθερου και ανοιχτού κώδικα λογισμικού (ΕΛ/ΛΑΚ), φτιαγμένος με **Astro** + **Tailwind CSS**. Αντικαθιστά τον παλαιό ιστότοπο WordPress.
